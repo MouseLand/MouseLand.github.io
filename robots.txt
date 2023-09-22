@@ -1,1 +1,1 @@
-Sitemap: https://MouseLand.github.io/sitemap.xml
+Sitemap: https://github.com/MouseLand/MouseLand.github.io/sitemap.xml
