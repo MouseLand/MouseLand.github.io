@@ -242,6 +242,6 @@
     "href": "code_and_data.html#datasets",
     "title": "Code & data",
     "section": "Datasets",
-    "text": "Datasets\nWe share our large-scale recordings of mouse cortex on figshare, which have been downloaded over 58,000 times:\n\nRecordings of 20,000 neurons from V1 in response to oriented stimuli\nRecordings of ten thousand neurons in visual cortex during spontaneous behaviors\nRecordings of 10,000 neurons in visual cortex in response to 2,800 natural images\nEight-probe Neuropixels recordings during spontaneous behaviors (recordings by Nick Steinmetz)\n\nWe also shared the training data for the Cellpose algorithm: 70,000 segmented cells + other objects"
+    "text": "Datasets\nWe share our large-scale recordings of mouse cortex on figshare:\n\nRecordings of 20,000 neurons from V1 in response to oriented stimuli\nRecordings of ten thousand neurons in visual cortex during spontaneous behaviors\nRecordings of 10,000 neurons in visual cortex in response to 2,800 natural images\nEight-probe Neuropixels recordings during spontaneous behaviors (recordings by Nick Steinmetz)\n\nWe also shared the training data for the Cellpose algorithm: 70,000 segmented cells + other objects"
   }
 ]
