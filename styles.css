@@ -45,3 +45,13 @@ div.quarto-post .listing-author {
   font-weight: 100;
   text-transform: uppercase;
 }
+
+
+div.quarto-container .quarto-title-meta-contents p{
+  font-size: 0.9em;
+  font-weight: 100;
+}
+
+div.quarto-container .quarto-title h1 {
+  color: orangered;
+}
