@@ -107,42 +107,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Pachitariu - Stringer lab",
+    "title": "Pachitariu + Stringer lab",
     "section": "",
     "text": "Our lab is at HHMI Janelia Research Campus (near DC), in the Neuroscience and Computation departments.\nWe are recruiting postdocs, join us!"
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
-    "title": "Pachitariu - Stringer lab",
+    "title": "Pachitariu + Stringer lab",
     "section": "Research",
     "text": "Research\nThe coordinated activity of large populations of neurons gives rise to perception, decision and action. The rules by which this activity is coordinated are not well understood. Our lab records from populations of up to 50,000 neurons simultaneously at 3Hz, using two-photon calcium imaging with a large field of view mesoscope:\n\nWe use machine learning techniques to investigate the structure of the recorded activity, either in response to external stimuli such as virtual reality, or in response to the animal’s own actions. Learn more about our research here, see all publications here, and our code and data here."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
-    "title": "Pachitariu - Stringer lab",
+    "title": "Pachitariu + Stringer lab",
     "section": "News",
-    "text": "News\n\nMany lab members are presenting at SfN 2023! Come say hi and check out our work!\n\nLin Zhong: Nov. 12, 2023, 8:45 AM - 9:00 AM NANO16.04 - Supervised and unsupervised learning of neural representations for visual generalization\nAtika Syeda: Nov. 12, 2023, 8:00 AM - 12:00 PM PSTR084.22 - Facemap: a framework for modeling neural activity based on orofacial tracking\nCarsen Stringer: Nov. 12, 2023, 8:00 AM - 12:00 PM PSTR084.24 - Disentangling sensory, motor and cognitive variables with Rastermap\nMiguel Nunez: Nov. 14, 2023, 8:00 AM - 12:00 PM: PSTR346.10 - Generalization from one exemplar in mice\nJacob Pennington: Nov. 14, 2023, 1:00 PM - 5:00 PM: PSTR446.08 - Solving the spike sorting problem with Kilosort\nFengtong Du: Nov. 15, 2023, 8:00 AM - 12:00 PM PSTR510.18 - A simplified model of high-dimensional neural responses to stimuli\nQingqing Zhang: Nov. 15, 2023, 1:00 PM - 5:00 PM PSTR547.18 - Visual sequence prediction in superficial visual cortex\n\nCarsen taught at the Deep Learning for Imaging course at Marine Biological Laboratory\nCheck out the Rastermap preprint on biorxiv, code here"
+    "text": "News\n\nMany lab members are presenting at SfN 2023! Come say hi and check out our work!\n\n\nLin Zhong: Nov. 12, 2023, 8:45 AM - 9:00 AM NANO16.04 - Supervised and unsupervised learning of neural representations for visual generalization\n\nAtika Syeda: Nov. 12, 2023, 8:00 AM - 12:00 PM PSTR084.22 - Facemap: a framework for modeling neural activity based on orofacial tracking\nCarsen Stringer: Nov. 12, 2023, 8:00 AM - 12:00 PM PSTR084.24 - Disentangling sensory, motor and cognitive variables with Rastermap\nMiguel Nunez: Nov. 14, 2023, 8:00 AM - 12:00 PM: PSTR346.10 - Generalization from one exemplar in mice\nJacob Pennington: Nov. 14, 2023, 1:00 PM - 5:00 PM: PSTR446.08 - Solving the spike sorting problem with Kilosort\nFengtong Du: Nov. 15, 2023, 8:00 AM - 12:00 PM PSTR510.18 - A simplified model of high-dimensional neural responses to stimuli\nQingqing Zhang: Nov. 15, 2023, 1:00 PM - 5:00 PM PSTR547.18 - Visual sequence prediction in superficial visual cortex\n\n\n\nCarsen taught at the Deep Learning for Imaging course at Marine Biological Laboratory\nCheck out the Rastermap preprint on biorxiv, code here"
   },
   {
     "objectID": "index.html#resources",
     "href": "index.html#resources",
-    "title": "Pachitariu - Stringer lab",
+    "title": "Pachitariu + Stringer lab",
     "section": "Resources",
     "text": "Resources\n\nAbout HHMI Janelia Research Campus\nHHMI’s values\nHHMI’s commitment to Diversity, Equity, and Inclusion\nBeing a postdoc at Janelia"
   },
   {
     "objectID": "index.html#talks",
     "href": "index.html#talks",
-    "title": "Pachitariu - Stringer lab",
+    "title": "Pachitariu + Stringer lab",
     "section": "Talks",
     "text": "Talks\n\nCellpose 2.0: how to train your own model talk, talk+tutorial\nCellpose talk, talk+tutorial\nSuite2p talk\nKilosort 1, 2, 2.5 & 3 talk\nHigh precision coding in visual cortex short talk, long talk\nHigh-dimensional geometry of population responses in visual cortex talk\nHigh-dimensional problems in neuroscience talk\nSpontaneous behaviors drive multidimensional, brainwide activity talk"
   },
   {
     "objectID": "index.html#media-coverage",
     "href": "index.html#media-coverage",
-    "title": "Pachitariu - Stringer lab",
+    "title": "Pachitariu + Stringer lab",
     "section": "Media Coverage",
     "text": "Media Coverage\n\nNoisy solo neurons show consistency in groups, Howard Hughes Medical Institute\nHigh precision coding: How the visual cortex processes information about the world, Scientifica\nNew tool maps boundaries of diverse cells in microscope images, Howard Hughes Medical Institute\nPython power-up: new image tool visualizes complex data, Nature\nA Power Law Keeps the Brain’s Perceptions Balanced, Quanta magazine\nPower Law Discovery May Explain Why You Can See the Forest and the Trees, Simons Foundation\n‘Noise’ in the Brain Encodes Surprisingly Important Signals, Quanta magazine\nThinking on the Go: Why Does the Whole Brain Light Up for Just the Smallest Movements?, Simons Foundation\nprofile + podcast, Stories of Women in Neuroscience (WIN) by Daniela Cassataro\nUnderstanding 40,000 neurons, Brain Inspired podcast by Paul Middlebrooks"
   },
