@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/people/carsen.html</loc>
-    <lastmod>2023-11-21T22:44:25.945Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/code_and_data.html</loc>
-    <lastmod>2023-11-21T22:44:25.113Z</lastmod>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/people/index.html</loc>
+    <lastmod>2024-01-16T18:41:12.613Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/MouseLand/MouseLand.github.io/positions.html</loc>
-    <lastmod>2023-11-21T22:44:24.196Z</lastmod>
+    <lastmod>2024-01-16T18:41:11.849Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/highdim.html</loc>
-    <lastmod>2023-11-21T22:44:23.248Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/suite2p.html</loc>
-    <lastmod>2023-11-21T22:44:22.204Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/notso.html</loc>
-    <lastmod>2023-11-21T22:44:21.304Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/cellpose2.html</loc>
-    <lastmod>2023-11-21T22:44:20.496Z</lastmod>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/code_and_data.html</loc>
+    <lastmod>2024-01-16T18:41:11.113Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/cellpose.html</loc>
-    <lastmod>2023-11-21T22:44:19.356Z</lastmod>
+    <lastmod>2024-01-16T18:41:10.261Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/kilosort.html</loc>
-    <lastmod>2023-11-21T22:44:18.264Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/index.html</loc>
-    <lastmod>2023-11-21T22:44:17.512Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/highprecision.html</loc>
-    <lastmod>2023-11-21T22:44:18.864Z</lastmod>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/highdim.html</loc>
+    <lastmod>2024-01-16T18:41:09.425Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/spontaneous.html</loc>
-    <lastmod>2023-11-21T22:44:19.952Z</lastmod>
+    <lastmod>2024-01-16T18:41:08.545Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/facemap.html</loc>
-    <lastmod>2023-11-21T22:44:20.916Z</lastmod>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/cellpose2.html</loc>
+    <lastmod>2024-01-16T18:41:07.625Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/rastermap.html</loc>
-    <lastmod>2023-11-21T22:44:21.776Z</lastmod>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/highprecision.html</loc>
+    <lastmod>2024-01-16T18:41:06.745Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/inhibitory.html</loc>
-    <lastmod>2023-11-21T22:44:22.684Z</lastmod>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/index.html</loc>
+    <lastmod>2024-01-16T18:41:05.709Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/MouseLand/MouseLand.github.io/research/publications.html</loc>
-    <lastmod>2023-11-21T22:44:23.832Z</lastmod>
+    <lastmod>2024-01-16T18:41:02.869Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/rastermap.html</loc>
+    <lastmod>2024-01-16T18:41:06.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/facemap.html</loc>
+    <lastmod>2024-01-16T18:41:07.125Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/notso.html</loc>
+    <lastmod>2024-01-16T18:41:07.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/suite2p.html</loc>
+    <lastmod>2024-01-16T18:41:08.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/kilosort.html</loc>
+    <lastmod>2024-01-16T18:41:09.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/research/posts/inhibitory.html</loc>
+    <lastmod>2024-01-16T18:41:10.701Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/MouseLand/MouseLand.github.io/index.html</loc>
-    <lastmod>2023-11-21T22:44:24.636Z</lastmod>
+    <lastmod>2024-01-16T18:41:11.517Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/MouseLand/MouseLand.github.io/people/index.html</loc>
-    <lastmod>2023-11-21T22:44:25.545Z</lastmod>
+    <loc>https://github.com/MouseLand/MouseLand.github.io/people/carsen.html</loc>
+    <lastmod>2024-01-16T18:41:12.225Z</lastmod>
   </url>
 </urlset>
