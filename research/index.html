@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -96,16 +103,43 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title"><img src="../images/logo.png" width="60px"></span>
     </a>
@@ -117,33 +151,33 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research/publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../research/publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../code_and_data.html" rel="" target="">
- <span class="menu-text">Code &amp; data</span></a>
+    <a class="nav-link" href="../code_and_data.html"> 
+<span class="menu-text">Code &amp; data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../positions.html" rel="" target="">
- <span class="menu-text">Positions</span></a>
+    <a class="nav-link" href="../positions.html"> 
+<span class="menu-text">Positions</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -161,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -185,21 +219,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Behavior,Thousands of neurons,Machine learning,Tools" data-listing-date-sort="1698796800000" data-listing-file-modified-sort="1705586619854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="0" data-categories="Behavior,Thousands of neurons,Machine learning,Tools" data-listing-date-sort="1698796800000" data-listing-file-modified-sort="1707151991574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
 <div class="thumbnail">
-<p><a href="../research/posts/facemap.html"> <img src="https://raw.githubusercontent.com/MouseLand/facemap/main/facemap/mouse.png" class="thumbnail-image" alt="facemap"> </a></p>
+<p><a href="../research/posts/facemap.html" class="no-external"></a></p><a href="../research/posts/facemap.html" class="no-external">
+<p><img src="https://raw.githubusercontent.com/MouseLand/facemap/main/facemap/mouse.png" class="thumbnail-image" alt="facemap"></p>
+</a><p><a href="../research/posts/facemap.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/facemap.html">
 <h3 class="no-anchor listing-title">
-Facemap: a framework for modeling neural activity based on orofacial tracking
+<a href="../research/posts/facemap.html" class="no-external">Facemap: a framework for modeling neural activity based on orofacial tracking</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/facemap.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Behavior'); return false;">
 Behavior
@@ -214,33 +249,31 @@ Machine learning
 Tools
 </div>
 </div>
-<a href="../research/posts/facemap.html">
 <div class="listing-description">
-<p>Analysis tool for tracking mouse face keypoints and relating them to large-scale neural activity, using convolutional neural networks.</p>
+<a href="../research/posts/facemap.html" class="no-external">Analysis tool for tracking mouse face keypoints and relating them to large-scale neural activity, using convolutional neural networks. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/facemap.html">
+<p><a href="../research/posts/facemap.html" class="no-external"></a></p><a href="../research/posts/facemap.html" class="no-external">
 <div class="listing-author">
 Atika Syeda, Lin Zhong, Renee Tung, Will Long, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Thousands of neurons,Machine learning,Tools" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1705586619958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="1" data-categories="Thousands of neurons,Machine learning,Tools" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1707151991674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
 <div class="thumbnail">
-<p><a href="../research/posts/rastermap.html"> <img src="../research/posts/images/rm_fig3.jpg" class="thumbnail-image" alt="rastermap visualization of neural activity during a virtual reality task"> </a></p>
+<p><a href="../research/posts/rastermap.html" class="no-external"></a></p><a href="../research/posts/rastermap.html" class="no-external">
+<p><img src="../research/posts/images/rm_fig3.jpg" class="thumbnail-image" alt="rastermap visualization of neural activity during a virtual reality task"></p>
+</a><p><a href="../research/posts/rastermap.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/rastermap.html">
 <h3 class="no-anchor listing-title">
-Rastermap: A Discovery Method for Neural Population Recordings
+<a href="../research/posts/rastermap.html" class="no-external">Rastermap: A Discovery Method for Neural Population Recordings</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/rastermap.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Thousands of neurons'); return false;">
 Thousands of neurons
@@ -252,33 +285,31 @@ Machine learning
 Tools
 </div>
 </div>
-<a href="../research/posts/rastermap.html">
 <div class="listing-description">
-<p>Analysis tool for large-scale neural data which allows users to explore dynamical and spatial relationships among neurons.</p>
+<a href="../research/posts/rastermap.html" class="no-external">Analysis tool for large-scale neural data which allows users to explore dynamical and spatial relationships among neurons. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/rastermap.html">
+<p><a href="../research/posts/rastermap.html" class="no-external"></a></p><a href="../research/posts/rastermap.html" class="no-external">
 <div class="listing-author">
 Carsen Stringer, Lin Zhong, Atika Syeda, Fengtong Du, Maria Kesa, Marius Pachitariu
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Machine learning,Tools" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1705586619958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="Machine learning,Tools" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1707151991674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
 <div class="thumbnail">
-<p><a href="../research/posts/kilosort.html"> <img src="../research/posts/images/ks_cover.png" class="thumbnail-image" alt="spikes colored by amplitude along probe"> </a></p>
+<p><a href="../research/posts/kilosort.html" class="no-external"></a></p><a href="../research/posts/kilosort.html" class="no-external">
+<p><img src="../research/posts/images/ks_cover.png" class="thumbnail-image" alt="spikes colored by amplitude along probe"></p>
+</a><p><a href="../research/posts/kilosort.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/kilosort.html">
 <h3 class="no-anchor listing-title">
-Solving the spike sorting problem with Kilosort
+<a href="../research/posts/kilosort.html" class="no-external">Solving the spike sorting problem with Kilosort</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/kilosort.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Machine learning'); return false;">
 Machine learning
@@ -287,33 +318,31 @@ Machine learning
 Tools
 </div>
 </div>
-<a href="../research/posts/kilosort.html">
 <div class="listing-description">
-<p>Analysis tool for accurate spike sorting, which is the computational process of extracting the firing times of single neurons from recordings of local electrical fields.</p>
+<a href="../research/posts/kilosort.html" class="no-external">Analysis tool for accurate spike sorting, which is the computational process of extracting the firing times of single neurons from recordings of local electrical fields. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/kilosort.html">
+<p><a href="../research/posts/kilosort.html" class="no-external"></a></p><a href="../research/posts/kilosort.html" class="no-external">
 <div class="listing-author">
 Marius Pachitariu, Shaswat Sridhar, Carsen Stringer
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Segmentation,Machine learning,Tools" data-listing-date-sort="1667779200000" data-listing-file-modified-sort="1705586619854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="3" data-categories="Segmentation,Machine learning,Tools" data-listing-date-sort="1667779200000" data-listing-file-modified-sort="1707151991574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="597">
 <div class="thumbnail">
-<p><a href="../research/posts/cellpose2.html"> <img src="../research/posts/images/cellpose2_cover.png" class="thumbnail-image" alt="retrained network vs original cellpose network on fluorescence and live cell image."> </a></p>
+<p><a href="../research/posts/cellpose2.html" class="no-external"></a></p><a href="../research/posts/cellpose2.html" class="no-external">
+<p><img src="../research/posts/images/cellpose2_cover.png" class="thumbnail-image" alt="retrained network vs original cellpose network on fluorescence and live cell image."></p>
+</a><p><a href="../research/posts/cellpose2.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/cellpose2.html">
 <h3 class="no-anchor listing-title">
-Cellpose 2.0: how to train your own model
+<a href="../research/posts/cellpose2.html" class="no-external">Cellpose 2.0: how to train your own model</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/cellpose2.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Segmentation'); return false;">
 Segmentation
@@ -325,33 +354,31 @@ Machine learning
 Tools
 </div>
 </div>
-<a href="../research/posts/cellpose2.html">
 <div class="listing-description">
-<p>Software for users to quickly and easily create accurate segmentation models for their own data.</p>
+<a href="../research/posts/cellpose2.html" class="no-external">Software for users to quickly and easily create accurate segmentation models for their own data. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/cellpose2.html">
+<p><a href="../research/posts/cellpose2.html" class="no-external"></a></p><a href="../research/posts/cellpose2.html" class="no-external">
 <div class="listing-author">
 Marius Pachitariu, Carsen Stringer
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Thousands of neurons,Behavior" data-listing-date-sort="1651708800000" data-listing-file-modified-sort="1705586619958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="Thousands of neurons,Behavior" data-listing-date-sort="1651708800000" data-listing-file-modified-sort="1707151991674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
 <div class="thumbnail">
-<p><a href="../research/posts/notso.html"> <img src="../research/posts/images/ns_cover.jpg" class="thumbnail-image" alt="dimensionality of spontaneous activity increases across development, becomes more related to neural activity, and orthogonal to stimulus-driven activity."> </a></p>
+<p><a href="../research/posts/notso.html" class="no-external"></a></p><a href="../research/posts/notso.html" class="no-external">
+<p><img src="../research/posts/images/ns_cover.jpg" class="thumbnail-image" alt="dimensionality of spontaneous activity increases across development, becomes more related to neural activity, and orthogonal to stimulus-driven activity."></p>
+</a><p><a href="../research/posts/notso.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/notso.html">
 <h3 class="no-anchor listing-title">
-Not so spontaneous: Multi-dimensional representations of behaviors and context in sensory areas
+<a href="../research/posts/notso.html" class="no-external">Not so spontaneous: Multi-dimensional representations of behaviors and context in sensory areas</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/notso.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Thousands of neurons'); return false;">
 Thousands of neurons
@@ -360,33 +387,31 @@ Thousands of neurons
 Behavior
 </div>
 </div>
-<a href="../research/posts/notso.html">
 <div class="listing-description">
-<p>Spontaneous activity across species is related to motor movements. These motor-driven patterns emerge during development, diverging from sensory-driven activity.</p>
+<a href="../research/posts/notso.html" class="no-external">Spontaneous activity across species is related to motor movements. These motor-driven patterns emerge during development, diverging from sensory-driven activity. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/notso.html">
+<p><a href="../research/posts/notso.html" class="no-external"></a></p><a href="../research/posts/notso.html" class="no-external">
 <div class="listing-author">
 Lilach Avitan, Carsen Stringer
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Vision,Thousands of neurons" data-listing-date-sort="1635724800000" data-listing-file-modified-sort="1705586619854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="5" data-categories="Vision,Thousands of neurons" data-listing-date-sort="1635724800000" data-listing-file-modified-sort="1707151991574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="598">
 <div class="thumbnail">
-<p><a href="../research/posts/highprecision.html"> <img src="../research/posts/images/hp_cover2.jpg" class="thumbnail-image" alt="highly precise encoding of visual stimuli"> </a></p>
+<p><a href="../research/posts/highprecision.html" class="no-external"></a></p><a href="../research/posts/highprecision.html" class="no-external">
+<p><img src="../research/posts/images/hp_cover2.jpg" class="thumbnail-image" alt="highly precise encoding of visual stimuli"></p>
+</a><p><a href="../research/posts/highprecision.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/highprecision.html">
 <h3 class="no-anchor listing-title">
-High precision coding in visual cortex
+<a href="../research/posts/highprecision.html" class="no-external">High precision coding in visual cortex</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/highprecision.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Vision'); return false;">
 Vision
@@ -395,33 +420,31 @@ Vision
 Thousands of neurons
 </div>
 </div>
-<a href="../research/posts/highprecision.html">
 <div class="listing-description">
-<p>Visual cortex encodes stimuli highly precisely, far surpassing behavioral precision in mice and humans. In a task, visual cortex does not contribute to behavioral variability.</p>
+<a href="../research/posts/highprecision.html" class="no-external">Visual cortex encodes stimuli highly precisely, far surpassing behavioral precision in mice and humans. In a task, visual cortex does not contribute to behavioral variability. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/highprecision.html">
+<p><a href="../research/posts/highprecision.html" class="no-external"></a></p><a href="../research/posts/highprecision.html" class="no-external">
 <div class="listing-author">
 Carsen Stringer, Michalis Michaelos, Dmitri Tsyboulski, Sarah E. Lindo, Marius Pachitariu
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Segmentation,Machine learning,Tools" data-listing-date-sort="1609459200000" data-listing-file-modified-sort="1705586619854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="6" data-categories="Segmentation,Machine learning,Tools" data-listing-date-sort="1609459200000" data-listing-file-modified-sort="1707151991574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
 <div class="thumbnail">
-<p><a href="../research/posts/cellpose.html"> <img src="../research/posts/images/cellpose_cover.png" class="thumbnail-image"> </a></p>
+<p><a href="../research/posts/cellpose.html" class="no-external"></a></p><a href="../research/posts/cellpose.html" class="no-external">
+<p><img src="../research/posts/images/cellpose_cover.png" class="thumbnail-image"></p>
+</a><p><a href="../research/posts/cellpose.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/cellpose.html">
 <h3 class="no-anchor listing-title">
-Cellpose: a generalist algorithm for cellular segmentation
+<a href="../research/posts/cellpose.html" class="no-external">Cellpose: a generalist algorithm for cellular segmentation</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/cellpose.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Segmentation'); return false;">
 Segmentation
@@ -433,33 +456,31 @@ Machine learning
 Tools
 </div>
 </div>
-<a href="../research/posts/cellpose.html">
 <div class="listing-description">
-<p>Accurate deep learning-based cellular segmentation tool that works for a wide variety of images, and includes an easy to use GUI.</p>
+<a href="../research/posts/cellpose.html" class="no-external">Accurate deep learning-based cellular segmentation tool that works for a wide variety of images, and includes an easy to use GUI. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/cellpose.html">
+<p><a href="../research/posts/cellpose.html" class="no-external"></a></p><a href="../research/posts/cellpose.html" class="no-external">
 <div class="listing-author">
 Carsen Stringer, Tim Wang, Michalis Michaelos, Marius Pachitariu
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Vision,Thousands of neurons" data-listing-date-sort="1559347200000" data-listing-file-modified-sort="1705586619854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="7" data-categories="Vision,Thousands of neurons" data-listing-date-sort="1559347200000" data-listing-file-modified-sort="1707151991574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="829">
 <div class="thumbnail">
-<p><a href="../research/posts/highdim.html"> <img src="../research/posts/images/hd_cover.png" class="thumbnail-image" alt="neural activity reconstructed from subsets of principal components, and sorted by rastermap"> </a></p>
+<p><a href="../research/posts/highdim.html" class="no-external"></a></p><a href="../research/posts/highdim.html" class="no-external">
+<p><img src="../research/posts/images/hd_cover.png" class="thumbnail-image" alt="neural activity reconstructed from subsets of principal components, and sorted by rastermap"></p>
+</a><p><a href="../research/posts/highdim.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/highdim.html">
 <h3 class="no-anchor listing-title">
-High-dimensional geometry of population responses in visual cortex
+<a href="../research/posts/highdim.html" class="no-external">High-dimensional geometry of population responses in visual cortex</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/highdim.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Vision'); return false;">
 Vision
@@ -468,33 +489,31 @@ Vision
 Thousands of neurons
 </div>
 </div>
-<a href="../research/posts/highdim.html">
 <div class="listing-description">
-<p>Neural population activity in response to natural images is high-dimensional, and the activity correlations obey a power law of 1/n.</p>
+<a href="../research/posts/highdim.html" class="no-external">Neural population activity in response to natural images is high-dimensional, and the activity correlations obey a power law of 1/n. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/highdim.html">
+<p><a href="../research/posts/highdim.html" class="no-external"></a></p><a href="../research/posts/highdim.html" class="no-external">
 <div class="listing-author">
 Carsen Stringer*, Marius Pachitariu*, Nicholas Steinmetz, Matteo Carandini<sup>†</sup>, Kenneth D Harris<sup>†</sup>
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Thousands of neurons,Behavior,Machine learning" data-listing-date-sort="1557014400000" data-listing-file-modified-sort="1705586619958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="8" data-categories="Thousands of neurons,Behavior,Machine learning" data-listing-date-sort="1557014400000" data-listing-file-modified-sort="1707151991674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="700">
 <div class="thumbnail">
-<p><a href="../research/posts/spontaneous.html"> <img src="../research/posts/images/spont_cover.jpeg" class="thumbnail-image" alt="neural activity predicted from the principal components of mouse face motion"> </a></p>
+<p><a href="../research/posts/spontaneous.html" class="no-external"></a></p><a href="../research/posts/spontaneous.html" class="no-external">
+<p><img src="../research/posts/images/spont_cover.jpeg" class="thumbnail-image" alt="neural activity predicted from the principal components of mouse face motion"></p>
+</a><p><a href="../research/posts/spontaneous.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/spontaneous.html">
 <h3 class="no-anchor listing-title">
-Spontaneous behaviors drive multidimensional, brainwide activity
+<a href="../research/posts/spontaneous.html" class="no-external">Spontaneous behaviors drive multidimensional, brainwide activity</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/spontaneous.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Thousands of neurons'); return false;">
 Thousands of neurons
@@ -506,33 +525,31 @@ Behavior
 Machine learning
 </div>
 </div>
-<a href="../research/posts/spontaneous.html">
 <div class="listing-description">
-<p>Ongoing neural activity is high-dimensional and driven by the mouse’s behavior. These behavioral representations are orthogonal to stimulus-driven responses.</p>
+<a href="../research/posts/spontaneous.html" class="no-external">Ongoing neural activity is high-dimensional and driven by the mouse’s behavior. These behavioral representations are orthogonal to stimulus-driven responses. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/spontaneous.html">
+<p><a href="../research/posts/spontaneous.html" class="no-external"></a></p><a href="../research/posts/spontaneous.html" class="no-external">
 <div class="listing-author">
 Carsen Stringer*, Marius Pachitariu*, Nicholas Steinmetz, Charu Bai Reddy, Matteo Carandini<sup>†</sup>, Kenneth D Harris<sup>†</sup>
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Thousands of neurons,Segmentation,Machine learning,Tools" data-listing-date-sort="1472688000000" data-listing-file-modified-sort="1705586619958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="Thousands of neurons,Segmentation,Machine learning,Tools" data-listing-date-sort="1472688000000" data-listing-file-modified-sort="1707151991674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
 <div class="thumbnail">
-<p><a href="../research/posts/suite2p.html"> <img src="../research/posts/images/suite2p_cover.jpg" class="thumbnail-image" alt="neuron traces and masks"> </a></p>
+<p><a href="../research/posts/suite2p.html" class="no-external"></a></p><a href="../research/posts/suite2p.html" class="no-external">
+<p><img src="../research/posts/images/suite2p_cover.jpg" class="thumbnail-image" alt="neuron traces and masks"></p>
+</a><p><a href="../research/posts/suite2p.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/suite2p.html">
 <h3 class="no-anchor listing-title">
-Suite2p: beyond 10,000 neurons with standard two-photon microscopy
+<a href="../research/posts/suite2p.html" class="no-external">Suite2p: beyond 10,000 neurons with standard two-photon microscopy</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/suite2p.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Thousands of neurons'); return false;">
 Thousands of neurons
@@ -547,33 +564,31 @@ Machine learning
 Tools
 </div>
 </div>
-<a href="../research/posts/suite2p.html">
 <div class="listing-description">
-<p>Suite2p enables fast and accurate processing of large-scale neural recordings.</p>
+<a href="../research/posts/suite2p.html" class="no-external">Suite2p enables fast and accurate processing of large-scale neural recordings. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/suite2p.html">
+<p><a href="../research/posts/suite2p.html" class="no-external"></a></p><a href="../research/posts/suite2p.html" class="no-external">
 <div class="listing-author">
 Marius Pachitariu, Carsen Stringer, Sylvia Schröder, Mario Dipoppa, L. Federico Rossi, Matteo Carandini, Kenneth D. Harris
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Neural modeling,Behavior" data-listing-date-sort="1462060800000" data-listing-file-modified-sort="1705586619958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="10" data-categories="Neural modeling,Behavior" data-listing-date-sort="1462060800000" data-listing-file-modified-sort="1707151991674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="463">
 <div class="thumbnail">
-<p><a href="../research/posts/inhibitory.html"> <img src="../research/posts/images/inh_cover.jpg" class="thumbnail-image" alt="neuronal network simulations fit to neural population activity"> </a></p>
+<p><a href="../research/posts/inhibitory.html" class="no-external"></a></p><a href="../research/posts/inhibitory.html" class="no-external">
+<p><img src="../research/posts/images/inh_cover.jpg" class="thumbnail-image" alt="neuronal network simulations fit to neural population activity"></p>
+</a><p><a href="../research/posts/inhibitory.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="../research/posts/inhibitory.html">
 <h3 class="no-anchor listing-title">
-Inhibitory control of correlated intrinsic variability in cortical networks
+<a href="../research/posts/inhibitory.html" class="no-external">Inhibitory control of correlated intrinsic variability in cortical networks</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="../research/posts/inhibitory.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Neural modeling'); return false;">
 Neural modeling
@@ -582,14 +597,12 @@ Neural modeling
 Behavior
 </div>
 </div>
-<a href="../research/posts/inhibitory.html">
 <div class="listing-description">
-<p>Cortical networks exhibit large-scale fluctuations which creates noise correlations that impact sensory coding. Modeling and data analysis show that inhibition can control these fluctuations.</p>
+<a href="../research/posts/inhibitory.html" class="no-external">Cortical networks exhibit large-scale fluctuations which creates noise correlations that impact sensory coding. Modeling and data analysis show that inhibition can control these fluctuations. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="../research/posts/inhibitory.html">
+<p><a href="../research/posts/inhibitory.html" class="no-external"></a></p><a href="../research/posts/inhibitory.html" class="no-external">
 <div class="listing-author">
 Carsen Stringer*, Marius Pachitariu*, Nicholas Steinmetz, Michael Okun, Peter Bartho, Kenneth D Harris, Maneesh Sahani, Nicholas Lesica
 </div>
@@ -682,10 +695,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -695,8 +707,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -709,6 +730,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -752,6 +892,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -777,6 +918,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -837,6 +1004,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
