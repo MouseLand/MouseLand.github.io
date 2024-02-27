@@ -151,14 +151,14 @@
     "href": "index.html#research",
     "title": "Pachitariu + Stringer lab",
     "section": "Research",
-    "text": "Research\nThe coordinated activity of large populations of neurons gives rise to perception, decision and action. The rules by which this activity is coordinated are not well understood. Our lab records from populations of up to 50,000 neurons simultaneously at 3Hz, using two-photon calcium imaging with a large field of view mesoscope:\n\nWe use machine learning techniques to investigate the structure of the recorded activity, either in response to external stimuli such as virtual reality, or in response to the animal’s own actions. Learn more about our research here, see all publications here, and our code and data here."
+    "text": "Research\nThe coordinated activity of large populations of neurons gives rise to perception, decision and action. The rules by which this activity is coordinated are not well understood. Our lab records from populations of ~50,000 neurons simultaneously at 3Hz, using two-photon calcium imaging with a large field of view mesoscope:\n\nWe use machine learning techniques to investigate the structure of the recorded activity, either in response to external stimuli such as virtual reality, or in response to the animal’s own actions. Learn more about our research here, see all publications here, and our code and data here."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "Pachitariu + Stringer lab",
     "section": "News",
-    "text": "News\n\nFacemap was featured in a Nature Methods research highlight!\nCongrats to Atika Syeda et al for the publication of the Facemap paper!\nMany lab members presented at SfN 2023, congrats to them for their great presentations!\nCarsen taught at the Deep Learning for Imaging course at Marine Biological Laboratory\nCheck out the Rastermap preprint on biorxiv, code here"
+    "text": "News\n\nCongrats to Lin Zhong et al, preprint now out on Distinct streams for supervised and unsupervised learning in the visual cortex!\nFacemap was featured in a Nature Methods research highlight!\nCongrats to Atika Syeda et al for the publication of the Facemap paper!\nMany lab members presented at SfN 2023, congrats to them for their great presentations!\nCarsen taught at the Deep Learning for Imaging course at Marine Biological Laboratory\nCheck out the Rastermap preprint on biorxiv, code here"
   },
   {
     "objectID": "index.html#resources",
