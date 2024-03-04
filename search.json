@@ -88,7 +88,7 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "Marius Pachitariu\n\n\nCarsen Stringer\n\n\n\n\n\n\n\n\n\n\n\nLin Zhong\n\n\nMiguel Angel Nunez\n\n\n\n\nQingqing Zhang\n\n\n\n\n\n\n\n\n\n\n\nTosif Ahamed\n\n\n\n\n\n\n\n\n\n\n\n\n\nFengtong Du\n\n\nAtika Syeda\n\n\n\n\n\n\n\n\n\n\n\n\nChris Ki\n\n\nJacob Pennington\n\n\n\n\nMichael Rariden\n\n\n\n\n\n\n\nFull-time\n\nAmrita Singh, postdoc, Svoboda lab\nTim Wang, postdoc, Svoboda lab\n\nPart-time\n\nBeverly Seltzer, PhD student, Lewis lab\nLen Jacob, postdoc, Lewis lab\nLaura Lewis\n\n\n\n\n\nWill Long, research technician → Princeton PhD\nRenee Tung, research technician and JUS summer student → Columbia PhD\nSonia Joseph, research technician → Mila PhD\nMichalis Michaelos, research technician → Janelia vivarium experimenter\nIfedayo Emmanuel Adeyefa-Olasupo, postdoc"
+    "text": "Marius Pachitariu\n\n\nCarsen Stringer\n\n\n\n\n\n\n\n\n\n\n\nLin Zhong\n\n\nMiguel Angel Nunez\n\n\n\n\nQingqing Zhang\n\n\n\n\n\n\n\n\n\n\n\nFengtong Du\n\n\nAtika Syeda\n\n\n\n\n\n\n\n\n\n\n\nTosif Ahamed\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJacob Pennington\n\n\nChris Ki\n\n\n\n\nMichael Rariden\n\n\n\n\n\n\n\n\nMinh Thao Nguyen, PhD student, Novak lab\nOndrej Novak\nBeverly Seltzer, PhD student, Lewis lab\nLen Jacob, postdoc, Lewis lab\nLaura Lewis\n\n\n\n\n\nWill Long, research technician → Princeton PhD\nRenee Tung, research technician and JUS summer student → Columbia PhD\nSonia Joseph, research technician → Mila PhD\nMichalis Michaelos, research technician → Janelia vivarium experimenter\nIfedayo Emmanuel Adeyefa-Olasupo, postdoc"
   },
   {
     "objectID": "people/index.html#group-leaders",
@@ -105,13 +105,6 @@
     "text": "Lin Zhong\n\n\nMiguel Angel Nunez\n\n\n\n\nQingqing Zhang"
   },
   {
-    "objectID": "people/index.html#affiliated-theory-fellows",
-    "href": "people/index.html#affiliated-theory-fellows",
-    "title": "People",
-    "section": "",
-    "text": "Tosif Ahamed"
-  },
-  {
     "objectID": "people/index.html#phd-students",
     "href": "people/index.html#phd-students",
     "title": "People",
@@ -119,18 +112,25 @@
     "text": "Fengtong Du\n\n\nAtika Syeda"
   },
   {
+    "objectID": "people/index.html#affiliated-theory-fellows",
+    "href": "people/index.html#affiliated-theory-fellows",
+    "title": "People",
+    "section": "",
+    "text": "Tosif Ahamed"
+  },
+  {
     "objectID": "people/index.html#software-engineers-full--and-part-time",
     "href": "people/index.html#software-engineers-full--and-part-time",
     "title": "People",
     "section": "",
-    "text": "Chris Ki\n\n\nJacob Pennington\n\n\n\n\nMichael Rariden"
+    "text": "Jacob Pennington\n\n\nChris Ki\n\n\n\n\nMichael Rariden"
   },
   {
-    "objectID": "people/index.html#visitors",
-    "href": "people/index.html#visitors",
+    "objectID": "people/index.html#visitors-part-time",
+    "href": "people/index.html#visitors-part-time",
     "title": "People",
     "section": "",
-    "text": "Full-time\n\nAmrita Singh, postdoc, Svoboda lab\nTim Wang, postdoc, Svoboda lab\n\nPart-time\n\nBeverly Seltzer, PhD student, Lewis lab\nLen Jacob, postdoc, Lewis lab\nLaura Lewis"
+    "text": "Minh Thao Nguyen, PhD student, Novak lab\nOndrej Novak\nBeverly Seltzer, PhD student, Lewis lab\nLen Jacob, postdoc, Lewis lab\nLaura Lewis"
   },
   {
     "objectID": "people/index.html#alumni",
