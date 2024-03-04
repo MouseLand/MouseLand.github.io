@@ -161,18 +161,19 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="code">Code</h2>
 <p>We develop and maintain several analysis frameworks for neuroscience and biology more generally:</p>
 <ul>
-<li><p><a href="https://github.com/mouseland/cellpose">Cellpose</a> is a generalist, deep learning-based segmentation algorithm written in Python which can precisely segment cells from a wide range of image types – try it out on your own data easily on our website: <a href="https://www.cellpose.org" class="uri">https://www.cellpose.org</a>. Cellpose can be applied to 2D and 3D imaging data without requiring 3D-labelled data. It has an easy-to-use graphical user interface for manual labeling and for curation of the automated results. It can also be used to train new models on user data. Software developers have integrated Cellpose into their own image processing software, such as CellProfiler, ImagePy, ImJoy, aPeer, Napari.</p>
+<li><p><a href="https://github.com/mouseland/cellpose">Cellpose</a> is a generalist, deep learning-based segmentation algorithm written in Python which can precisely segment cells from a wide range of image types – try it out on your own data easily on our website: <a href="https://www.cellpose.org" class="uri">https://www.cellpose.org</a>. Cellpose can be applied to 2D and 3D imaging data without requiring 3D-labelled data. It has an easy-to-use graphical user interface for manual labeling and for curation of the automated results. It can also be used to train new models on user data, and for denoising, deblurring, or upsampling images. Software developers have integrated Cellpose into their own image processing software, such as CellProfiler, ImagePy, ImJoy, aPeer, Napari.</p>
 <p></p>
 <center>
-<p><img src="http://www.cellpose.org/static/images/cellpose_gui.png" width="75%"></p>
+<video src="https://www.cellpose.org/static/images/cp1_1.mp4" width="75%" loop="true" autoplay="autoplay" controls="" muted="">
+</video>
 </center>
-<p><br></p></li>
-<li><p><a href="https://github.com/mouseland/kilosort">Kilosort</a> is the most popular spike sorting tool for Neuropixels probes, and also works on other probes. The software is GPU-accelerated to enable fast and accurate spike sorting. Kilosort first detects spikes, then uses these spikes to perform drift correction – an important step in most recording setups. Next it clusters the spikes using novel graph-based clustering techniques. Kilosort4 is implemented in python with an easy-to-use GUI.</p>
+<p><br> <br></p></li>
+<li><p><a href="https://github.com/mouseland/kilosort">Kilosort</a> is the most popular spike sorting tool for Neuropixels probes, and it also works on other probes. The software is GPU-accelerated to enable fast and accurate spike sorting. Kilosort first detects spikes, then uses these spikes to perform drift correction – an important step in most recording setups. Next it clusters the spikes using novel graph-based clustering techniques. Kilosort4 is implemented in python with an easy-to-use GUI.</p>
 <center>
 <p><img src="images/ks_gui.png" width="75%"></p>
 </center>
 <p><br></p></li>
-<li><p><a href="https://github.com/mouseland/suite2p">Suite2p</a> is a fast, accurate and complete pipeline written in Python that registers raw movies, detects active cells, extracts their calcium traces and infers their spike times. Suite2p runs on standard workstations, operates faster than real time, and recovers ~2 times more cells than the previous state-of-the-art methods. Its low computational load allows routine detection of ~25,000 cells simultaneously from recordings taken with standard two-photon resonant-scanning microscopes. In addition to its ability to detect cell somas, the detection algorithm can detect axonal segments, boutons, dendrites, and spines. Suite2p has an extensive GUI which allows the user to explore their data, and is currently the only fully-functional pythonic GUI for calcium imaging data. Software developers have integrated Suite2p into their packages, such as those for multi-day cell alignment and photostimulation experiments.</p>
+<li><p><a href="https://github.com/mouseland/suite2p">Suite2p</a> is a fast, accurate and complete pipeline written in Python that registers raw movies, detects active cells, extracts their calcium traces and infers their spike times. Suite2p runs on standard workstations, operates faster than real time, and recovers ~2 times more cells than the previous state-of-the-art methods. Its low computational load allows routine detection of ~25,000 cells simultaneously from recordings taken with standard two-photon resonant-scanning microscopes. In addition to its ability to detect cell somas, the detection algorithm can detect axonal segments, boutons, dendrites, and spines. Suite2p has an extensive GUI which allows the user to explore their data. Software developers have integrated Suite2p into their packages, such as those for multi-day cell alignment and photostimulation experiments.</p>
 <p></p>
 <center>
 <p><img src="http://www.suite2p.org/static/images/multiselect.gif" width="85%"></p>
@@ -193,12 +194,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
 <p>We share our large-scale recordings of mouse cortex on figshare:</p>
 <ul>
+<li><a href="https://janelia.figshare.com/articles/dataset/Facemap_a_framework_for_modeling_neural_activity_based_on_orofacial_tracking/23712957">Recordings of 30k-70k neurons from visual and sensorimotor areas during spontaneous activity</a></li>
 <li><a href="https://figshare.com/articles/dataset/Recordings_of_20_000_neurons_from_V1_in_response_to_oriented_stimuli/8279387">Recordings of 20,000 neurons from V1 in response to oriented stimuli</a></li>
 <li><a href="https://figshare.com/articles/dataset/Recordings_of_ten_thousand_neurons_in_visual_cortex_during_spontaneous_behaviors/6163622">Recordings of ten thousand neurons in visual cortex during spontaneous behaviors</a></li>
 <li><a href="https://figshare.com/articles/dataset/Recordings_of_ten_thousand_neurons_in_visual_cortex_in_response_to_2_800_natural_images/6845348">Recordings of 10,000 neurons in visual cortex in response to 2,800 natural images</a></li>
 <li><a href="https://figshare.com/articles/dataset/Eight-probe_Neuropixels_recordings_during_spontaneous_behaviors/7739750">Eight-probe Neuropixels recordings during spontaneous behaviors</a> (recordings by Nick Steinmetz)</li>
 </ul>
-<p>We also shared the training data for the Cellpose algorithm: <a href="https://www.cellpose.org/dataset/">70,000 segmented cells + other objects</a></p>
+<p>We also shared the training data for the Cellpose algorithm: <a href="https://www.cellpose.org/dataset/">70,000 segmented cells + other objects</a>.</p>
+<p>And we shared the simulations from the Kilosort4 paper: <a href="https://janelia.figshare.com/articles/dataset/Simulations_from_kilosort4_paper/25298815">ephys simulations</a>.</p>
 
 
 </section>
