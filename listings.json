@@ -2,6 +2,7 @@
   {
     "listing": "/research/index.html",
     "items": [
+      "/research/posts/unsupervised.html",
       "/research/posts/facemap.html",
       "/research/posts/rastermap.html",
       "/research/posts/kilosort.html",
