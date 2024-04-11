@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Marius Pachitariu, Shaswat Sridhar, Carsen Stringer">
+<meta name="author" content="Marius Pachitariu, Shaswat Sridhar, Jacob Pennington, Carsen Stringer">
 <meta name="description" content="Analysis tool for accurate spike sorting, which is the computational process of extracting the firing times of single neurons from recordings of local electrical fields.">
 
-<title> - Solving the spike sorting problem with Kilosort</title>
+<title> - Spike sorting with Kilosort4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Solving the spike sorting problem with Kilosort</h1>
+<h1 class="title">Spike sorting with Kilosort4</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Machine learning</div>
     <div class="quarto-category">Tools</div>
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Marius Pachitariu, Shaswat Sridhar, Carsen Stringer </p>
+             <p>Marius Pachitariu, Shaswat Sridhar, Jacob Pennington, Carsen Stringer </p>
           </div>
   </div>
     
@@ -171,10 +171,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p style="font-size: smaller">
-Spike sorting is the computational process of extracting the firing times of single neurons from recordings of local electrical fields. This is an important but hard problem in neuroscience, complicated by the non-stationarity of the recordings and the dense overlap in electrical fields between nearby neurons. To solve the spike sorting problem, we have continuously developed over the past eight years a framework known as Kilosort. This paper describes the various algorithmic steps introduced in different versions of Kilosort. We also report the development of Kilosort4, a new version with substantially improved performance due to new clustering algorithms inspired by graph-based approaches. To test the performance of Kilosort, we developed a realistic simulation framework which uses densely sampled electrical fields from real experiments to generate non-stationary spike waveforms and realistic noise. We find that nearly all versions of Kilosort outperform other algorithms on a variety of simulated conditions, and Kilosort4 performs best in all cases, correctly identifying even neurons with low amplitudes and small spatial extents in high drift conditions.
+Spike sorting is the computational process of extracting the firing times of single neurons from recordings of local electrical fields. This is an important but hard problem in neuroscience, made complicated by the nonstationarity of the recordings and the dense overlap in electrical fields between nearby neurons. To address the spike-sorting problem, we have been openly developing the Kilosort framework. Here we describe the various algorithmic steps introduced in different versions of Kilosort. We also report the development of Kilosort4, a version with substantially improved performance due to clustering algorithms inspired by graph-based approaches. To test the performance of Kilosort, we developed a realistic simulation framework that uses densely sampled electrical fields from real experiments to generate nonstationary spike waveforms and realistic noise. We found that nearly all versions of Kilosort outperformed other algorithms on a variety of simulated conditions and that Kilosort4 performed best in all cases, correctly identifying even neurons with low amplitudes and small spatial extents in high drift conditions.
 </p>
-<a href="https://www.biorxiv.org/content/10.1101/2023.01.07.523036v1">preprint</a>
+<a href="https://www.nature.com/articles/s41592-024-02232-7">paper</a> | <a href="https://youtube.com/watch?v=LTSmoACr918">talk</a> | <a href="https://www.janelia.org/news/janelia-scientists-release-state-of-the-art-spike-sorting-software-kilosort4">HHMI news article</a> | <a href="https://www.biorxiv.org/content/10.1101/2023.01.07.523036v1">preprint</a>
 <hr>
+<center>
+<img src="images/kilosort.jpeg" alt="kilosort" width="80%">
+</center>
+Graphical user interface:
+<center>
+<img src="images/ks_gui.png" width="75%">
+</center>
+<p><br></p>
 
 
 
