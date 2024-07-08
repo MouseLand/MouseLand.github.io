@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer†, Marius Pachitariu†">
-<meta name="dcterms.date" content="2024-02-01">
-<meta name="description" content="Unsupervised learning - exposure to stimuli without rewards - drives large changes in neural activity in visual cortex, particularly in higher order medial visual areas.">
+<meta name="author" content="Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu†, Carsen Stringer†">
+<meta name="dcterms.date" content="2024-07-01">
+<meta name="description" content="Simplified and interpretable “minimodels” are sufficient to explain complex visual responses in mouse and monkey V1.">
 
-<title>Distinct streams for supervised and unsupervised learning in the visual cortex – </title>
+<title>Towards a simplified model of primary visual cortex – </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,17 +129,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Distinct streams for supervised and unsupervised learning in the visual cortex</h1>
+<h1 class="title">Towards a simplified model of primary visual cortex</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Vision</div>
     <div class="quarto-category">Thousands of neurons</div>
-    <div class="quarto-category">Behavior</div>
+    <div class="quarto-category">Machine learning</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Unsupervised learning - exposure to stimuli without rewards - drives large changes in neural activity in visual cortex, particularly in higher order medial visual areas.</p>
+    <p>Simplified and interpretable “minimodels” are sufficient to explain complex visual responses in mouse and monkey V1.</p>
   </div>
 </div>
 
@@ -149,14 +149,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup> </p>
+             <p>Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup> </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 1, 2024</p>
+      <p class="date">July 1, 2024</p>
     </div>
   </div>
   
@@ -175,78 +175,63 @@ Abstract
 </p>
 </summary>
 <p style="font-size: smaller">
-Representation learning in neural networks may be implemented with supervised or unsupervised algorithms, distinguished by the availability of feedback. In sensory cortex, perceptual learning drives neural plasticity, but it is not known if this is due to supervised or unsupervised learning. Here we recorded populations of up to 90,000 neurons simultaneously from the primary visual cortex (V1) and higher visual areas (HVA), while mice learned multiple tasks as well as during unrewarded exposure to the same stimuli. Similar to previous studies, we found that neural changes in task mice were correlated with their behavioral learning. However, the neural changes were mostly replicated in mice with unrewarded exposure, suggesting that the changes were in fact due to unsupervised learning. The neural plasticity was concentrated in the medial HVAs and obeyed visual, rather than spatial, learning rules. In task mice only, we found a ramping reward prediction signal in anterior HVAs, potentially involved in supervised learning. Our neural results predict that unsupervised learning may accelerate subsequent task learning, a prediction which we validated with behavioral experiments.
+Artificial neural networks (ANNs) have been shown to predict neural responses in primary visual cortex (V1) better than classical models. However, this performance comes at the expense of simplicity because the ANN models typically have many hidden layers with many feature maps in each layer. Here we show that ANN models of V1 can be substantially simplified while retaining high predictive power. To demonstrate this, we first recorded a new dataset of over 29,000 neurons responding to up to 65,000 natural image presentations in mouse V1. We found that ANN models required only two convolutional layers for good performance, with a relatively small first layer. We further found that we could make the second layer small without loss of performance, by fitting a separate “minimodel” to each neuron. Similar simplifications applied for models of monkey V1 neurons. We show that these relatively simple models can nonetheless be useful for tasks such as object and visual texture recognition and we use the models to gain insight into how texture invariance arises in biological neurons.
 </p>
 </details>
-<a href="https://www.biorxiv.org/content/10.1101/2024.02.25.581990v2">preprint</a> | <a href="https://twitter.com/Lin_Zhong_ion/status/1762542599510880415">original tweeprint</a>
+<a href="https://www.biorxiv.org/content/10.1101/2024.06.30.601394v1">preprint</a> | <a href="https://x.com/Du_Fengtong/status/1808528703913443554">original tweeprint</a>
 
 <hr>
-<p>Thread by Lin Zhong:</p>
+<p>Thread by Fengtong Du:</p>
 <ol type="1">
-<li>Simple question: How do we learn? Answer: From teachers (<em>supervised</em>).</li>
+<li>Predicting neural activity is notoriously difficult and requires complicated models. Here we develop simple “minimodels” which explain 70% of neural variance in V1! 🐭🐒</li>
 </ol>
-Sure! But we also learn a lot on our own (<em>unsupervised</em>), and so do our mice.
 <p>
-<video src="https://www.suite2p.org/static/images/main_zhong.mp4" width="90%" loop="true" autoplay="autoplay" controls="" muted="">
+<video src="https://www.suite2p.org/static/images/stims_minimodel.gif" width="90%" loop="true" autoplay="autoplay" controls="" muted="">
 </video>
 </p>
 <ol start="2" type="1">
-<li><p>We developed a virtual reality (VR) task in which mice discriminated textures in order to get reward (supervised cohort) OR they just ran for FUN (unsupervised cohort).</p>
+<li>We started with population-level models, fitting all neurons together with 4 shared conv layers. These models performed better than past models because we showed many more images. The model predicted monkey V1 responses well too.
 <p></p>
-<p><img src="images/zhong_2.png" width="70%"></p>
+<img src="images/du_1.png" width="90%">
 <p></p></li>
-<li><p>Mice learned to discriminate textures by licking in the corridor with reward.</p>
-<p></p>
-<p>
-</p><p><img src="images/zhong_3.png" width="70%"></p>
-<p></p></li>
-<li><p>We recorded up to 90,000 neurons from the visual cortex during learning to try to understand the neural mechanism. Neural activities are visualized using our sorting algorithm Rastermap with behavioral annotations.</p>
+<li>But we didn’t need such a deep network: <em>two</em> convolutional layers were sufficient, in both mice and monkeys. Also, the first layer could be very small, 16 filters, while the second layer did need to be large, in line with the high dimensionality of V1.
 <p></p>
 <p>
-</p><p><img src="https://www.suite2p.org/static/images/rastermap_zhong.gif" width="90%"></p>
-<p></p></li>
-<li><p>We found that the plasticity in medial visual areas was mediated by unsupervised learning.</p>
-<p>
-</p><p><img src="images/zhong_5.png" width="80%"></p>
-<p></p></li>
-<li><p>Mice correctly generalized the reward rule to new stimuli based on the visual similarities, behaviorally and neurally.</p>
+<img src="images/du_2.jpg" width="90%">
+</p></li>
+<li>This structure – small first convolutional layer and large second convolutional layer – was advantageous for performing visual tasks, such as texture classification and image recognition.
 <p></p>
 <p>
-</p><p><img src="images/zhong_6.png" width="90%"></p>
-<p></p></li>
-<li><p>Mice learned to discriminate two very similar textures (leaf1 vs leaf2) by orthogonalizing them in the neural space</p>
+<img src="images/du_3.png" width="80%">
+</p></li>
+<li>Next, can we simplify the wide second layer further? We found that using more neurons to fit the model did NOT help! This suggested that we could fit smaller models to individual neurons.
 <p></p>
 <p>
-</p><p><img src="images/zhong_7.png" width="80%"></p>
-<p></p></li>
-<li><p>Learning that only leaf1 was rewarded results in de-orthogonalization of another new leaf (leaf3).</p>
+<img src="images/du_4.jpg" width="70%">
+</p></li>
+<li>So we built a minimodel for each neuron, matching the performance of the best models. On average, mouse minimodels had 32 conv2 filters and monkey minimodels had 7, much fewer than the 320 filters in our previous model.
 <p></p>
 <p>
-</p><p><img src="images/zhong_8.png" width="70%"></p>
-<p></p></li>
-<li><p>Question: Wait! We don’t need supervised learning at all? I will say no to my supervisor if that is true 🙃.</p></li>
-<li><p>Our results suggest I should think twice before doing that: inside the anterior visual areas we found a representation only in the supervised learning task, which can predict the reward and was highly correlated with behavior.</p>
+<img src="images/du_5.jpg" width="90%">
+</p></li>
+<li>Now equipped with a minimodel for each neuron, we used them to understand how the visual invariance of a single neuron develops across the model stages. We designed a metric, fraction of category variance (FECV) to measure this invariance.
 <p></p>
 <p>
-</p><p><img src="images/zhong_9.png" width="80%"></p>
-<p></p></li>
-<li><p>Question: What does unsupervised learning do? One possible answer is to pre-train our neural network for subsequent tasks. Indeed, we show that mice learned much faster after experiencing unsupervised pretraining!</p>
+<img src="images/du_6.png" width="80%">
+</p></li>
+<li>We found that instead of gradually increasing, the invariance primarily emerges at the readout stage and is influenced by both pooling size and input channel similarity.
 <p></p>
 <p>
-</p><p><img src="images/zhong_10.png" width="50%"></p>
-<p></p></li>
-<li><p>What is more, we found that V1 and lateral visual areas can encode novelty when seeing a new stimulus after learning. The novelty responses went away after mice got familiar with the new stimulus.</p>
+<img src="images/du_7.png" width="90%">
+</p></li>
+<li>With these minimodels, we can also visualize the high and low FECV neurons in mouse and monkey V1.
 <p></p>
 <p>
-</p><p><img src="images/zhong_11.png" width="80%"></p>
-<p></p></li>
-<li><p>Our results show:</p></li>
+<img src="images/du_8.jpg" width="90%">
+</p></li>
+<li>In summary, we found single-neuron minimodels are just as powerful as larger ones! It offers an accurate and interpretable approach to studying visual computation across different species and experimental contexts. 🐭🐒</li>
 </ol>
-<ol type="1">
-<li>Most learning is through unsupervised learning, mediated by medial visual areas</li>
-<li>Supervised learning may require anterior visual areas</li>
-<li>A third stream (V1 + lateral) encodes novelty in both supervised and unsupervised learning</li>
-</ol>
+<p>Huge thanks to Janelia! Thanks to the GENIE project, the Vivarium staff, Sarah Lindo and Sal DiLisio for surgery, Jon Arnold for designing headbars and coverslips, Dan Flickinger for microscopy, and Jon Arnold and Tobias Goulet for engineering support.</p>
 <p><br></p>
 
 
