@@ -2,11 +2,11 @@
   {
     "listing": "/research/index.html",
     "items": [
+      "/research/posts/rastermap.html",
       "/research/posts/minimodels.html",
       "/research/posts/kilosort.html",
       "/research/posts/unsupervised.html",
       "/research/posts/facemap.html",
-      "/research/posts/rastermap.html",
       "/research/posts/cellpose2.html",
       "/research/posts/notso.html",
       "/research/posts/highprecision.html",
