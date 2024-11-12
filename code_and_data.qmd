@@ -1,0 +1,41 @@
+---
+title: Code & data
+title-block-banner: true
+---
+
+## Code
+
+We develop and maintain several analysis frameworks for neuroscience and biology more generally:
+
+* [Cellpose](https://github.com/mouseland/cellpose) is a generalist, deep learning-based segmentation algorithm written in Python which can precisely segment cells from a wide range of image types -- try it out on your own data easily on our website: <https://www.cellpose.org>. Cellpose can be applied to 2D and 3D imaging data without requiring 3D-labelled data. It has an easy-to-use graphical user interface for manual labeling and for curation of the automated results. It can also be used to train new models on user data, and for denoising, deblurring, or upsampling images. Software developers have integrated Cellpose into their own image processing software, such as CellProfiler, ImagePy, ImJoy, aPeer, Napari.</p>
+<center><video src='https://www.cellpose.org/static/images/cp1_1.mp4' width="75%" loop="true" autoplay="autoplay" controls="" muted=""></video></center><br>
+<br>
+
+* [Kilosort](https://github.com/mouseland/kilosort) is the most popular spike sorting tool for Neuropixels probes, and it also works on other probes. The software is GPU-accelerated to enable fast and accurate spike sorting. Kilosort first detects spikes, then uses these spikes to perform drift correction -- an important step in most recording setups. Next it clusters the spikes using novel graph-based clustering techniques. Kilosort4 is implemented in python with an easy-to-use GUI. 
+<center><img src="images/ks_gui.png" width="75%"></img></center>
+<br>
+
+* [Suite2p](https://github.com/mouseland/suite2p) is a fast, accurate and complete pipeline written in Python that registers raw movies, detects active cells, extracts their calcium traces and infers their spike times. Suite2p runs on standard workstations, operates faster than real time, and recovers ~2 times more cells than the previous state-of-the-art methods. Its low computational load allows routine detection of ~25,000 cells simultaneously from recordings taken with standard two-photon resonant-scanning microscopes. In addition to its ability to detect cell somas, the detection algorithm can detect axonal segments, boutons, dendrites, and spines. Suite2p has an extensive GUI which allows the user to explore their data. Software developers have integrated Suite2p into their packages, such as those for multi-day cell alignment and photostimulation experiments.</p>
+<center><img src="http://www.suite2p.org/static/images/multiselect.gif" width="85%"></img></center>
+<br>
+
+* [Facemap](https://github.com/mouseland/facemap) is a tool for extracting behavioral features from mouse face videos and using them to predict neural activity. Facemap can be used to extract a 500-dimensional summary of the motor actions visible on the mouse’s face by applying singular value decomposition (SVD) to the facial motion. It can also be used to track keypoints on the mouse face, using a state-of-the-art deep neural network. Facemap also includes a 1D convolutional neural network to predict neural activity from keypoints or SVDs, which is two times more accurate than previous approaches. Facemap's GUI enables movie playback with behavioral feature tracking and neural activity.
+<center><img src="https://github.com/MouseLand/facemap/raw/master/figs/face_fast.gif" width="75%"></img></center>
+<br>
+
+* [Rastermap](https://github.com/mouseland/rastermap) is a tool for visualizing large-scale neural activity by applying a one-dimensional manifold embedding. To preserve both local and global structure, Rastermap combines manifold discovery and clustering. To capture temporal relationships among clusters, we compute not just the instantaneous correlations between cluster activities but also the cross-correlations of the clusters. Next we sort these clusters to optimize local and global distance preservation. Then the sorting is upsampled so that neurons can be assigned to their most correlated place in the one-dimensional embedding. This enables Rastermap to find sequences in visual cortical neural activity evoked by virtual reality corridors, which t-SNE and UMAP cannot do, and also Rastermap outperforms these algorithms on structure preservation benchmarks. Rastermap can be run in a jupyter-notebook, on the command line, in the provided GUI, or inside Suite2p to explore the spatial relationships among neurons identified to have similar activity patterns.
+<center><img src="https://www.suite2p.org/static/images/spont.gif" width="85%"></img></center>
+
+## Datasets
+
+We share our large-scale recordings of mouse cortex on figshare:
+
+* [Recordings of 30k-70k neurons from visual and sensorimotor areas during spontaneous activity](https://janelia.figshare.com/articles/dataset/Facemap_a_framework_for_modeling_neural_activity_based_on_orofacial_tracking/23712957)
+* [Recordings of 20,000 neurons from V1 in response to oriented stimuli](https://figshare.com/articles/dataset/Recordings_of_20_000_neurons_from_V1_in_response_to_oriented_stimuli/8279387)
+* [Recordings of ten thousand neurons in visual cortex during spontaneous behaviors](https://figshare.com/articles/dataset/Recordings_of_ten_thousand_neurons_in_visual_cortex_during_spontaneous_behaviors/6163622)
+* [Recordings of 10,000 neurons in visual cortex in response to 2,800 natural images](https://figshare.com/articles/dataset/Recordings_of_ten_thousand_neurons_in_visual_cortex_in_response_to_2_800_natural_images/6845348)
+* [Eight-probe Neuropixels recordings during spontaneous behaviors](https://figshare.com/articles/dataset/Eight-probe_Neuropixels_recordings_during_spontaneous_behaviors/7739750) (recordings by Nick Steinmetz)
+
+We also shared the training data for the Cellpose algorithm: [70,000 segmented cells + other objects](https://www.cellpose.org/dataset/).
+
+And we shared the simulations from the Kilosort4 paper: [ephys simulations](https://janelia.figshare.com/articles/dataset/Simulations_from_kilosort4_paper/25298815).

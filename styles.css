@@ -1,0 +1,53 @@
+a:link { text-decoration: none;
+    font-weight: 600; }
+
+/*--
+.quarto-title-block .quarto-title-banner {
+    background-image: url(images/HHMI_Janelia_Logo-White.png);
+    background-size: 120px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-origin: content-box;
+  }
+--*/
+
+div.quarto-post .thumbnail img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 250px;
+}
+
+.quarto-listing-category .category {
+  font-weight: 500;
+  font-size: .825rem;
+}
+
+div.quarto-post a {
+  color: black;
+  font-weight: 500;
+}
+
+div.quarto-post .listing-title {
+    color: rgb(0, 0, 0); #rgb(110, 22, 12);
+    font-size: 1em;
+}
+
+div.quarto-post .listing-description {
+  font-size: 0.8em;
+  margin-bottom: 0em;
+}
+
+div.quarto-post .listing-author {
+  font-size: 0.9em;
+  padding: 0em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+
+div.quarto-container .quarto-title-meta-contents p{
+  font-size: 0.9em;
+  font-weight: 100;
+}
