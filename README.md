@@ -1,3 +1,3 @@
 Pachitariu-Stringer lab website source code
 
-Quarto webpage! https://quarto.org/docs/websites/
+Made thanks to (Quarto)[https://quarto.org/docs/websites/]
