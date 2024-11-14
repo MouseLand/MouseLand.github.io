@@ -31,7 +31,7 @@ Weinan Sun, Johan Winnubst, Maanasa Natrajan, Chongxi Lai, Koichiro Kajikawa, Mi
 
 ### 2024
 
-Carsen Stringer, Marius Pachitariu. [Analysis methods for large-scale neuronal recordings](https://www.science.org/stoken/author-tokens/ST-2239/full). *Science*, 2024.
+Carsen Stringer, Marius Pachitariu. [Analysis methods for large-scale neuronal recordings](science.adp7429.pdf). *Science*, 2024.
 
 Atika Syeda, Lin Zhong, Renee Tung, Will Long, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [Facemap: A Framework for Modeling Neural Activity Based on Orofacial Tracking](https://www.nature.com/articles/s41593-023-01490-6). *Nature Neuroscience*, 2024.
 
