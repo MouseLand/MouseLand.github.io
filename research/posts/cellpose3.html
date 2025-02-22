@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Carsen Stringer, Marius Pachitariu">
+<meta name="description" content="Software for image restoration that works across many cell types and imaging modalities.">
 
-<title>Pachitariu + Stringer lab – </title>
+<title>Cellpose3: one-click image restoration for improved cellular segmentation – </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-66ab7fd5e73b7f0a764e0d49b3e29ab1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6476f6154bafb9df2b25644594d4079a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-66ab7fd5e73b7f0a764e0d49b3e29ab1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6476f6154bafb9df2b25644594d4079a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,18 +72,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><img src="./images/logo.png" width="50px"></span>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title"><img src="../../images/logo.png" width="50px"></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,31 +93,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people/index.html"> 
+    <a class="nav-link" href="../../people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./positions.html"> 
+    <a class="nav-link" href="../../positions.html"> 
 <span class="menu-text">Positions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/publications.html"> 
+    <a class="nav-link" href="../../research/publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./code_and_data.html"> 
+    <a class="nav-link" href="../../code_and_data.html"> 
 <span class="menu-text">Code &amp; data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./positions.html"> 
+    <a class="nav-link" href="../../positions.html"> 
 <span class="menu-text">Positions</span></a>
   </li>  
 </ul>
@@ -129,32 +131,42 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">Research</a></li>
-  <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#talks" id="toc-talks" class="nav-link" data-scroll-target="#talks">Talks</a></li>
-  <li><a href="#media-coverage" id="toc-media-coverage" class="nav-link" data-scroll-target="#media-coverage">Media Coverage</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pachitariu + Stringer lab</h1>
-</div>
+<h1 class="title">Cellpose3: one-click image restoration for improved cellular segmentation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Segmentation</div>
+    <div class="quarto-category">Machine learning</div>
+    <div class="quarto-category">Tools</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    <p>Software for image restoration that works across many cell types and imaging modalities.</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Carsen Stringer, Marius Pachitariu </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Feb 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -164,84 +176,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Our lab is at <a href="https://www.janelia.org/">HHMI Janelia Research Campus</a> (near DC), a fully-funded non-profit research institution. Janelia just received a $500 million investment for AI research 🤖, more info <a href="https://ai.hhmi.org/">here</a>.</p>
-<p>We are recruiting <a href="./positions.html">PhD students</a>!</p>
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
-<p>Our lab combines machine learning / AI techniques and large-scale imaging to investigate plasticity rules and sensory representations in cortical circuits. Example recording of 50,000+ neurons simultaneously at 3Hz, using two-photon calcium imaging:</p>
-<video width="100%" autoplay="" loop="" muted="" playsinline="" controls="" alt="50,000 neurons recorded with two-photon calcium imaging from mouse visual cortex">
-<source src="https://www.suite2p.org/static/images/Movie1.mp4" type="video/mp4">
-</video>
-<p>Learn more about our research <a href="./research/index.html">here</a> and see all publications <a href="./research/publications.html">here</a>. We share all the data generated by our studies, linked <a href="./code_and_data.html">here</a>. We also have developed several data processing packages for the bio/neuro community: <a href="./research/posts/cellpose.html">cellpose</a>, <a href="./research/posts/kilosort.html">kilosort</a>, <a href="./research/posts/suite2p.html">suite2p</a>, <a href="./research/posts/rastermap.html">facemap</a>, and <a href="./research/posts/rastermap.html">rastermap</a>.</p>
-</section>
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<ul>
-<li><a href="https://www.nature.com/articles/s41592-025-02595-5">Cellpose3</a> now published! <a href="https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions">News coverage</a></li>
-<li><a href="https://www.science.org/stoken/author-tokens/ST-2239/full">Analysis methods for large-scale neuronal recordings</a> review published!</li>
-<li>Cellpose development highlighted in a Nature <a href="https://www.nature.com/articles/d41586-024-03344-y">technology feature</a>!</li>
-<li>Rastermap paper is now out <a href="https://www.nature.com/articles/s41593-024-01783-4">here</a>! <a href="https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html">News coverage</a></li>
-<li>Congrats to Fengtong Du et al, preprint now out: <a href="https://www.biorxiv.org/content/10.1101/2024.06.30.601394.abstract">Towards a simplified model of primary visual cortex</a>!</li>
-<li>Kilosort4 paper is now out <a href="https://www.nature.com/articles/s41592-024-02232-7">here</a>!</li>
-<li>Congrats to Lin Zhong et al, preprint now out on <a href="https://www.biorxiv.org/content/10.1101/2024.02.25.581990v1">Distinct streams for supervised and unsupervised learning in the visual cortex</a>!</li>
-<li>Facemap was featured in a Nature Methods <a href="https://www.nature.com/articles/s41592-023-02154-w">research highlight</a>!</li>
-</ul>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li>About <a href="https://www.janelia.org/about-us">HHMI Janelia Research Campus</a></li>
-<li>HHMI’s <a href="https://www.hhmi.org/about/values">values</a></li>
-<li>HHMI’s <a href="https://diversity.hhmi.org/">commitment to Diversity, Equity, and Inclusion</a></li>
-<li><a href="https://youtube.com/playlist?list=PLTHgpZlI_u0hSo_NO0wpzpMnt6BnOOaWl&amp;feature=shared">Being a postdoc at Janelia</a></li>
-</ul>
-</section>
-<section id="talks" class="level2">
-<h2 class="anchored" data-anchor-id="talks">Talks</h2>
-<ul>
-<li>Cellpose3 <a href="https://www.youtube.com/watch?v=TZZZlGk6AKo">talk+tutorial</a></li>
-<li>Rastermap <a href="https://youtu.be/oQHq7yUWn2k">tutorial</a></li>
-<li>Facemap <a href="https://youtu.be/aO_kXkOuadg">tutorial</a></li>
-<li>Kilosort 4 <a href="https://youtu.be/LTSmoACr918?feature=shared">talk</a></li>
-<li>Making sense of large-scale neural and behavioral data with Facemap and Rastermap <a href="https://www.youtube.com/watch?v=4fIXfSBKWu8">talk</a></li>
-<li>Cellpose 2.0: how to train your own model <a href="https://youtu.be/3ydtAhfq6H0">talk</a>, <a href="https://youtu.be/5qANHWoubZU">talk+tutorial</a></li>
-<li>Cellpose <a href="https://youtu.be/7y9d4VIKiS8">talk</a>, <a href="https://www.youtube.com/watch?v=DL-j-hPFixk">talk+tutorial</a></li>
-<li>Suite2p <a href="https://www.youtube.com/watch?v=L0cX6V2wFUU">talk</a></li>
-<li>Kilosort 1, 2, 2.5 &amp; 3 <a href="https://youtu.be/cmrAhhquC9E?feature=shared">talk</a></li>
-<li>High precision coding in visual cortex <a href="https://youtu.be/5-DkXplTFuY">short talk</a>, <a href="https://www.youtube.com/watch?v=ob48PKoIbfA">long talk</a></li>
-<li>High-dimensional geometry of population responses in visual cortex <a href="https://www.youtube.com/watch?v=fAFHJiqYwb8">talk</a></li>
-<li>High-dimensional problems in neuroscience <a href="https://youtu.be/NzdynFTp7fY">talk</a></li>
-<li>Spontaneous behaviors drive multidimensional, brainwide activity <a href="https://youtu.be/1FCCh4COiCM?feature=shared&amp;t=196">talk</a></li>
-</ul>
-</section>
-<section id="media-coverage" class="level2">
-<h2 class="anchored" data-anchor-id="media-coverage">Media Coverage</h2>
-<ul>
-<li><p><a href="https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions">Newest version of Cellpose can spot cell boundaries even in cloudy conditions</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html">Novel visualization method helps make sense of large neuronal activity datasets</a>, Medical Xpress</p></li>
-<li><p><a href="https://www.janelia.org/news/new-tool-helps-scientists-spot-patterns-in-mountains-of-data">New tool helps scientists spot patterns in mountains of data</a>, Howard Huges Medical Institute</p></li>
-<li><p><a href="https://www.nature.com/articles/d41586-024-03344-y">Six tips for going public with your lab’s software</a>, Nature</p></li>
-<li><p><a href="https://www.janelia.org/news/janelia-scientists-release-state-of-the-art-spike-sorting-software-kilosort4">Janelia scientists release state-of-the-art spike-sorting software Kilosort4</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.nature.com/articles/s41592-023-02154-w">Predicting neural activity from facial expressions</a>, Nature Methods</p></li>
-<li><p><a href="https://pennneuroknow.com/2023/12/19/tiny-faces-big-expressions-reading-rodent-faces/">Tiny faces, big expressions: Reading rodent faces</a>, Penn NeuroKnow</p></li>
-<li><p><a href="https://www.janelia.org/news/reading-the-mouse-mind-from-its-face-new-tool-decodes-neural-activity-using-facial-movements">Reading the mouse mind from its face: New tool decodes neural activity using facial movements</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.janelia.org/news/noisy-solo-neurons-show-consistency-in-groups">Noisy solo neurons show consistency in groups</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.scientifica.uk.com/neurowire/high-precision-coding-how-the-visual-cortex-processes-information-about-the-world">High precision coding: How the visual cortex processes information about the world</a>, Scientifica</p></li>
-<li><p><a href="https://www.janelia.org/news/new-tool-maps-boundaries-of-diverse-cells-in-microscope-images">New tool maps boundaries of diverse cells in microscope images</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.nature.com/articles/d41586-021-03628-7">Python power-up: new image tool visualizes complex data</a>, Nature</p></li>
-<li><p><a href="https://www.quantamagazine.org/a-power-law-keeps-the-brains-perceptions-balanced-20191022/">A Power Law Keeps the Brain’s Perceptions Balanced</a>, Quanta magazine</p></li>
-<li><p><a href="https://www.simonsfoundation.org/2019/06/26/power-law-discovery-may-explain-why-you-can-see-the-forest-and-the-trees/">Power Law Discovery May Explain Why You Can See the Forest and the Trees</a>, Simons Foundation</p></li>
-<li><p><a href="https://www.quantamagazine.org/noise-in-the-brains-vision-areas-encodes-body-movements-20191107/">‘Noise’ in the Brain Encodes Surprisingly Important Signals</a>, Quanta magazine</p></li>
-<li><p><a href="https://www.simonsfoundation.org/2019/11/26/thinking-on-the-go-why-does-the-whole-brain-light-up-for-just-the-smallest-movements/">Thinking on the Go: Why Does the Whole Brain Light Up for Just the Smallest Movements?</a>, Simons Foundation</p></li>
-<li><p><a href="https://www.storiesofwin.org/profiles/2021/6/2/dr-carsen-stringer">profile + podcast</a>, Stories of Women in Neuroscience (WIN) by Daniela Cassataro</p></li>
-<li><p><a href="https://braininspired.co/podcast/91/">Understanding 40,000 neurons</a>, Brain Inspired podcast by Paul Middlebrooks</p></li>
-</ul>
+<p style="font-size: smaller">
+Generalist methods for cellular segmentation have good out-of-the-box performance on a variety of image types; however, existing methods struggle for images that are degraded by noise, blurring or undersampling, all of which are common in microscopy. We focused the development of Cellpose3 on addressing these cases and here we demonstrate substantial out-of-the-box gains in segmentation and image quality for noisy, blurry and undersampled images. Unlike previous approaches that train models to restore pixel values, we trained Cellpose3 to output images that are well segmented by a generalist segmentation model, while maintaining perceptual similarity to the target images. Furthermore, we trained the restoration models on a large, varied collection of datasets, thus ensuring good generalization to user images. We provide these tools as ‘one-click’ buttons inside the graphical interface of Cellpose as well as in the Cellpose API.
+</p>
+<a href="https://www.nature.com/articles/s41592-025-02595-5">paper</a> | <a href="https://www.youtube.com/watch?v=TZZZlGk6AKo">talk+tutorial</a> | <a href="https://docs.google.com/presentation/d/1d3WIu7OgTOo6p-9Dq6adYeBX2iGy0B6Yat9bVRUbbG4/edit?usp=sharing">slides</a> | <a href="https://github.com/MouseLand/cellpose">code</a> | <a href="https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions">news coverage</a> | <a href="https://www.biorxiv.org/content/10.1101/2024.02.10.579780v2">preprint</a>
+<hr>
+<p>This is an upgrade to Cellpose; if you’re unfamiliar with Cellpose, check it out <a href="cellpose.html">here</a>.</p>
+<p>Denoising, deblurring and upsampling examples:</p>
+<p><img src="http://www.cellpose.org/static/images/poisson_cp3.gif?raw=True" width="500" title="cellpose denoising" alt="cellpose denoising examples"></p>
+<p><img src="http://www.cellpose.org/static/images/blur_cp3.gif?raw=True" width="500" title="cellpose deblurring" alt="cellpose deblurring examples"></p>
+<p><img src="http://www.cellpose.org/static/images/downsample_cp3.gif?raw=True" width="500" title="cellpose upsampling" alt="cellpose upsampling examples"></p>
+<p>Cellpose3 slides:</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSAIxnnpHUfEo19pwccJX45CZAIEg4FlDy39llviA3kfyD8IO6uid1pn7rQJHTRX4p2oUMAVC4zVPkI/embed?start=true&amp;loop=true&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
 
 
-</section>
 
 <center>
-<img src="./images/HHMI_Janelia_Logo-Black.png" width="120px" alt="Janelia"><br> <font size="2pt"> Powered by <a href="https://www.quarto.org">Quarto</a>. © Marius Pachitariu &amp; Carsen Stringer lab, 2023.</font>
+<img src="../../images/HHMI_Janelia_Logo-Black.png" width="120px" alt="Janelia"><br> <font size="2pt"> Powered by <a href="https://www.quarto.org">Quarto</a>. © Marius Pachitariu &amp; Carsen Stringer lab, 2023.</font>
 </center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

@@ -2,6 +2,8 @@
   {
     "listing": "/research/index.html",
     "items": [
+      "/research/posts/cellpose3.html",
+      "/research/posts/critical_init.html",
       "/research/posts/rastermap.html",
       "/research/posts/minimodels.html",
       "/research/posts/kilosort.html",
