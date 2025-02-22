@@ -18,6 +18,7 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## News
 
+* [Cellpose3](https://www.nature.com/articles/s41592-025-02595-5) now published! [News coverage](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions)
 * [Analysis methods for large-scale neuronal recordings](https://www.science.org/stoken/author-tokens/ST-2239/full) review published!
 * Cellpose development highlighted in a Nature [technology feature](https://www.nature.com/articles/d41586-024-03344-y)!
 * Rastermap paper is now out [here](https://www.nature.com/articles/s41593-024-01783-4)! [News coverage](https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html)
@@ -25,7 +26,6 @@ Learn more about our research [here](research/index.qmd) and see all publication
 * Kilosort4 paper is now out [here](https://www.nature.com/articles/s41592-024-02232-7)!
 * Congrats to Lin Zhong et al, preprint now out on [Distinct streams for supervised and unsupervised learning in the visual cortex](https://www.biorxiv.org/content/10.1101/2024.02.25.581990v1)!
 * Facemap was featured in a Nature Methods [research highlight](https://www.nature.com/articles/s41592-023-02154-w)!
-* Congrats to Atika Syeda et al for the publication of the Facemap [paper](https://www.nature.com/articles/s41593-023-01490-6)!
 
 ## Resources
 
@@ -36,6 +36,7 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## Talks
 
+* Cellpose3 [talk+tutorial](https://www.youtube.com/watch?v=TZZZlGk6AKo)
 * Rastermap [tutorial](https://youtu.be/oQHq7yUWn2k)
 * Facemap [tutorial](https://youtu.be/aO_kXkOuadg)
 * Kilosort 4 [talk](https://youtu.be/LTSmoACr918?feature=shared)
@@ -51,6 +52,8 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 
 ## Media Coverage
+
+- [Newest version of Cellpose can spot cell boundaries even in cloudy conditions](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions), Howard Hughes Medical Institute
 
 - [Novel visualization method helps make sense of large neuronal activity datasets](https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html), Medical Xpress
 

@@ -7,6 +7,8 @@ sidebar: true
 
 ### preprints
 
+Marius Pachitariu, Lin Zhong, Alexa Gracias, Amanda Minisi, Crystall Lopez, Carsen Stringer. [A critical initialization for biological neural networks](https://www.biorxiv.org/content/10.1101/2025.01.10.632397.abstract). *bioRxiv*, 2025.
+
 Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [Towards a simplified model of primary visual cortex](https://www.biorxiv.org/content/10.1101/2024.06.30.601394.abstract). *bioRxiv*, 2024.
 
 Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Distinct streams for supervised and unsupervised learning in the visual cortex](https://www.biorxiv.org/content/10.1101/2024.02.25.581990v1) *bioRxiv*, 2024.
@@ -15,19 +17,22 @@ Judith Hoeller, Lin Zhong, Marius Pachitariu, Sandro Romani. [Bridging tuning an
 
 Carsen Stringer, Marius Pachitariu. [Transformers do not outperform Cellpose](https://www.biorxiv.org/content/10.1101/2024.04.06.587952). *bioRxiv*, 2024.
 
-Carsen Stringer, Marius Pachitariu. [Cellpose3: one-click image restoration for improved cellular segmentation](https://www.biorxiv.org/content/10.1101/2024.02.10.579780v2). *bioRxiv*, 2024.
-
 Yuki Miura, Ji-il Kim, Ovidiu Jurjut, Kevin W Kelley, Xiao Yang, Xiaoyu Chen, Mayuri Vijay Thete, Omer Revah, Bianxiao Cui, Marius Pachitariu, Sergiu P Pasca. [Assembloid model to study loop circuits of the human nervous system](https://www.biorxiv.org/content/10.1101/2024.10.13.617729.abstract). *bioRxiv*, 2024.
 
 Xuyu Qian, Kyle Coleman, Shunzhou Jiang, Andrea J Kriz, Jack H Marciano, Chunyu Luo, Chunhui Cai, Monica Devi Manam, Emre Caglayan, Aoi Otani, Urmi Ghosh, Diane D Shao, Rebecca E Andersen, Jennifer E Neil, Robert Johnson, Alexandra LeFevre, Jonathan L Hecht, Michael B Miller, Liang Sun, Carsen Stringer, Mingyao Li, Christopher A Walsh. [Spatial Single-cell Analysis Decodes Cortical Layer and Area Specification](https://www.biorxiv.org/content/10.1101/2024.06.05.597673.abstract). *bioRxiv*, 2024.
-
-Valentina Gandin, Jun Kim, Liang-Zhong Yang, Yumin Lian, Takashi Kawase, Amy Hu, Konrad Rokicki, Greg Fleishman, Paul Tillberg, Alejandro Aguilera Castrejon, Carsen Stringer, Stephan Preibisch, Zhe J Liu. [Deep-Tissue Spatial Omics: Imaging Whole-Embryo Transcriptomics and Subcellular Structures at High Spatial Resolution](https://www.biorxiv.org/content/10.1101/2024.05.17.594641.abstract). *bioRxiv*, 2024.
 
 Leandro PL Jacob, Sydney M Bailes, Stephanie D Williams, Carsen Stringer, Laura D Lewis. [Distributed fMRI dynamics predict distinct EEG rhythms across sleep and wakefulness](https://www.biorxiv.org/content/10.1101/2024.01.29.577429v2). *bioRxiv*, 2024.
 
 Stefanos Stagkourakis, Giada Spigolon, Markus Marks, Michael Feyder, Joseph Kim, Pietro Perona, Marius Pachitariu, David J Anderson. [Anatomically distributed neural representations of instincts in the hypothalamus](https://www.biorxiv.org/content/10.1101/2023.11.21.568163v2). *bioRxiv*, 2023.
 
-Weinan Sun, Johan Winnubst, Maanasa Natrajan, Chongxi Lai, Koichiro Kajikawa, Michalis Michaelos, Rachel Gattoni, Carsen Stringer, Daniel Flickinger, James E Fitzgerald, Nelson Spruston. [Learning produces a hippocampal cognitive map in the form of an orthogonalized state machine](https://www.biorxiv.org/content/10.1101/2023.08.03.551900.abstract). *bioRxiv*, 2023.
+### 2025
+
+Carsen Stringer, Marius Pachitariu. [Cellpose3: one-click image restoration for improved cellular segmentation](https://www.nature.com/articles/s41592-025-02595-5). *Nature Methods*, 2025.
+
+Valentina Gandin, Jun Kim, Liang-Zhong Yang, Yumin Lian, Takashi Kawase, Amy Hu, Konrad Rokicki, Greg Fleishman, Paul Tillberg, Alejandro Aguilera Castrejon, Carsen Stringer, Stephan Preibisch, Zhe J Liu. [Deep-Tissue Spatial Omics: Imaging Whole-Embryo Transcriptomics and Subcellular Structures at High Spatial Resolution](https://www.science.org/doi/10.1126/science.adq2084). *Science*, 2025.
+
+Weinan Sun, Johan Winnubst, Maanasa Natrajan, Chongxi Lai, Koichiro Kajikawa, Michalis Michaelos, Rachel Gattoni, Carsen Stringer, Daniel Flickinger, James E Fitzgerald, Nelson Spruston. [Learning produces a hippocampal cognitive map in the form of an orthogonalized state machine](https://www.nature.com/articles/s41586-024-08548-w). *Nature*, 2025.
+
 
 ### 2024
 
