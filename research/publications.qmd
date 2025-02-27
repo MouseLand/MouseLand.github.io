@@ -9,6 +9,8 @@ sidebar: true
 
 Marius Pachitariu, Lin Zhong, Alexa Gracias, Amanda Minisi, Crystall Lopez, Carsen Stringer. [A critical initialization for biological neural networks](https://www.biorxiv.org/content/10.1101/2025.01.10.632397.abstract). *bioRxiv*, 2025.
 
+Jason A Keller, Iljung S Kwak, Alyssa K Stark, Marius Pachitariu, Kristin Branson, Joshua T Dudman. [Cortical control of innate behavior from subcortical demonstration](Cortical control of innate behavior from subcortical demonstration). *bioRxiv*, 2025.
+
 Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [Towards a simplified model of primary visual cortex](https://www.biorxiv.org/content/10.1101/2024.06.30.601394.abstract). *bioRxiv*, 2024.
 
 Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Distinct streams for supervised and unsupervised learning in the visual cortex](https://www.biorxiv.org/content/10.1101/2024.02.25.581990v1) *bioRxiv*, 2024.
