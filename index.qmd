@@ -33,7 +33,6 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 * About [HHMI Janelia Research Campus](https://www.janelia.org/about-us)
 * HHMI's [values](https://www.hhmi.org/about/values)
-* HHMI’s [commitment to Diversity, Equity, and Inclusion](https://diversity.hhmi.org/)
 * [Being a postdoc at Janelia](https://youtube.com/playlist?list=PLTHgpZlI_u0hSo_NO0wpzpMnt6BnOOaWl&feature=shared)
 
 ## Talks
