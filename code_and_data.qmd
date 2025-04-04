@@ -16,7 +16,7 @@ We develop and maintain several analysis frameworks for neuroscience and biology
 <br>
 
 * [Suite2p](https://github.com/mouseland/suite2p) is a fast, accurate and complete pipeline written in Python that registers raw movies, detects active cells, extracts their calcium traces and infers their spike times. Suite2p runs on standard workstations, operates faster than real time, and recovers ~2 times more cells than the previous state-of-the-art methods. Its low computational load allows routine detection of ~25,000 cells simultaneously from recordings taken with standard two-photon resonant-scanning microscopes. In addition to its ability to detect cell somas, the detection algorithm can detect axonal segments, boutons, dendrites, and spines. Suite2p has an extensive GUI which allows the user to explore their data. Software developers have integrated Suite2p into their packages, such as those for multi-day cell alignment and photostimulation experiments.</p>
-<center><img src="http://www.suite2p.org/static/images/multiselect.gif" width="85%"></img></center>
+<center><img src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/multiselect.gif" width="85%"></img></center>
 <br>
 
 * [Facemap](https://github.com/mouseland/facemap) is a tool for extracting behavioral features from mouse face videos and using them to predict neural activity. Facemap can be used to extract a 500-dimensional summary of the motor actions visible on the mouse’s face by applying singular value decomposition (SVD) to the facial motion. It can also be used to track keypoints on the mouse face, using a state-of-the-art deep neural network. Facemap also includes a 1D convolutional neural network to predict neural activity from keypoints or SVDs, which is two times more accurate than previous approaches. Facemap's GUI enables movie playback with behavioral feature tracking and neural activity.
@@ -24,7 +24,7 @@ We develop and maintain several analysis frameworks for neuroscience and biology
 <br>
 
 * [Rastermap](https://github.com/mouseland/rastermap) is a tool for visualizing large-scale neural activity by applying a one-dimensional manifold embedding. To preserve both local and global structure, Rastermap combines manifold discovery and clustering. To capture temporal relationships among clusters, we compute not just the instantaneous correlations between cluster activities but also the cross-correlations of the clusters. Next we sort these clusters to optimize local and global distance preservation. Then the sorting is upsampled so that neurons can be assigned to their most correlated place in the one-dimensional embedding. This enables Rastermap to find sequences in visual cortical neural activity evoked by virtual reality corridors, which t-SNE and UMAP cannot do, and also Rastermap outperforms these algorithms on structure preservation benchmarks. Rastermap can be run in a jupyter-notebook, on the command line, in the provided GUI, or inside Suite2p to explore the spatial relationships among neurons identified to have similar activity patterns.
-<center><img src="https://www.suite2p.org/static/images/spont.gif" width="85%"></img></center>
+<center><img src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/spont.gif" width="85%"></img></center>
 
 ## Datasets
 

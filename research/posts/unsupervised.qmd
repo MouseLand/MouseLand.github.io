@@ -29,7 +29,7 @@ Thread by Lin Zhong:
 Answer: From teachers (*supervised*). 
 
 Sure! But we also learn a lot on our own (*unsupervised*), and so do our mice.
-<p><video src='https://www.suite2p.org/static/images/main_zhong.mp4' width="90%" loop="true" autoplay="autoplay" controls muted></video></p>
+<p><video src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/main_zhong.mp4' width="90%" loop="true" autoplay="autoplay" controls muted></video></p>
 
 2. We developed a virtual reality (VR) task in which mice discriminated textures in order to get reward (supervised cohort) OR they just ran for FUN (unsupervised cohort).</p>
 <img src='images/zhong_2.png' width="70%"></p>
@@ -38,7 +38,7 @@ Sure! But we also learn a lot on our own (*unsupervised*), and so do our mice.
 <p><img src='images/zhong_3.png' width="70%"></p>
 
 4. We recorded up to 90,000 neurons from the visual cortex during learning to try to understand the neural mechanism. Neural activities are visualized using our sorting algorithm Rastermap with behavioral annotations.</p>
-<p><img src='https://www.suite2p.org/static/images/rastermap_zhong.gif' width="90%"></p>
+<p><img src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/rastermap_zhong.gif' width="90%"></p>
 
 5. We found that the plasticity in medial visual areas was mediated by unsupervised learning.
 <p><img src='images/zhong_5.png' width="80%"></p>
