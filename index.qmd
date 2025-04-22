@@ -6,7 +6,7 @@ resources:
 
 Our lab is at [HHMI Janelia Research Campus](https://www.janelia.org/) (near DC), a fully-funded non-profit research institution. Janelia just received a $500 million investment for AI research 🤖, more info [here](https://ai.hhmi.org/). 
 
-We are recruiting [PhD students](positions.qmd)!
+We are recruiting [postdocs](positions.qmd)!
 
 ## Research
 
