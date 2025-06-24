@@ -20,6 +20,7 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## News
 
+* Lin Zhong's [paper](https://www.nature.com/articles/s41586-025-09180-y) on unsupervised learning now published! [News coverage](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster)
 * [Cellpose3](https://www.nature.com/articles/s41592-025-02595-5) now published! [News coverage](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions)
 * [Analysis methods for large-scale neuronal recordings](https://www.science.org/stoken/author-tokens/ST-2239/full) review published!
 * Cellpose development highlighted in a Nature [technology feature](https://www.nature.com/articles/d41586-024-03344-y)!
@@ -53,6 +54,8 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 
 ## Media Coverage
+
+- [Zoning out could be beneficial—and may actually help us learn faster](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster), Howard Hughes Medical Institute
 
 - [Newest version of Cellpose can spot cell boundaries even in cloudy conditions](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions), Howard Hughes Medical Institute
 
