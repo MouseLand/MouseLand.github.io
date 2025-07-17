@@ -13,8 +13,6 @@ Marius Pachitariu, Lin Zhong, Alexa Gracias, Amanda Minisi, Crystall Lopez, Cars
 
 Jason A Keller, Iljung S Kwak, Alyssa K Stark, Marius Pachitariu, Kristin Branson, Joshua T Dudman. [Cortical control of innate behavior from subcortical demonstration](Cortical control of innate behavior from subcortical demonstration). *bioRxiv*, 2025.
 
-Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [Towards a simplified model of primary visual cortex](https://www.biorxiv.org/content/10.1101/2024.06.30.601394.abstract). *bioRxiv*, 2024.
-
 Judith Hoeller, Lin Zhong, Marius Pachitariu, Sandro Romani. [Bridging tuning and invariance with equivariant neuronal representations](https://www.biorxiv.org/content/10.1101/2024.08.02.606398v1.abstract). *bioRxiv*, 2024.
 
 Carsen Stringer, Marius Pachitariu. [Benchmarking cellular segmentation methods against Cellpose](https://www.biorxiv.org/content/10.1101/2024.04.06.587952v2). *bioRxiv*, 2024.
@@ -26,6 +24,8 @@ Leandro PL Jacob, Sydney M Bailes, Stephanie D Williams, Carsen Stringer, Laura 
 Stefanos Stagkourakis, Giada Spigolon, Markus Marks, Michael Feyder, Joseph Kim, Pietro Perona, Marius Pachitariu, David J Anderson. [Anatomically distributed neural representations of instincts in the hypothalamus](https://www.biorxiv.org/content/10.1101/2023.11.21.568163v2). *bioRxiv*, 2023.
 
 ### 2025
+
+Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [A simplified minimodel of visual cortical neurons](https://www.nature.com/articles/s41467-025-61171-9). *Nature Communications*, 2025.
 
 Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Unsupervised pretraining in biological neural networks](https://www.nature.com/articles/s41586-025-09180-y) *Nature*, 2025.
 
