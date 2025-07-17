@@ -20,6 +20,7 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## News
 
+* Fengtong Du's [paper](https://www.nature.com/articles/s41467-025-61171-9) on minimodels of visual cortical neurons in mice and monkeys now published! [News coverage](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see)
 * Lin Zhong's [paper](https://www.nature.com/articles/s41586-025-09180-y) on unsupervised learning now published! [News coverage](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster)
 * [Cellpose3](https://www.nature.com/articles/s41592-025-02595-5) now published! [News coverage](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions)
 * [Analysis methods for large-scale neuronal recordings](https://www.science.org/stoken/author-tokens/ST-2239/full) review published!
@@ -54,6 +55,12 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 
 ## Media Coverage
+
+- [New computational model could help shed light on how we see](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see), Howard Hughes Medical Institute
+
+- [Doing This Might Actually Make You Smarter](https://www.vice.com/en/article/doing-this-might-actually-make-you-smarter/), Vice
+
+- ["Zoning Out" Actually Helps You Learn? Data From Up To 90,000 Brain Cells Says So](https://www.iflscience.com/zoning-out-actually-helps-you-learn-data-from-up-to-90000-brain-cells-says-so-79986), IFL Science
 
 - [Zoning out could be beneficial—and may actually help us learn faster](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster), Howard Hughes Medical Institute
 
