@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu†, Carsen Stringer†">
-<meta name="dcterms.date" content="2024-07-01">
+<meta name="dcterms.date" content="2025-07-01">
 <meta name="description" content="Simplified and interpretable “minimodels” are sufficient to explain complex visual responses in mouse and monkey V1.">
 
-<title>Towards a simplified model of primary visual cortex – </title>
+<title>A simplified minimodel of visual cortical neurons – </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8ac91d17990c48dbe0693ecfda5e0b22.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-8ea3b67493ece38e81c0555ac380605c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Towards a simplified model of primary visual cortex</h1>
+<h1 class="title">A simplified minimodel of visual cortical neurons</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Vision</div>
     <div class="quarto-category">Thousands of neurons</div>
@@ -165,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 1, 2024</p>
+      <p class="date">July 1, 2025</p>
     </div>
   </div>
   
@@ -184,10 +184,10 @@ Abstract
 </p>
 </summary>
 <p style="font-size: smaller">
-Artificial neural networks (ANNs) have been shown to predict neural responses in primary visual cortex (V1) better than classical models. However, this performance comes at the expense of simplicity because the ANN models typically have many hidden layers with many feature maps in each layer. Here we show that ANN models of V1 can be substantially simplified while retaining high predictive power. To demonstrate this, we first recorded a new dataset of over 29,000 neurons responding to up to 65,000 natural image presentations in mouse V1. We found that ANN models required only two convolutional layers for good performance, with a relatively small first layer. We further found that we could make the second layer small without loss of performance, by fitting a separate “minimodel” to each neuron. Similar simplifications applied for models of monkey V1 neurons. We show that these relatively simple models can nonetheless be useful for tasks such as object and visual texture recognition and we use the models to gain insight into how texture invariance arises in biological neurons.
+Artificial neural networks (ANNs) have been shown to predict neural responses in primary visual cortex (V1) better than classical models. However, this performance often comes at the expense of simplicity and interpretability. Here we introduce a new class of simplified ANN models that can predict over 70% of the response variance of V1 neurons. To achieve this high performance, we first recorded a new dataset of over 29,000 neurons responding to up to 65,000 natural image presentations in mouse V1. We found that ANN models required only two convolutional layers for good performance, with a relatively small first layer. We further found that we could make the second layer small without loss of performance, by fitting individual “minimodels” to each neuron. Similar simplifications applied for models of monkey V1 neurons. We show that the minimodels can be used to gain insight into how stimulus invariance arises in biological neurons.
 </p>
 </details>
-<a href="https://www.biorxiv.org/content/10.1101/2024.06.30.601394v1">preprint</a> | <a href="https://x.com/Du_Fengtong/status/1808528703913443554">original tweeprint</a>
+<a href="https://www.biorxiv.org/content/10.1101/2024.06.30.601394v1">paper</a> | <a href="https://github.com/mouseland/minimodel">code</a> | <a href="https://github.com/MouseLand/course-materials/tree/main/visual_models">tutorial</a> | <a href="https://janelia.figshare.com/articles/dataset/Towards_a_simplified_model_of_primary_visual_cortex/28797638">data</a> | <a href="https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see">news coverage</a> | <a href="https://www.biorxiv.org/content/10.1101/2024.06.30.601394v1">preprint</a> | <a href="https://x.com/Du_Fengtong/status/1808528703913443554">original tweeprint</a>
 
 <hr>
 <p>Thread by Fengtong Du:</p>
