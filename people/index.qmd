@@ -92,6 +92,7 @@ We are recruiting postdocs, see [here](../positions.qmd) for more info!
   <tbody>
     <tr>
       <td align="center" valign="top" width="50%"><a href="https://chriski.me/"><img src="images/kic.jpg" width="90%" alt="Chris Ki"/><br /><b>Chris Ki</b></a></td>
+      <td align="center" valign="top" width="50%"></td>
     </tr>
   </tbody>
 </table>
