@@ -39,7 +39,7 @@ We are recruiting postdocs, see [here](../positions.qmd) for more info!
     </tr>
     <tr>
       <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/qingqing-zhang"><img src="images/zhangq.jpg" width="90%" alt="Qingqing Zhang"/><br /><b>Qingqing Zhang</b></a></td>
-      <td align="center" valign="top" width="50%"><a href="https://scholar.google.com/citations?user=JflWW-YAAAAJ&hl=en"><img src="images/lafossep.jpg" width="90%" alt="Qingqing Zhang"/><br /><b>Paul LaFosse</b></a></td>
+      <td align="center" valign="top" width="50%"><a href="https://scholar.google.com/citations?user=JflWW-YAAAAJ&hl=en"><img src="images/lafossep.png" width="90%" alt="Paul LaFosse"/><br /><b>Paul LaFosse</b></a></td>
       
     </tr>
   </tbody>
