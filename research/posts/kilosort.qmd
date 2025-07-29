@@ -9,7 +9,7 @@ date: Mar 2024
 date-format: MMM YYYY
 author: Marius Pachitariu, Shaswat Sridhar, Jacob Pennington, Carsen Stringer
 toc: false
-image: http://www.kilosort.org/static/downloads/kilosort_logo_small.png
+image: images/kilosort_logo_small.png
 image-alt: spikes colored by amplitude along probe
 ---
 

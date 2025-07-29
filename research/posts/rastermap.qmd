@@ -30,10 +30,10 @@ Neurophysiology has long progressed through exploratory experiments and chance d
 <hr>
 
 1. Make your next discovery using #Rastermap, a visualization method for large-scale neural data.</p>
-<p><img src='https://www.suite2p.org/static/images/rastermap_all.gif' width="100%"></img></p><br>
+<p><img src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/rastermap_all.gif' width="100%"></img></p><br>
 
 2. You can explore your data in the #Rastermap graphical user interface:</p>
-<p><img src='https://www.suite2p.org/static/images/corridor.gif' width="90%"></img></p><br>
+<p><img src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/corridor.gif' width="90%"></img></p><br>
 
 3. Rastermap finds single-trial sequences of neural activity in a virtual reality experiment:</p>
 <p><img src='images/rm_fig3.jpg' width="90%"></p><br>

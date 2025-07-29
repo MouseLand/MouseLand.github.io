@@ -31,7 +31,7 @@ A neuronal population encodes information most efficiently when its stimulus res
 <hr>
 
 1. A picture is worth a thousand words, and your brain needs billions of neurons to process it. Why do we need so many neurons? To find out, we recorded thousands of them in mouse visual cortex. </p>
-<p><video src='https://www.suite2p.org/static/images/stimresp.mp4' width="90%" loop="true" autoplay="autoplay" controls muted></video></p>
+<p><video src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/stimresp.mp4' width="90%" loop="true" autoplay="autoplay" controls muted></video></p>
 
 2. One reason to have so many neurons may be that they each have different jobs: </p>
 Neuron A recognizes the pointedness of a fox’s ears,<br>
@@ -85,10 +85,10 @@ etc</p>
 19. However, this was not just any power-law, it had a special exponent of approx 1. We did some math and showed that a power-law with this exponent must be borderline fractal.</p>
 
 20. A fractal is a mathematical object that has structure at many different spatial scales, like the Mandelbrot set below:</p>
-<p><video src='https://www.suite2p.org/static/images/fractal.mp4' width="90%"  loop="true" autoplay="autoplay" controls muted></video></p>
+<p><video src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/fractal.mp4' width="90%"  loop="true" autoplay="autoplay" controls muted></video></p>
 
 21. This Inceptionism movie is also a kind of fractal:</p>
-<p><video src='https://www.suite2p.org/static/images/inception.mp4' width="90%"  loop="true" autoplay="autoplay" controls muted></video></p>
+<p><video src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/inception.mp4' width="90%"  loop="true" autoplay="autoplay" controls muted></video></p>
 
 22. The neural activity was so close to being a fractal, and just barely avoided it because it’s exponent was 1.04, not 1 or smaller.</p>
 
