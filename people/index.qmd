@@ -14,7 +14,7 @@ html: custom
 }
 </style>
 
-We are recruiting PhD students, see [here](../positions.qmd) for more info!
+We are recruiting postdocs, see [here](../positions.qmd) for more info!
 
 <div class="people">
 
@@ -39,6 +39,7 @@ We are recruiting PhD students, see [here](../positions.qmd) for more info!
     </tr>
     <tr>
       <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/qingqing-zhang"><img src="images/zhangq.jpg" width="90%" alt="Qingqing Zhang"/><br /><b>Qingqing Zhang</b></a></td>
+      <td align="center" valign="top" width="50%"><a href="https://scholar.google.com/citations?user=JflWW-YAAAAJ&hl=en"><img src="images/lafossep.jpg" width="90%" alt="Qingqing Zhang"/><br /><b>Paul LaFosse</b></a></td>
       
     </tr>
   </tbody>
@@ -66,7 +67,9 @@ We are recruiting PhD students, see [here](../positions.qmd) for more info!
   </tbody>
 </table>
 
-## Software engineers (full- and part-time)
+## Software engineers 
+
+### full-time
 
 <!--
 * Jacob Pennington
@@ -78,15 +81,23 @@ We are recruiting PhD students, see [here](../positions.qmd) for more info!
   <tbody>
     <tr>
       <td align="center" valign="top" width="50%"><a href=""><img src="images/penningtonj.jpg" width="90%" alt="Jacob Pennington"/><br /><b>Jacob Pennington</b></a></td>
-      <td align="center" valign="top" width="50%"><a href="https://chriski.me/"><img src="images/kic.jpg" width="90%" alt="Chris Ki"/><br /><b>Chris Ki</b></a></td>
-    </tr>
-    <tr>
       <td align="center" valign="top" width="50%"><a href=""><img src="images/raridenm.jpg" width="90%" alt="Michael Rariden"/><br /><b>Michael Rariden</b></a></td>
     </tr>
   </tbody>
 </table>
 
-## Visitors (part-time)
+### part-time
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="50%"><a href="https://chriski.me/"><img src="images/kic.jpg" width="90%" alt="Chris Ki"/><br /><b>Chris Ki</b></a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+## Previous lab visitors
 
 * Minh Thao Nguyen, PhD student, Novak lab
 * [Ondrej Novak](https://www.researchgate.net/profile/Ondrej-Novak-3)
