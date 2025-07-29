@@ -95,7 +95,7 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "We are recruiting PhD students, see here for more info!"
+    "text": "We are recruiting postdocs, see here for more info!"
   },
   {
     "objectID": "people/index.html#group-leaders",
@@ -109,7 +109,7 @@
     "href": "people/index.html#postdocs",
     "title": "People",
     "section": "Postdocs",
-    "text": "Postdocs\n\n\n\n\nLin Zhong\n\n\nMiguel Angel Nunez\n\n\n\n\nQingqing Zhang"
+    "text": "Postdocs\n\n\n\n\nLin Zhong\n\n\nMiguel Angel Nunez\n\n\n\n\nQingqing Zhang\n\n\nPaul LaFosse"
   },
   {
     "objectID": "people/index.html#phd-students",
@@ -126,18 +126,18 @@
     "text": "Affiliated theory fellows\n\n\n\n\nTosif Ahamed"
   },
   {
-    "objectID": "people/index.html#software-engineers-full--and-part-time",
-    "href": "people/index.html#software-engineers-full--and-part-time",
+    "objectID": "people/index.html#software-engineers",
+    "href": "people/index.html#software-engineers",
     "title": "People",
-    "section": "Software engineers (full- and part-time)",
-    "text": "Software engineers (full- and part-time)\n\n\n\n\n\nJacob Pennington\n\n\nChris Ki\n\n\n\n\nMichael Rariden"
+    "section": "Software engineers",
+    "text": "Software engineers\n\nfull-time\n\n\n\n\n\nJacob Pennington\n\n\nMichael Rariden\n\n\n\n\n\n\npart-time\n\n\n\n\nChris Ki"
   },
   {
-    "objectID": "people/index.html#visitors-part-time",
-    "href": "people/index.html#visitors-part-time",
+    "objectID": "people/index.html#previous-lab-visitors",
+    "href": "people/index.html#previous-lab-visitors",
     "title": "People",
-    "section": "Visitors (part-time)",
-    "text": "Visitors (part-time)\n\nMinh Thao Nguyen, PhD student, Novak lab\nOndrej Novak\nBeverly Seltzer, PhD student, Lewis lab\nLen Jacob, postdoc, Lewis lab\nLaura Lewis"
+    "section": "Previous lab visitors",
+    "text": "Previous lab visitors\n\nMinh Thao Nguyen, PhD student, Novak lab\nOndrej Novak\nBeverly Seltzer, PhD student, Lewis lab\nLen Jacob, postdoc, Lewis lab\nLaura Lewis"
   },
   {
     "objectID": "people/index.html#alumni",
