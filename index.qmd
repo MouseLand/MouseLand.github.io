@@ -56,6 +56,8 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## Media Coverage
 
+- [How Brains Learn & Compute: Neuroscience Meets AI with Dr. Marius Pachitariu](https://youtu.be/dl_xnOsGp4E?si=65uU8IXqMm0GhXme), Mind & Matter Podcast
+
 - [New computational model could help shed light on how we see](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see), Howard Hughes Medical Institute
 
 - [Doing This Might Actually Make You Smarter](https://www.vice.com/en/article/doing-this-might-actually-make-you-smarter/), Vice
