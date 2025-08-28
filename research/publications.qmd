@@ -31,6 +31,8 @@ Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen
 
 Carsen Stringer, Marius Pachitariu. [Cellpose3: one-click image restoration for improved cellular segmentation](https://www.nature.com/articles/s41592-025-02595-5). *Nature Methods*, 2025.
 
+Eric M Trautmann, Janis K Hesse, Gabriel M Stine, Ruobing Xia, Shude Zhu, Daniel J O’Shea, Bill Karsh, Jennifer Colonell, Frank F Lanfranchi, Saurabh Vyas, Andrew Zimnik, Elom Amematsro, Natalie A Steinemann, Daniel A Wagenaar, Marius Pachitariu, Alexandru Andrei, Carolina Mora Lopez, John O’Callaghan, Jan Putzeys, Bogdan C Raducanu, Marleen Welkenhuysen, Mark Churchland, Tirin Moore, Michael Shadlen, Krishna Shenoy, Doris Tsao, Barundeb Dutta, Timothy Harris. [Large-scale high-density brain-wide neural recording in nonhuman primates](https://www.nature.com/articles/s41593-025-01976-5). *Nature Neuroscience*, 2025.
+
 Xuyu Qian, Kyle Coleman, Shunzhou Jiang, Andrea J Kriz, Jack H Marciano, Chunyu Luo, Chunhui Cai, Monica Devi Manam, Emre Caglayan, Aoi Otani, Urmi Ghosh, Diane D Shao, Rebecca E Andersen, Jennifer E Neil, Robert Johnson, Alexandra LeFevre, Jonathan L Hecht, Michael B Miller, Liang Sun, Carsen Stringer, Mingyao Li, Christopher A Walsh. [Spatial transcriptomics reveals human cortical layer and area specification](https://www.nature.com/articles/s41586-025-09010-1). *Nature*, 2025.
 
 Valentina Gandin, Jun Kim, Liang-Zhong Yang, Yumin Lian, Takashi Kawase, Amy Hu, Konrad Rokicki, Greg Fleishman, Paul Tillberg, Alejandro Aguilera Castrejon, Carsen Stringer, Stephan Preibisch, Zhe J Liu. [Deep-Tissue Spatial Omics: Imaging Whole-Embryo Transcriptomics and Subcellular Structures at High Spatial Resolution](https://www.science.org/doi/10.1126/science.adq2084). *Science*, 2025.
@@ -141,3 +143,4 @@ Marius Pachitariu, Maneesh Sahani. [Regularization and Nonlinearities for Neural
 ### 2012
 
 Marius Pachitariu, Maneesh Sahani. [Learning Visual Motion in Recurrent Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2012/file/0f96613235062963ccde717b18f97592-Paper.pdf). In *Neurips*, 1331--39, 2012.
+
