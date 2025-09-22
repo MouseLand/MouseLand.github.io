@@ -7,7 +7,7 @@ sidebar: true
 
 ### preprints
 
-Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer, Marius Pachitariu. [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1). *bioRxiv*, 2025.
+Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1). *bioRxiv*, 2025.
 
 Marius Pachitariu, Michael Rariden, Carsen Stringer. [Cellpose-SAM: superhuman generalization for cellular segmentation](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1). *bioRxiv*, 2025.
 
@@ -145,5 +145,6 @@ Marius Pachitariu, Maneesh Sahani. [Regularization and Nonlinearities for Neural
 ### 2012
 
 Marius Pachitariu, Maneesh Sahani. [Learning Visual Motion in Recurrent Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2012/file/0f96613235062963ccde717b18f97592-Paper.pdf). In *Neurips*, 1331--39, 2012.
+
 
 
