@@ -51,6 +51,11 @@ html: custom
       <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/fengtong-du"><img src="images/fengtongd.jpg" width="90%" alt="Fengtong Du"/><br /><b>Fengtong Du</b></a></td>
       <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/atika-ibrahim-syeda"><img src="images/syedaa.jpg" width="90%" alt="Atika Syeda"/><br /><b>Atika Syeda</b></a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/ruoxi-sun"><img src="images/sunr.jpg" width="90%" alt="Ruoxi Sun"/><br /><b>Ruoxi Sun</b></a></td>
+      <td align="center" valign="top" width="50%"></td>
+      
+    </tr>
   </tbody>
 </table>
 
