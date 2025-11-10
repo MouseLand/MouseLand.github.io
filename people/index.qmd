@@ -14,8 +14,6 @@ html: custom
 }
 </style>
 
-We are recruiting postdocs, see [here](../positions.qmd) for more info!
-
 <div class="people">
 
 ## Group leaders
