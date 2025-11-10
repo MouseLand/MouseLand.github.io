@@ -4,9 +4,7 @@ resources:
   - .nojekyll
 ---
 
-Our lab is at [HHMI Janelia Research Campus](https://www.janelia.org/) (near DC), a fully-funded non-profit research institution. Janelia just received a $500 million investment for AI research 🤖, more info [here](https://ai.hhmi.org/). 
-
-We are recruiting [postdocs](positions.qmd)!
+Our lab is at [HHMI Janelia Research Campus](https://www.janelia.org/) (near DC), a fully-funded non-profit research institution. 
 
 ## Research
 
@@ -20,16 +18,19 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## News
 
+* Check out our lab's SfN posters:
+  * **Nov 17 PM Q2**: PSTR224.08. Train/test behavioral cross-validation reveals neural correlates in mice
+  * **Nov 17 PM O10**:  PSTR223.05. Analyzing large-scale neural data with Suite2p
+  * **Nov 19 AM R8**: PSTR394.02. Impact of eye movements and orofacial movements on mouse visual cortex
+  * **Nov 19 PM Q9**: PSTR450.05. Spatial or temporal prediction in mouse visual cortex
+  * **Nov 19 PM S8**: PSTR451.12. A critical initialization for biological neural networks
+* Congrats to Qingqing Zhang et al, preprint now out on [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1)!
 * Fengtong Du's [paper](https://www.nature.com/articles/s41467-025-61171-9) on minimodels of visual cortical neurons in mice and monkeys now published! [News coverage](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see)
 * Lin Zhong's [paper](https://www.nature.com/articles/s41586-025-09180-y) on unsupervised learning now published! [News coverage](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster)
 * [Cellpose3](https://www.nature.com/articles/s41592-025-02595-5) now published! [News coverage](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions)
 * [Analysis methods for large-scale neuronal recordings](https://www.science.org/stoken/author-tokens/ST-2239/full) review published!
 * Cellpose development highlighted in a Nature [technology feature](https://www.nature.com/articles/d41586-024-03344-y)!
 * Rastermap paper is now out [here](https://www.nature.com/articles/s41593-024-01783-4)! [News coverage](https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html)
-* Congrats to Fengtong Du et al, preprint now out: [Towards a simplified model of primary visual cortex](https://www.biorxiv.org/content/10.1101/2024.06.30.601394.abstract)!
-* Kilosort4 paper is now out [here](https://www.nature.com/articles/s41592-024-02232-7)!
-* Congrats to Lin Zhong et al, preprint now out on [Distinct streams for supervised and unsupervised learning in the visual cortex](https://www.biorxiv.org/content/10.1101/2024.02.25.581990v1)!
-* Facemap was featured in a Nature Methods [research highlight](https://www.nature.com/articles/s41592-023-02154-w)!
 
 ## Resources
 
