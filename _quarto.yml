@@ -11,8 +11,6 @@ website:
         text: Home
       - href: people/index.qmd
         text: People
-      - href: positions.qmd
-        text: Positions
       - href: research/index.qmd
         text: Research
       - href: research/publications.qmd
