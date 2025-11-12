@@ -17,8 +17,7 @@ website:
         text: Publications
       - href: code_and_data.qmd
         text: Code & data
-      - href: positions.qmd
-        text: Positions
+      
       
   body-footer: |
     <center><img src="/images/HHMI_Janelia_Logo-Black.png" width="120px" alt="Janelia"></img><br>
