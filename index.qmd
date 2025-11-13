@@ -20,10 +20,8 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 * Check out our lab's SfN posters:
   * **Nov 17 PM Q2**: PSTR224.08. Train/test behavioral cross-validation reveals neural correlates in mice
-  * **Nov 17 PM O10**:  PSTR223.05. Analyzing large-scale neural data with Suite2p
   * **Nov 19 AM R8**: PSTR394.02. Impact of eye movements and orofacial movements on mouse visual cortex
   * **Nov 19 PM Q9**: PSTR450.05. Spatial or temporal prediction in mouse visual cortex
-  * **Nov 19 PM S8**: PSTR451.12. A critical initialization for biological neural networks
 * Congrats to Qingqing Zhang et al, preprint now out on [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1)!
 * Fengtong Du's [paper](https://www.nature.com/articles/s41467-025-61171-9) on minimodels of visual cortical neurons in mice and monkeys now published! [News coverage](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see)
 * Lin Zhong's [paper](https://www.nature.com/articles/s41586-025-09180-y) on unsupervised learning now published! [News coverage](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster)
