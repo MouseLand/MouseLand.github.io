@@ -36,11 +36,13 @@ Advisor: Jonathan Rubin
 
 (links to coding material)
 
-* [Behavioral encoding models for large-scale population activity](https://github.com/MouseLand/course-materials?tab=readme-ov-file#behavioral-encoding-models-of-neural-population-activity), JHU bootcamp, 2023
+* [Building simplified models of primary visual cortex (V1)](https://github.com/MouseLand/course-materials/tree/main/visual_models#-building-simplified-models-of-primary-visual-cortex-v1--), NeuroAI Cajal, 2025
+* [Processing two-photon calcium imaging data with Cellpose](https://github.com/MouseLand/course-materials/blob/main/cellpose_extraction/tutorial.ipynb), JHU Bootcamp, 2024-2025
+* [Behavioral encoding models for large-scale population activity](https://github.com/MouseLand/course-materials?tab=readme-ov-file#behavioral-encoding-models-of-neural-population-activity), JHU bootcamp, 2023 + NeuroAI Cajal 2025
 * [Deep Learning for Microscopy Image Analysis](https://github.com/dlmbl/instance_segmentation) (lecturer), MBL Woodshole, 2022, 2023
+* CAJAL Course on Interacting with Neural Circuits (lecturer), Champalimaud, 2019, 2022, 2023, 2025
+* Modern Optical Microscopy for the Modern Biologist, guest lecturer, UC Berkeley, 2022, 2023, 2024, 2025
 * [Imaging Structure & Function in the Nervous System](https://github.com/MouseLand/suite2p/blob/main/tutorial/tutorial.md) (lecturer), CSHL, 2018, 2019, 2022, 2023
-* CAJAL Course on Interacting with Neural Circuits (lecturer), Champalimaud, 2019, 2022, 2023
-* Modern Optical Microscopy for the Modern Biologist, guest lecturer, UC Berkeley, 2022, 2023
 * Probabilistic Machine Learning Course (co-instructor), Janelia+JHU, 2022-2023
 * Learning to use suite2p and kilosort2 (co-instructor), Janelia, 2019
 * [Neural Data Science](https://github.com/marius10p/NeuralDataScienceCSHL2019) (co-instructor) CSHL 2019
