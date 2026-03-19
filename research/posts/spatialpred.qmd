@@ -1,0 +1,31 @@
+---
+title: "Spatial predictive coding in visual cortical neurons"
+description: |
+  Unsupervised learning - exposure to stimuli without rewards - drives large changes in neural activity in visual cortex, particularly in higher order medial visual areas.
+categories:
+  - Vision
+  - Thousands of neurons
+  - Behavior
+date: Sept 2025
+author: Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>
+toc: false
+image: images/zhong_cover.png
+image-alt: unsupervised and supervised learning
+---
+
+<details>
+  <summary><p style="font-size: smaller">Abstract</p></summary>
+  <p style="font-size: smaller">
+Predictive coding is a theoretical framework that can explain how animals build internal models of their sensory environments by predicting sensory inputs. Predictive coding may capture either spatial or temporal relationships between sensory objects. While the original theory by Rao and Ballard, 1999 described spatial predictive coding, much of the recent experimental data has been interpreted as evidence for temporal predictive coding. Here we directly tested whether the “mismatch” neural responses in sensory cortex are due to a spatial or a temporal internal model. We adopted two common paradigms to study predictive coding: one based on virtual-reality and one based on static images. After training mice with repeated visual stimulation for several days, we performed multiple manipulations, including: 1) we introduced a novel stimulus, 2) we replaced a stimulus with a novel gray wall, 3) we duplicated a trained stimulus, or 4) we altered the order of the stimuli. The first two manipulations induced a substantial mismatch response in neural populations of up to 20,000 neurons recorded across primary and higher-order visual cortex, while the third and fourth ones did not. Thus, a mismatch response only occurred if a new spatial – not temporal – pattern was introduced.</p>
+</details>
+
+<a href="https://www.biorxiv.org/content/10.1101/2025.09.17.676794.abstract">preprint</a>
+<hr>
+
+Thread by Qingqing Zhang:
+
+Does predictive coding work in SPACE or in TIME? Most neuroscientists assume TIME, i.e. neurons predict their future sensory inputs. We show that in visual cortex predictive coding actually works across SPACE, just like the original Rao+Ballard theory predicted.
+
+</p><img src='images/zhong_1.webp' width="70%"></p>
+
+<br>
