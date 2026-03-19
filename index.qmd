@@ -18,6 +18,8 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## News
 
+* Congrats to Atika Syeda et al, preprint now out on [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract)! Also she presented this work at Cosyne!
+* [Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract) now out as a preprint!
 * Check out our lab's SfN posters:
   * **Nov 17 PM Q2**: PSTR224.08. Train/test behavioral cross-validation reveals neural correlates in mice
   * **Nov 19 AM R8**: PSTR394.02. Impact of eye movements and orofacial movements on mouse visual cortex
@@ -27,8 +29,6 @@ Learn more about our research [here](research/index.qmd) and see all publication
 * Lin Zhong's [paper](https://www.nature.com/articles/s41586-025-09180-y) on unsupervised learning now published! [News coverage](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster)
 * [Cellpose3](https://www.nature.com/articles/s41592-025-02595-5) now published! [News coverage](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions)
 * [Analysis methods for large-scale neuronal recordings](https://www.science.org/stoken/author-tokens/ST-2239/full) review published!
-* Cellpose development highlighted in a Nature [technology feature](https://www.nature.com/articles/d41586-024-03344-y)!
-* Rastermap paper is now out [here](https://www.nature.com/articles/s41593-024-01783-4)! [News coverage](https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html)
 
 ## Resources
 

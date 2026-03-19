@@ -38,7 +38,10 @@ html: custom
     <tr>
       <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/qingqing-zhang"><img src="images/zhangq.jpg" width="90%" alt="Qingqing Zhang"/><br /><b>Qingqing Zhang</b></a></td>
       <td align="center" valign="top" width="50%"><a href="https://scholar.google.com/citations?user=JflWW-YAAAAJ&hl=en"><img src="images/lafossep.png" width="90%" alt="Paul LaFosse"/><br /><b>Paul LaFosse</b></a></td>
-      
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/benjamin-arroyo"><img src="images/arroyob.jpg" width="90%" alt="Benjamin Arroyo"/><br /><b>Benjamin Arroyo</b></a></td>
+      <td align="center" valign="top" width="50%"></td>
     </tr>
   </tbody>
 </table>

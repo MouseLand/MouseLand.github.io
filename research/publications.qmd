@@ -7,6 +7,18 @@ sidebar: true
 
 ### preprints
 
+Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong, Marius Pachitariu, Carsen Stringer. [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract). *bioRxiv*, 2026.
+
+Carsen Stringer, Chris Ki, Nicholas Del Grosso, Paul LaFosse, Qingqing Zhang, Marius Pachitariu. [Extracting large-scale neural activity with Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract). *bioRxiv*, 2026.
+
+Shreyas Muralidharan, Calvin Leng, Lucas Orts, Ethan Trepka, Shude Zhu, Matthew Panichello, Donatas Jonikaitis, Jacob Pennington, Marius Pachitariu, Tirin Moore. [A System for Live Sorting of Neuronal Spiking Activity from Large-scale Recordings](https://www.biorxiv.org/content/10.64898/2025.12.29.696938v3.abstract). *bioRxiv*, 2026.
+
+Sean O’Connell, Jonathan A Michaels, Runming Wang, Sahit Mamidipaka, Manikandan Venkatesh, Nevin Aresh, Marius Pachitariu, J Andrew Pruszynski, Samuel J Sober, Chethan Pandarinath. [High performance sorting of motor unit action potentials with EMUsort](https://www.biorxiv.org/content/10.64898/2026.01.06.697952.abstract). *bioRxiv*, 2026.
+
+Emmanuel Marquez Legorreta, Greg M Fleishman, Luuk W Hesselink, Mark Eddison, Kasper Smeets, Carsen Stringer, Philipp J Keller, Sujatha Narayan, Alex B Chen, Brett D Mensh, Scott M Sternson, Bernhard Englitz, Paul W Tillberg, Misha B Ahrens. [Whole-Brain Co-Mapping of Gene Expression and Neuronal Activity at Cellular Resolution in Behaving Zebrafish](https://www.biorxiv.org/content/10.64898/2026.02.07.704095v1). *bioRxiv*, 2026.
+
+Leandro PL Jacob, Sydney M Bailes, Carsen Stringer, Jonathan R Polimeni, Laura D Lewis. [Functional MRI signals as fast as 1Hz are coupled to brain states and predict spontaneous neural activity](https://www.biorxiv.org/content/10.1101/2025.10.13.681720.abstract). *bioRxiv*, 2026.
+
 Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1). *bioRxiv*, 2025.
 
 Marius Pachitariu, Michael Rariden, Carsen Stringer. [Cellpose-SAM: superhuman generalization for cellular segmentation](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1). *bioRxiv*, 2025.
@@ -21,8 +33,6 @@ Carsen Stringer, Marius Pachitariu. [Benchmarking cellular segmentation methods 
 
 Yuki Miura, Ji-il Kim, Ovidiu Jurjut, Kevin W Kelley, Xiao Yang, Xiaoyu Chen, Mayuri Vijay Thete, Omer Revah, Bianxiao Cui, Marius Pachitariu, Sergiu P Pasca. [Assembloid model to study loop circuits of the human nervous system](https://www.biorxiv.org/content/10.1101/2024.10.13.617729.abstract). *bioRxiv*, 2024.
 
-Leandro PL Jacob, Sydney M Bailes, Stephanie D Williams, Carsen Stringer, Laura D Lewis. [Distributed fMRI dynamics predict distinct EEG rhythms across sleep and wakefulness](https://www.biorxiv.org/content/10.1101/2024.01.29.577429v2). *bioRxiv*, 2024.
-
 Stefanos Stagkourakis, Giada Spigolon, Markus Marks, Michael Feyder, Joseph Kim, Pietro Perona, Marius Pachitariu, David J Anderson. [Anatomically distributed neural representations of instincts in the hypothalamus](https://www.biorxiv.org/content/10.1101/2023.11.21.568163v2). *bioRxiv*, 2023.
 
 ### 2025
@@ -32,6 +42,8 @@ Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen
 Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Unsupervised pretraining in biological neural networks](https://www.nature.com/articles/s41586-025-09180-y) *Nature*, 2025.
 
 Carsen Stringer, Marius Pachitariu. [Cellpose3: one-click image restoration for improved cellular segmentation](https://www.nature.com/articles/s41592-025-02595-5). *Nature Methods*, 2025.
+
+Leandro PL Jacob, Sydney M Bailes, Stephanie D Williams, Carsen Stringer, Laura D Lewis. [Brainwide hemodynamics predict EEG neural rhythms across sleep and wakefulness in humans](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013497). *PLOS Computational Biology*, 2025.
 
 Eric M Trautmann, Janis K Hesse, Gabriel M Stine, Ruobing Xia, Shude Zhu, Daniel J O’Shea, Bill Karsh, Jennifer Colonell, Frank F Lanfranchi, Saurabh Vyas, Andrew Zimnik, Elom Amematsro, Natalie A Steinemann, Daniel A Wagenaar, Marius Pachitariu, Alexandru Andrei, Carolina Mora Lopez, John O’Callaghan, Jan Putzeys, Bogdan C Raducanu, Marleen Welkenhuysen, Mark Churchland, Tirin Moore, Michael Shadlen, Krishna Shenoy, Doris Tsao, Barundeb Dutta, Timothy Harris. [Large-scale high-density brain-wide neural recording in nonhuman primates](https://www.nature.com/articles/s41593-025-01976-5). *Nature Neuroscience*, 2025.
 
