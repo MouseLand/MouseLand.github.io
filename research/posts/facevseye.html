@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer†, Marius Pachitariu†">
-<meta name="dcterms.date" content="2025-09-01">
-<meta name="description" content="Image novelty, not temporal novelty, drives mismatch responses in visual cortex.">
+<meta name="author" content="Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong,Marius Pachitariu†, Carsen Stringer†">
+<meta name="dcterms.date" content="2026-02-01">
+<meta name="description" content="Orofacial movements predict the majority of neural activity in mouse visual cortex related to behavior.">
 
-<title>Spatial predictive coding in visual cortical neurons – </title>
+<title>Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex – </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,17 +131,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Spatial predictive coding in visual cortical neurons</h1>
+<h1 class="title">Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Vision</div>
     <div class="quarto-category">Thousands of neurons</div>
     <div class="quarto-category">Behavior</div>
+    <div class="quarto-category">Machine learning</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Image novelty, not temporal novelty, drives mismatch responses in visual cortex.</p>
+    <p>Orofacial movements predict the majority of neural activity in mouse visual cortex related to behavior.</p>
   </div>
 </div>
 
@@ -151,14 +152,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup> </p>
+             <p>Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong,Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup> </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 1, 2025</p>
+      <p class="date">February 1, 2026</p>
     </div>
   </div>
   
@@ -177,21 +178,30 @@ Abstract
 </p>
 </summary>
 <p style="font-size: smaller">
-Predictive coding is a theoretical framework that can explain how animals build internal models of their sensory environments by predicting sensory inputs. Predictive coding may capture either spatial or temporal relationships between sensory objects. While the original theory by Rao and Ballard, 1999 described spatial predictive coding, much of the recent experimental data has been interpreted as evidence for temporal predictive coding. Here we directly tested whether the “mismatch” neural responses in sensory cortex are due to a spatial or a temporal internal model. We adopted two common paradigms to study predictive coding: one based on virtual-reality and one based on static images. After training mice with repeated visual stimulation for several days, we performed multiple manipulations, including: 1) we introduced a novel stimulus, 2) we replaced a stimulus with a novel gray wall, 3) we duplicated a trained stimulus, or 4) we altered the order of the stimuli. The first two manipulations induced a substantial mismatch response in neural populations of up to 20,000 neurons recorded across primary and higher-order visual cortex, while the third and fourth ones did not. Thus, a mismatch response only occurred if a new spatial – not temporal – pattern was introduced.
+Neural activity in mouse primary visual cortex (V1) correlates strongly with orofacial movements. Such strong modulation has not been found in the primate visual cortex during eye fixation (Talluri et al 2023), which led to the suggestion that the modulation may primarily depend on eye movements in both species (Kang et al 2025). Here we examined the influence of eye movements on neural activity in mouse visual cortex both in complete darkness and in the presence of different types of visual input. In all cases, we found that eye movements explain a smaller fraction of neural activity variance compared to orofacial behaviors. Additionally, we found that eye movements were correlated to orofacial movements, such as whisking and sniffing, and thus may be indirectly correlated to neural activity. These results further emphasize the impact of movement signals on mouse visual cortex during free viewing behavior.
 </p>
 </details>
-<a href="https://www.biorxiv.org/content/10.1101/2025.09.17.676794.abstract">preprint</a>
+<a href="https://www.biorxiv.org/content/10.64898/2026.02.04.703800.abstract">preprint</a>
 <hr>
-<p><a href="https://bsky.app/profile/qqzhang.bsky.social/post/3lzh4bzdtf22u">Thread</a> by Qingqing Zhang:</p>
-<p>Does predictive coding work in SPACE or in TIME? Most neuroscientists assume TIME, i.e.&nbsp;neurons predict their future sensory inputs. We show that in visual cortex predictive coding actually works across SPACE, just like the original Rao+Ballard theory predicted.</p>
+<p><a href="https://bsky.app/profile/atika-syeda.bsky.social/post/3me54ubbvms2e">Thread</a> by Atika Syeda:</p>
+<p>Excited to share “Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex”</p>
+<p>
+<video src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/main_syeda.mp4" width="90%" loop="true" autoplay="autoplay" controls="" muted="">
+</video>
+</p>
+<p>In our previous work we have shown orofacial movements drive neural activity in mouse visual cortex (Stringer et al, 2019; Syeda et al, 2024), but such strong modulation has not been found in the primate visual cortex (Talluri et al 2023).</p>
+<p>This led to the suggestion that the modulation may primarily depend on eye movements in both species (Kang et al 2025). So we asked what is the relative contribution of eye vs.&nbsp;orofacial movements to visual cortical activity in mice? Is it different in the presence and absence of visual input?</p>
+<p>Using our Facemap model we show that eye movements have modest contributions to visual cortical activity compared to orofacial behaviors. This difference in modulation remains unchanged in the presence or absence of visual input.</p>
 <p></p>
-<img src="images/zhang_1.webp" width="70%">
+<img src="images/syeda_1.webp" width="100%">
 <p></p>
-<p>Mismatch responses were evoked by novel stimuli and by a uniform gray screen, but not by shuffling of the temporal order.</p>
-<p>Mismatch responses were only observed when the input pattern to the RF was novel (i.e., not learned during training).</p>
+<p>Spontaneous orofacial movements, such as whisking and sniffing, were also correlated to the time and direction of saccades in mice. This suggests orofacial behaviors play a key role in mouse visual processing which differs from primate vision highlighting species-level differences.</p>
 <p></p>
-<img src="images/zhang_2.webp" width="70%">
+<img src="images/syeda_2.webp" width="100%">
 <p></p>
+<p>If you’d like to use our model to track orofacial behaviors in mice or to relate these behaviors with neural activity check out our GUI on Github:</p>
+<p><a href="https://github.com/MouseLand/facemap">https://github.com/MouseLand/facemap</a></p>
+<p>Thanks to collaborative effort of <span class="citation" data-cites="nunezkant.bsky.social">@nunezkant.bsky.social</span>, <span class="citation" data-cites="zhong-lin.bsky.social">@zhong-lin.bsky.social</span>, <span class="citation" data-cites="marius10p.bsky.social">@marius10p.bsky.social</span> and <span class="citation" data-cites="computingnature.bsky.social">@computingnature.bsky.social</span></p>
 <p><br></p>
 
 
