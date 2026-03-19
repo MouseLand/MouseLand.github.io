@@ -2,6 +2,7 @@
   {
     "listing": "/research/index.html",
     "items": [
+      "/research/posts/spatialpred.html",
       "/research/posts/minimodels.html",
       "/research/posts/unsupervised.html",
       "/research/posts/cellpose3.html",
