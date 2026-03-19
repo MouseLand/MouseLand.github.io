@@ -1,7 +1,7 @@
 ---
 title: "Spatial predictive coding in visual cortical neurons"
 description: |
-  Unsupervised learning - exposure to stimuli without rewards - drives large changes in neural activity in visual cortex, particularly in higher order medial visual areas.
+  Image novelty, not temporal novelty, drives mismatch responses in visual cortex.
 categories:
   - Vision
   - Thousands of neurons
@@ -9,7 +9,7 @@ categories:
 date: Sept 2025
 author: Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>
 toc: false
-image: images/zhong_cover.png
+image: images/zhang_cover.png
 image-alt: predictive coding surprise response in visual cortex
 ---
 
@@ -22,10 +22,16 @@ Predictive coding is a theoretical framework that can explain how animals build 
 <a href="https://www.biorxiv.org/content/10.1101/2025.09.17.676794.abstract">preprint</a>
 <hr>
 
-Thread by Qingqing Zhang:
+[Thread](https://bsky.app/profile/qqzhang.bsky.social/post/3lzh4bzdtf22u) by Qingqing Zhang:
 
 Does predictive coding work in SPACE or in TIME? Most neuroscientists assume TIME, i.e. neurons predict their future sensory inputs. We show that in visual cortex predictive coding actually works across SPACE, just like the original Rao+Ballard theory predicted.
 
 </p><img src='images/zhang_1.webp' width="70%"></p>
+
+Mismatch responses were evoked by novel stimuli and by a uniform gray screen, but not by shuffling of the temporal order.
+
+Mismatch responses were only observed when the input pattern to the RF was novel (i.e., not learned during training).
+
+</p><img src='images/zhang_2.webp' width="70%"></p>
 
 <br>
