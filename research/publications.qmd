@@ -11,7 +11,7 @@ Miguel Angel Nuñez-Ochoa, Fengtong Du, Lin Zhong, Scott Baptista, Michalis Mich
 
 Paul K LaFosse, Daniel Flickinger, Georg Jaindl, Antonia Drinnenberg, Sverre Grødem, Kristian K Lensjø, Charu Ramakrishnan, La'Akea Siverts, Hongkui Zeng, Bosiljka Tasic, Tanya L Daigle, Marianne Fyhn, Karl Deisseroth, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Raster photostimulation of large-scale neural populations](https://www.biorxiv.org/content/10.64898/2026.04.21.719951v1.abstract). *bioRxiv*, 2026.
 
-Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong, Marius Pachitariu, Carsen Stringer. [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract). *bioRxiv*, 2026.
+Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong, Marius Pachitariu<sup>†</sup>, Carsen Stringe<sup>†</sup>r. [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract). *bioRxiv*, 2026.
 
 Carsen Stringer, Chris Ki, Nicholas Del Grosso, Paul LaFosse, Qingqing Zhang, Marius Pachitariu. [Extracting large-scale neural activity with Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract). *bioRxiv*, 2026.
 
