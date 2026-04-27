@@ -27,6 +27,8 @@ Neural activity in mouse primary visual cortex (V1) correlates strongly with oro
 
 Excited to share “Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex”
 
+{{< video https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/main_syeda.mp4 >}}
+
 <p><video src='https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/main_syeda.mp4' width="90%" loop="true" autoplay="autoplay" controls muted></video></p>
 
 In our previous work we have shown orofacial movements drive neural activity in mouse visual cortex (Stringer et al, 2019; Syeda et al, 2024), but such strong modulation has not been found in the primate visual cortex (Talluri et al 2023).
