@@ -18,6 +18,9 @@ Learn more about our research [here](research/index.qmd) and see all publication
 
 ## News
 
+* Congrats to Miguel Angel Nuñez-Ochoa et al, preprint now out on [Linking neural representations to behavior using generalization](https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1.abstract)!
+* Congrats to Paul K LaFosse et al, preprint now out on [Raster photostimulation of large-scale neural populations](https://www.biorxiv.org/content/10.64898/2026.04.21.719951v1.abstract)!
+* [Critical initialization of biological neural networks](https://www.nature.com/articles/s41586-026-10528-1) now published! + all [data](https://doi.org/10.25378/janelia.27854448) and [code](https://github.com/MouseLand/critical_init) shared!
 * Congrats to Atika Syeda et al, preprint now out on [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract)! Also she presented this work at Cosyne!
 * [Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract) now out as a preprint!
 * Check out our lab's SfN posters:
@@ -27,8 +30,6 @@ Learn more about our research [here](research/index.qmd) and see all publication
 * Congrats to Qingqing Zhang et al, preprint now out on [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1)!
 * Fengtong Du's [paper](https://www.nature.com/articles/s41467-025-61171-9) on minimodels of visual cortical neurons in mice and monkeys now published! [News coverage](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see)
 * Lin Zhong's [paper](https://www.nature.com/articles/s41586-025-09180-y) on unsupervised learning now published! [News coverage](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster)
-* [Cellpose3](https://www.nature.com/articles/s41592-025-02595-5) now published! [News coverage](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions)
-* [Analysis methods for large-scale neuronal recordings](https://www.science.org/stoken/author-tokens/ST-2239/full) review published!
 
 ## Resources
 
