@@ -8,6 +8,7 @@ categories:
 date: May 20, 2026
 date-format: MMM YYYY
 author: Marius Pachitariu, Lin Zhong, Alexa Gracias, Amanda Minisi, Crystall Lopez, Carsen Stringer
+subtitle: Nature
 toc: false
 image: images/ci_fig1.png
 image-alt: schematic of neural recordings from mouse V1, whole-brain, and hippocampus; neural activity traces from the population, showing more correlated activity in V1 and whole-brain recordings versus more decorrelated activity in hippocampus
