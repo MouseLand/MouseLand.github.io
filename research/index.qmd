@@ -11,7 +11,7 @@ listing:
   - "!index.qmd"
   sort: "date desc"
   #type: grid
-  fields: [title, image, author, description, categories]
+  fields: [title, image, author, description, subtitle, categories]
   date-format: "MMM YYYY"
   categories: true
   sort-ui: false
