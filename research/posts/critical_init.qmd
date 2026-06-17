@@ -5,7 +5,7 @@ description: |
 categories:
   - Thousands of neurons
   - Neural modeling
-date: Jan 12, 2025
+date: May 20, 2026
 date-format: MMM YYYY
 author: Marius Pachitariu, Lin Zhong, Alexa Gracias, Amanda Minisi, Crystall Lopez, Carsen Stringer
 toc: false
@@ -16,11 +16,13 @@ image-alt: schematic of neural recordings from mouse V1, whole-brain, and hippoc
 <details>
   <summary><p style="font-size: smaller">Abstract</p></summary>
   <p style="font-size: smaller">
-Artificial neural networks learn faster if they are initialized well. Good initializations can generate high-dimensional macroscopic dynamics with long timescales. It is not known if biological neural networks have similar properties. Here we show that the eigenvalue spectrum and dynamical properties of large-scale neural recordings in mice (two-photon and electrophysiology) are similar to those produced by linear dynamics governed by a random symmetric matrix that is critically normalized. An exception was hippocampal area CA1: population activity in this area resembled an efficient, uncorrelated neural code, which may be optimized for information storage capacity. Global emergent activity modes persisted in simulations with sparse, clustered or spatial connectivity. We hypothesize that the spontaneous neural activity reflects a critical initialization of whole-brain neural circuits that is optimized for learning time-dependent tasks.</p>
+Intrinsically generated, brainwide neural activity displays macroscopic coordination among large populations of neurons that persists beyond the biophysical timescales of individual neurons. It is not well understood how these macroscopic behaviours arise from microscopic, short-lived interactions between pairs of neurons. Here we show that the eigenvalue spectrum and dynamical properties of large-scale neural recordings in mice are similar to those produced by linear dynamics governed by a random symmetric matrix that is critically normalized. An exception was population activity in hippocampal area CA1, which resembled an efficient, uncorrelated neural code that may be optimized for information storage capacity. High-dimensional, global activity modes emerged in critically normalized artificial networks and persisted under sparse, clustered or spatial connectivity. These dynamics were useful for solving time-dependent tasks such as a zero-shot working memory task.</p>
 </details>
 
-<a href="https://www.biorxiv.org/content/10.1101/2025.01.10.632397.abstract">preprint</a> |
+<a href="https://www.nature.com/articles/s41586-026-10528-1">paper</a> |
+<a href="https://doi.org/10.25378/janelia.27854448">data</a> |
 <a href="https://github.com/MouseLand/critical_init">code</a> |
+<a href="https://www.biorxiv.org/content/10.1101/2025.01.10.632397.abstract">preprint</a> |
 <a href="https://bsky.app/profile/computingnature.bsky.social/post/3lfkyuluaxs2p">bluesky thread</a>
 <hr>
 
