@@ -51,3 +51,7 @@ div.quarto-container .quarto-title-meta-contents p{
   font-size: 0.9em;
   font-weight: 100;
 }
+
+.quarto-title-meta-heading {
+  display: none;
+}
