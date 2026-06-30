@@ -7,7 +7,7 @@ categories:
   - Thousands of neurons
 date: June 2019
 date-format: MMM YYYY
-author: Carsen Stringer\*, Marius Pachitariu\*, Nicholas Steinmetz, Matteo Carandini<sup>†</sup>, Kenneth D Harris<sup>†</sup>
+author: "Carsen Stringer\\*, Marius Pachitariu\\*, Nicholas Steinmetz, Matteo Carandini<sup>†</sup>, Kenneth D Harris<sup>†</sup> <br><em>Nature</em>"
 toc: false
 image: images/hd_cover.png
 image-alt: neural activity reconstructed from subsets of principal components, and sorted by rastermap

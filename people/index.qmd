@@ -21,7 +21,7 @@ html: custom
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/marius-pachitariu"><img src="images/pachitarium.jpg" width="90%" alt="Marius Pachitariu"/><br /><b>Marius Pachitariu</b></a></td>
+      <td align="center" valign="top" width="50%"><a href="marius.html"><img src="images/pachitarium.jpg" width="90%" alt="Marius Pachitariu"/><br /><b>Marius Pachitariu</b></a></td>
       <td align="center" valign="top" width="50%"><a href="carsen.html"><img src="images/stringerc.jpg" width="90%" alt="Carsen Stringer"/><br /><b>Carsen Stringer</b></a></td>
     </tr>
   </tbody>

@@ -9,7 +9,7 @@ categories:
   - Tools
 date: Nov 2023
 date-format: MMM YYYY
-author: Atika Syeda, Lin Zhong, Renee Tung, Will Long, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>
+author: "Atika Syeda, Lin Zhong, Renee Tung, Will Long, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup> <br><em>Nature Neuroscience</em>"
 toc: false
 image: https://raw.githubusercontent.com/MouseLand/facemap/main/facemap/mouse.png
 image-alt: facemap

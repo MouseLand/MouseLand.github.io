@@ -6,7 +6,7 @@ categories:
   - Vision
   - Thousands of neurons
 date: Nov 2021
-author: Carsen Stringer, Michalis Michaelos, Dmitri Tsyboulski, Sarah E. Lindo, Marius Pachitariu
+author: "Carsen Stringer, Michalis Michaelos, Dmitri Tsyboulski, Sarah E. Lindo, Marius Pachitariu <br><em>Cell</em>"
 toc: false
 image: images/hp_cover2.jpg
 image-alt: highly precise encoding of visual stimuli

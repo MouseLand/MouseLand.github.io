@@ -8,7 +8,7 @@ categories:
   - Tools
 date: Oct 1, 2024
 date-format: MMM YYYY
-author: Carsen Stringer, Lin Zhong, Atika Syeda, Fengtong Du, Maria Kesa, Marius Pachitariu
+author: "Carsen Stringer, Lin Zhong, Atika Syeda, Fengtong Du, Maria Kesa, Marius Pachitariu <br><em>Nature Neuroscience</em>"
 toc: false
 image: images/rm_fig3.jpg
 image-alt: rastermap visualization of neural activity during a virtual reality task

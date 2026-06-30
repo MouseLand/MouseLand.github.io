@@ -7,7 +7,7 @@ categories:
   - Behavior
 date: May 2016
 date-format: MMM YYYY
-author: Carsen Stringer\*, Marius Pachitariu\*, Nicholas Steinmetz, Michael Okun, Peter Bartho, Kenneth D Harris, Maneesh Sahani, Nicholas Lesica
+author: "Carsen Stringer\\*, Marius Pachitariu\\*, Nicholas Steinmetz, Michael Okun, Peter Bartho, Kenneth D Harris, Maneesh Sahani, Nicholas Lesica <br><em>eLife</em>"
 toc: false
 image: images/inh_cover.jpg
 image-alt: neuronal network simulations fit to neural population activity

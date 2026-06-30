@@ -8,7 +8,7 @@ categories:
   - Machine learning
 date: May 5, 2019
 date-format: MMM YYYY
-author: Carsen Stringer\*, Marius Pachitariu\*, Nicholas Steinmetz, Charu Bai Reddy, Matteo Carandini<sup>†</sup>, Kenneth D Harris<sup>†</sup>
+author: "Carsen Stringer\\*, Marius Pachitariu\\*, Nicholas Steinmetz, Charu Bai Reddy, Matteo Carandini<sup>†</sup>, Kenneth D Harris<sup>†</sup> <br><em>Science</em>"
 toc: false
 image: images/spont_cover.jpeg
 image-alt: neural activity predicted from the principal components of mouse face motion

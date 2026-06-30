@@ -7,7 +7,7 @@ categories:
   - Behavior
 date: May 5, 2022
 date-format: MMM YYYY
-author: Lilach Avitan, Carsen Stringer
+author: "Lilach Avitan, Carsen Stringer <br><em>Neuron</em>"
 toc: false
 image: images/ns_cover.jpg
 image-alt: dimensionality of spontaneous activity increases across development, becomes more related to neural activity, and orthogonal to stimulus-driven activity.

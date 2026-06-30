@@ -9,7 +9,7 @@ categories:
 date: Jan 2021
 date-format: MMM YYYY
 image: images/cellpose_cover.png
-author: Carsen Stringer, Tim Wang, Michalis Michaelos, Marius Pachitariu
+author: "Carsen Stringer, Tim Wang, Michalis Michaelos, Marius Pachitariu <br><em>Nature Methods</em>"
 toc: false
 #image: images/00-shopping.png
 #image-alt: A man is seen grocery shopping during the pandemic, looking at canned food while wearing a mask.  

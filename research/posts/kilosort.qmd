@@ -7,7 +7,7 @@ categories:
   - Tools
 date: Mar 2024
 date-format: MMM YYYY
-author: Marius Pachitariu, Shaswat Sridhar, Jacob Pennington, Carsen Stringer
+author: "Marius Pachitariu, Shaswat Sridhar, Jacob Pennington, Carsen Stringer <br><em>Nature Methods</em>"
 toc: false
 image: images/kilosort_logo_small.png
 image-alt: spikes colored by amplitude along probe

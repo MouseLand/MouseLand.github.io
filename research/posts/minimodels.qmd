@@ -7,7 +7,7 @@ categories:
   - Thousands of neurons
   - Machine learning
 date: July 2025
-author: Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>
+author: "Fengtong Du, Miguel Angel Núñez-Ochoa, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup> <br><em>Nature Communications</em>"
 toc: false
 image: images/du_cover.jpg
 image-alt: minimodels for single neurons in V1
@@ -19,7 +19,7 @@ image-alt: minimodels for single neurons in V1
 Artificial neural networks (ANNs) have been shown to predict neural responses in primary visual cortex (V1) better than classical models. However, this performance often comes at the expense of simplicity and interpretability. Here we introduce a new class of simplified ANN models that can predict over 70% of the response variance of V1 neurons. To achieve this high performance, we first recorded a new dataset of over 29,000 neurons responding to up to 65,000 natural image presentations in mouse V1. We found that ANN models required only two convolutional layers for good performance, with a relatively small first layer. We further found that we could make the second layer small without loss of performance, by fitting individual “minimodels” to each neuron. Similar simplifications applied for models of monkey V1 neurons. We show that the minimodels can be used to gain insight into how stimulus invariance arises in biological neurons.</p>
 </details>
 
-<a href="https://www.biorxiv.org/content/10.1101/2024.06.30.601394v1">paper</a> |
+<a href="https://www.nature.com/articles/s41467-025-61171-9">paper</a> |
 <a href="https://github.com/mouseland/minimodel">code</a> |
 <a href="https://github.com/MouseLand/course-materials/tree/main/visual_models">tutorial</a> |
 <a href="https://janelia.figshare.com/articles/dataset/Towards_a_simplified_model_of_primary_visual_cortex/28797638">data</a> |

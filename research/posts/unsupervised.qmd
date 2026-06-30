@@ -7,7 +7,7 @@ categories:
   - Thousands of neurons
   - Behavior
 date: June 2025
-author: Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>
+author: "Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup> <br><em>Nature</em>"
 toc: false
 image: images/zhong_cover.png
 image-alt: unsupervised and supervised learning

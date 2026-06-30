@@ -1,0 +1,21 @@
+---
+title: "Marius Pachitariu"
+title-block-banner: true
+sidebar: false
+toc: true
+about:
+  template: marquee
+---
+
+<center>
+<img src="images/pachitarium.jpg" width="200px" class="responsive"></img><br>
+</center>
+<br>
+
+Marius Pachitariu is a group leader at HHMI Janelia Research Campus. 
+
+<a href="https://scholar.google.com/citations?user=6v9BmeYAAAAJ&hl=en"><i class="bi bi-google"></i> google scholar</a><br> 
+<a href="https://github.com/marius10p"><i class="bi bi-github"></i> marius10p</a><br> 
+<a href="https://bsky.app/profile/marius10p.bsky.social"><i class="bi bi-bluesky"></i> marius10p</a><br>
+
+<embed src="cvs/pachitariu.pdf#toolbar=0" type="application/pdf" width="100%" height="600px" />

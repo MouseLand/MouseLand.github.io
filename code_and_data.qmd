@@ -7,7 +7,7 @@ title-block-banner: true
 
 We develop and maintain several analysis frameworks for neuroscience and biology more generally:
 
-* [Cellpose](https://github.com/mouseland/cellpose) is a generalist, deep learning-based segmentation algorithm written in Python which can precisely segment cells from a wide range of image types -- try it out on your own data easily on our website: <https://www.cellpose.org>. Cellpose can be applied to 2D and 3D imaging data without requiring 3D-labelled data. It has an easy-to-use graphical user interface for manual labeling and for curation of the automated results. It can also be used to train new models on user data, and for denoising, deblurring, or upsampling images. Software developers have integrated Cellpose into their own image processing software, such as CellProfiler, ImagePy, ImJoy, aPeer, Napari.</p>
+* [Cellpose](https://github.com/mouseland/cellpose) is a generalist, deep learning-based segmentation algorithm written in Python which can precisely segment cells from a wide range of image types -- try it out on your own data easily on [hugging-face](https://huggingface.co/spaces/mouseland/cellpose). Cellpose can be applied to 2D and 3D imaging data without requiring 3D-labelled data. It has an easy-to-use graphical user interface for manual labeling and for curation of the automated results. It can also be used to train new models on user data, and for denoising, deblurring, or upsampling images. Software developers have integrated Cellpose into their own image processing software, such as CellProfiler, ImagePy, ImJoy, aPeer, Napari.</p>
 <center><video src='https://www.cellpose.org/static/images/cp1_1.mp4' width="75%" loop="true" autoplay="autoplay" controls="" muted=""></video></center><br>
 <br>
 

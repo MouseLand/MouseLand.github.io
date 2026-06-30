@@ -7,7 +7,7 @@ categories:
   - Neural modeling
 date: May 20, 2026
 date-format: MMM YYYY
-author: "Marius Pachitariu, Lin Zhong, Alexa Gracias, Amanda Minisi, Crystall Lopez, Carsen Stringer <br><em><b>Nature</em></b>"
+author: "Marius Pachitariu, Lin Zhong, Alexa Gracias, Amanda Minisi, Crystall Lopez, Carsen Stringer <br><em>Nature</em>"
 toc: false
 image: images/ci_fig1.png
 image-alt: schematic of neural recordings from mouse V1, whole-brain, and hippocampus; neural activity traces from the population, showing more correlated activity in V1 and whole-brain recordings versus more decorrelated activity in hippocampus

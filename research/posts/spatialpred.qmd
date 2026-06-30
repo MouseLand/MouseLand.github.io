@@ -7,7 +7,7 @@ categories:
   - Thousands of neurons
   - Behavior
 date: Sept 2025
-author: Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>
+author: "Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup> <br><em>bioRxiv</em>"
 toc: false
 image: images/zhang_cover.png
 image-alt: predictive coding surprise response in visual cortex

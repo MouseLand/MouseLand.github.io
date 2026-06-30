@@ -7,35 +7,39 @@ sidebar: true
 
 ### preprints
 
-Miguel Angel Nuñez-Ochoa, Fengtong Du, Lin Zhong, Scott Baptista, Michalis Michaelos, Alex Sohn, Liad Baruchin, Sylvia Schröder, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Linking neural representations to behavior using generalization](https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1.abstract). ***bioRxiv***, 2026.
+Miguel Angel Nuñez-Ochoa, Fengtong Du, Lin Zhong, Scott Baptista, Michalis Michaelos, Alex Sohn, Liad Baruchin, Sylvia Schröder, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Linking neural representations to behavior using generalization](https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1.abstract). *bioRxiv*, 2026.
 
-Paul K LaFosse, Daniel Flickinger, Georg Jaindl, Antonia Drinnenberg, Sverre Grødem, Kristian K Lensjø, Charu Ramakrishnan, La'Akea Siverts, Hongkui Zeng, Bosiljka Tasic, Tanya L Daigle, Marianne Fyhn, Karl Deisseroth, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Raster photostimulation of large-scale neural populations](https://www.biorxiv.org/content/10.64898/2026.04.21.719951v1.abstract). ***bioRxiv***, 2026.
+Paul K LaFosse, Daniel Flickinger, Georg Jaindl, Antonia Drinnenberg, Sverre Grødem, Kristian K Lensjø, Charu Ramakrishnan, La'Akea Siverts, Hongkui Zeng, Bosiljka Tasic, Tanya L Daigle, Marianne Fyhn, Karl Deisseroth, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Raster photostimulation of large-scale neural populations](https://www.biorxiv.org/content/10.64898/2026.04.21.719951v1.abstract). *bioRxiv*, 2026.
 
-Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract). ***bioRxiv***, 2026.
+Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract). *bioRxiv*, 2026.
 
-Carsen Stringer, Chris Ki, Nicholas Del Grosso, Paul LaFosse, Qingqing Zhang, Marius Pachitariu. [Extracting large-scale neural activity with Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract). ***bioRxiv***, 2026.
+Carsen Stringer, Chris Ki, Nicholas Del Grosso, Paul LaFosse, Qingqing Zhang, Marius Pachitariu. [Extracting large-scale neural activity with Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract). *bioRxiv*, 2026.
 
-Shreyas Muralidharan, Calvin Leng, Lucas Orts, Ethan Trepka, Shude Zhu, Matthew Panichello, Donatas Jonikaitis, Jacob Pennington, Marius Pachitariu, Tirin Moore. [A System for Live Sorting of Neuronal Spiking Activity from Large-scale Recordings](https://www.biorxiv.org/content/10.64898/2025.12.29.696938v3.abstract). ***bioRxiv***, 2026.
+Shreyas Muralidharan, Calvin Leng, Lucas Orts, Ethan Trepka, Shude Zhu, Matthew Panichello, Donatas Jonikaitis, Jacob Pennington, Marius Pachitariu, Tirin Moore. [A System for Live Sorting of Neuronal Spiking Activity from Large-scale Recordings](https://www.biorxiv.org/content/10.64898/2025.12.29.696938v3.abstract). *bioRxiv*, 2026.
 
-Sean O’Connell, Jonathan A Michaels, Runming Wang, Sahit Mamidipaka, Manikandan Venkatesh, Nevin Aresh, Marius Pachitariu, J Andrew Pruszynski, Samuel J Sober, Chethan Pandarinath. [High performance sorting of motor unit action potentials with EMUsort](https://www.biorxiv.org/content/10.64898/2026.01.06.697952.abstract). ***bioRxiv***, 2026.
+Sean O’Connell, Jonathan A Michaels, Runming Wang, Sahit Mamidipaka, Manikandan Venkatesh, Nevin Aresh, Marius Pachitariu, J Andrew Pruszynski, Samuel J Sober, Chethan Pandarinath. [High performance sorting of motor unit action potentials with EMUsort](https://www.biorxiv.org/content/10.64898/2026.01.06.697952.abstract). *bioRxiv*, 2026.
 
-Emmanuel Marquez Legorreta, Greg M Fleishman, Luuk W Hesselink, Mark Eddison, Kasper Smeets, Carsen Stringer, Philipp J Keller, Sujatha Narayan, Alex B Chen, Brett D Mensh, Scott M Sternson, Bernhard Englitz, Paul W Tillberg, Misha B Ahrens. [Whole-Brain Co-Mapping of Gene Expression and Neuronal Activity at Cellular Resolution in Behaving Zebrafish](https://www.biorxiv.org/content/10.64898/2026.02.07.704095v1). ***bioRxiv***, 2026.
+Emmanuel Marquez Legorreta, Greg M Fleishman, Luuk W Hesselink, Mark Eddison, Kasper Smeets, Carsen Stringer, Philipp J Keller, Sujatha Narayan, Alex B Chen, Brett D Mensh, Scott M Sternson, Bernhard Englitz, Paul W Tillberg, Misha B Ahrens. [Whole-Brain Co-Mapping of Gene Expression and Neuronal Activity at Cellular Resolution in Behaving Zebrafish](https://www.biorxiv.org/content/10.64898/2026.02.07.704095v1). *bioRxiv*, 2026.
 
-Leandro PL Jacob, Sydney M Bailes, Carsen Stringer, Jonathan R Polimeni, Laura D Lewis. [Functional MRI signals as fast as 1Hz are coupled to brain states and predict spontaneous neural activity](https://www.biorxiv.org/content/10.1101/2025.10.13.681720.abstract). ***bioRxiv***, 2026.
+Leandro PL Jacob, Sydney M Bailes, Carsen Stringer, Jonathan R Polimeni, Laura D Lewis. [Functional MRI signals as fast as 1Hz are coupled to brain states and predict spontaneous neural activity](https://www.biorxiv.org/content/10.1101/2025.10.13.681720.abstract). *bioRxiv*, 2026.
 
-Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1). ***bioRxiv***, 2025.
+Qingqing Zhang, Sverre Grødem, Alexa Gracias, Kristian K Lensjø, Marianne Fyhn, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup>. [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1). *bioRxiv*, 2025.
 
-Marius Pachitariu, Michael Rariden, Carsen Stringer. [Cellpose-SAM: superhuman generalization for cellular segmentation](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1). ***bioRxiv***, 2025.
+Marius Pachitariu, Michael Rariden, Carsen Stringer. [Cellpose-SAM: superhuman generalization for cellular segmentation](https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1). *bioRxiv*, 2025.
 
-Jason A Keller, Iljung S Kwak, Alyssa K Stark, Marius Pachitariu, Kristin Branson, Joshua T Dudman. [Cortical control of innate behavior from subcortical demonstration](Cortical control of innate behavior from subcortical demonstration). ***bioRxiv***, 2025.
+Jason A Keller, Iljung S Kwak, Alyssa K Stark, Marius Pachitariu, Kristin Branson, Joshua T Dudman. [Cortical control of innate behavior from subcortical demonstration](Cortical control of innate behavior from subcortical demonstration). *bioRxiv*, 2025.
 
-Judith Hoeller, Lin Zhong, Marius Pachitariu, Sandro Romani. [Bridging tuning and invariance with equivariant neuronal representations](https://www.biorxiv.org/content/10.1101/2024.08.02.606398v1.abstract). ***bioRxiv***, 2024.
+Judith Hoeller, Lin Zhong, Marius Pachitariu, Sandro Romani. [Bridging tuning and invariance with equivariant neuronal representations](https://www.biorxiv.org/content/10.1101/2024.08.02.606398v1.abstract). *bioRxiv*, 2024.
 
-Carsen Stringer, Marius Pachitariu. [Benchmarking cellular segmentation methods against Cellpose](https://www.biorxiv.org/content/10.1101/2024.04.06.587952v2). ***bioRxiv***, 2024.
+Carsen Stringer, Marius Pachitariu. [Benchmarking cellular segmentation methods against Cellpose](https://www.biorxiv.org/content/10.1101/2024.04.06.587952v2). *bioRxiv*, 2024.
 
-Yuki Miura, Ji-il Kim, Ovidiu Jurjut, Kevin W Kelley, Xiao Yang, Xiaoyu Chen, Mayuri Vijay Thete, Omer Revah, Bianxiao Cui, Marius Pachitariu, Sergiu P Pasca. [Assembloid model to study loop circuits of the human nervous system](https://www.biorxiv.org/content/10.1101/2024.10.13.617729.abstract). ***bioRxiv***, 2024.
+Yuki Miura, Ji-il Kim, Ovidiu Jurjut, Kevin W Kelley, Xiao Yang, Xiaoyu Chen, Mayuri Vijay Thete, Omer Revah, Bianxiao Cui, Marius Pachitariu, Sergiu P Pasca. [Assembloid model to study loop circuits of the human nervous system](https://www.biorxiv.org/content/10.1101/2024.10.13.617729.abstract). *bioRxiv*, 2024.
 
-Stefanos Stagkourakis, Giada Spigolon, Markus Marks, Michael Feyder, Joseph Kim, Pietro Perona, Marius Pachitariu, David J Anderson. [Anatomically distributed neural representations of instincts in the hypothalamus](https://www.biorxiv.org/content/10.1101/2023.11.21.568163v2). ***bioRxiv***, 2023.
+Stefanos Stagkourakis, Giada Spigolon, Markus Marks, Michael Feyder, Joseph Kim, Pietro Perona, Marius Pachitariu, David J Anderson. [Anatomically distributed neural representations of instincts in the hypothalamus](https://www.biorxiv.org/content/10.1101/2023.11.21.568163v2). *bioRxiv*, 2023.
+
+Marius Pachitariu, Carsen Stringer, Sylvia Schröder, Mario Dipoppa, L Federico Rossi, Matteo Carandini, Kenneth D Harris. [Suite2p: Beyond 10,000 Neurons with Standard Two-Photon Microscopy](https://www.biorxiv.org/content/10.1101/061481.abstract). *bioRxiv*, 2016.
+
+Marius Pachitariu, Maneesh Sahani. [Regularization and Nonlinearities for Neural Language Models: When Are They Needed?](https://arxiv.org/abs/1301.5650). *arXiv Preprint arXiv:1301. 5650*, 2013.
 
 ### 2026
 
@@ -136,11 +140,9 @@ James J Jun, Nicholas A Steinmetz, Joshua H Siegle, Daniel J Denman, Marius Bauz
 
 ### 2016
 
-Marius Pachitariu, Nicholas Steinmetz, Shabnam Kadir, Matteo Carandini, Kenneth D Harris. [Kilosort: Realtime Spike-Sorting for Extracellular Electrophysiology with Hundreds of Channels](https://www.biorxiv.org/content/10.1101/061481.abstract). ***bioRxiv***/***Neurips***, 2016.
+Marius Pachitariu, Nicholas Steinmetz, Shabnam Kadir, Matteo Carandini, Kenneth D Harris. [Kilosort: Realtime Spike-Sorting for Extracellular Electrophysiology with Hundreds of Channels](https://www.biorxiv.org/content/10.1101/061481.abstract). *bioRxiv*/***Neurips***, 2016.
 
-Marius Pachitariu, Carsen Stringer, Sylvia Schröder, Mario Dipoppa, L Federico Rossi, Matteo Carandini, Kenneth D Harris. [Suite2p: Beyond 10,000 Neurons with Standard Two-Photon Microscopy](https://www.biorxiv.org/content/10.1101/061481.abstract). ***bioRxiv***, 2016.
-
-Carsen Stringer\*, Marius Pachitariu\*, Nicholas A Steinmetz, Michael Okun, Peter Bartho, Kenneth D Harris, Maneesh Sahani, Nicholas A Lesica. [Inhibitory Control of Correlated Intrinsic Variability in Cortical Networks](https://elifesciences.org/articles/19695). ***Elife*** 5 (2016): e19695.
+Carsen Stringer\*, Marius Pachitariu\*, Nicholas A Steinmetz, Michael Okun, Peter Bartho, Kenneth D Harris, Maneesh Sahani, Nicholas A Lesica. [Inhibitory Control of Correlated Intrinsic Variability in Cortical Networks](https://elifesciences.org/articles/19695). ***eLife*** 5 (2016): e19695.
 
 ### 2015
 
@@ -158,7 +160,7 @@ Marius Pachitariu, Adam M Packer, Noah Pettit, Henry Dalgleish, Michael Hausser,
 
 Marius Pachitariu, Biljana Petreska, Maneesh Sahani. [Recurrent Linear Models of Simultaneously-Recorded Neural Populations](https://proceedings.neurips.cc/paper_files/paper/2013/hash/7895fc13088ee37f511913bac71fa66f-Abstract.html). ***Advances in Neural Information Processing Systems*** 26 (2013).
 
-Marius Pachitariu, Maneesh Sahani. [Regularization and Nonlinearities for Neural Language Models: When Are They Needed?](https://arxiv.org/abs/1301.5650). ***arXiv Preprint arXiv:1301. 5650***, 2013.
+
 
 ### 2012
 

@@ -9,7 +9,7 @@ categories:
   - Tools
 date: Sept 2016
 date-format: MMM YYYY
-author: Marius Pachitariu, Carsen Stringer, Sylvia Schröder, Mario Dipoppa, L. Federico Rossi, Matteo Carandini, Kenneth D. Harris
+author: "Marius Pachitariu, Carsen Stringer, Sylvia Schröder, Mario Dipoppa, L. Federico Rossi, Matteo Carandini, Kenneth D. Harris <br><em>bioRxiv</em>"
 toc: false
 image: images/suite2p_cover.jpg
 image-alt: neuron traces and masks

@@ -8,7 +8,7 @@ categories:
   - Behavior
   - Machine learning
 date: Feb 2026
-author: Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong,Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>
+author: "Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong,Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup> <br><em>bioRxiv</em>"
 toc: false
 image: images/syeda_cover.png
 image-alt: neural activity in mouse visual cortex predicted by eye movements versus orofacial movements

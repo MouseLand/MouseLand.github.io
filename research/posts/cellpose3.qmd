@@ -8,7 +8,7 @@ categories:
   - Tools
 date: Feb 12, 2025
 date-format: MMM YYYY
-author: Carsen Stringer, Marius Pachitariu
+author: "Carsen Stringer, Marius Pachitariu <br><em>Nature Methods</em>"
 toc: false
 image: images/cellpose3_cover.png
 image-alt: image restoration of various cellular images
