@@ -86,4 +86,4 @@ toc: true
 
 - [Profile + podcast](https://www.storiesofwin.org/profiles/2021/6/2/dr-carsen-stringer), Stories of Women in Neuroscience, by Daniela Cassataro
 
-- [Understanding 40,000 neurons](https://braininspired.co/podcast/91/), Brain Inspired podcast, by Paul Middlebrooks
+- [Understanding 40,000 neurons](https://www.youtube.com/watch?v=zWLxo4LRisA), Brain Inspired podcast, by Paul Middlebrooks
