@@ -2,19 +2,22 @@
 title: "Carsen Stringer"
 title-block-banner: true
 sidebar: false
-toc: true
-about:
-  template: marquee
+toc: false
+description-meta: "Carsen Stringer, group leader, Pachitariu + Stringer lab."
 ---
 
-<center>
-<img src="images/stringerc.jpg" width="200px" class="responsive"></img><br>
-</center>
-<br>
+::: {.pi-header}
+<img src="images/stringerc.jpg" alt="Carsen Stringer">
 
+<div>
 Carsen Stringer is a group leader at HHMI Janelia Research Campus. The lab develops algorithms for understanding large-scale neural activity. In addition, the lab works on general segmentation algorithms for cellular data, which enable fast and accurate processing of ~50,000 neuron recordings.
 
-<a href="cvs/stringer.pdf"><span style="font-size: 1.2em;">CV</span></a><br>
-<a href="https://scholar.google.com/citations?user=6v9BmeYAAAAJ&hl=en"><i class="bi bi-google"></i> google scholar</a><br> 
-<a href="https://github.com/carsen-stringer"><i class="bi bi-github"></i> carsen-stringer</a><br> 
-<a href="https://bsky.app/profile/computingnature.bsky.social"><i class="bi bi-bluesky"></i> computingnature</a><br>
+<div class="pi-links">
+<a href="cvs/stringer.pdf">CV</a>
+<a href="https://scholar.google.com/citations?user=6v9BmeYAAAAJ&hl=en"><i class="bi bi-google"></i> Google Scholar</a>
+<a href="https://github.com/carsen-stringer"><i class="bi bi-github"></i> carsen-stringer</a>
+<a href="https://bsky.app/profile/computingnature.bsky.social"><i class="bi bi-bluesky"></i> computingnature</a>
+</div>
+</div>
+
+:::

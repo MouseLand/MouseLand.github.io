@@ -2,19 +2,22 @@
 title: "Marius Pachitariu"
 title-block-banner: true
 sidebar: false
-toc: true
-about:
-  template: marquee
+toc: false
+description-meta: "Marius Pachitariu, group leader, Pachitariu + Stringer lab."
 ---
 
-<center>
-<img src="images/pachitarium.jpg" width="200px" class="responsive"></img><br>
-</center>
-<br>
+::: {.pi-header}
+<img src="images/pachitarium.jpg" alt="Marius Pachitariu">
 
-Marius Pachitariu is a group leader at HHMI Janelia Research Campus. 
+<div>
+Marius Pachitariu is a group leader at HHMI Janelia Research Campus. The lab studies neural representations in large-scale neural recordings, as well as how these representations change over the course of learning and how those changes impact behavior.
 
-<a href="cvs/pachitariu.pdf"><span style="font-size: 1.2em;">CV</span></a><br>
-<a href="https://scholar.google.com/citations?user=6v9BmeYAAAAJ&hl=en"><i class="bi bi-google"></i> google scholar</a><br> 
-<a href="https://github.com/marius10p"><i class="bi bi-github"></i> marius10p</a><br> 
-<a href="https://bsky.app/profile/marius10p.bsky.social"><i class="bi bi-bluesky"></i> marius10p</a><br>
+<div class="pi-links">
+<a href="cvs/pachitariu.pdf">CV</a>
+<a href="https://scholar.google.com/citations?user=fdHbkSgAAAAJ&hl=en"><i class="bi bi-google"></i> Google Scholar</a>
+<a href="https://github.com/marius10p"><i class="bi bi-github"></i> marius10p</a>
+<a href="https://bsky.app/profile/marius10p.bsky.social"><i class="bi bi-bluesky"></i> marius10p</a>
+</div>
+</div>
+
+:::

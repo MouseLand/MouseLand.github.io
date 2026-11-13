@@ -22,7 +22,7 @@ image-alt: neuron traces and masks
 
 <hr>
 
-<center><img src="http://www.gatsby.ucl.ac.uk/~cstringer/multiselect.gif" width="85%"></img></center>
+<center><img src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/multiselect.gif" width="85%"></img></center>
 
 <br>
 

@@ -1,0 +1,35 @@
+---
+title: "Raster photostimulation of large-scale neural populations"
+description: |
+  Photoactivating thousands of neurons in 300 ms across a 5 mm field of view, through the same optical path used for recording.
+categories:
+  - Thousands of neurons
+  - Tools
+date: Apr 2026
+date-format: MMM YYYY
+author: "Paul K LaFosse, Daniel Flickinger, Georg Jaindl, Antonia Drinnenberg, Sverre Grødem, Kristian K Lensjø, Charu Ramakrishnan, La'Akea Siverts, Hongkui Zeng, Bosiljka Tasic, Tanya L Daigle, Marianne Fyhn, Karl Deisseroth, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup> <br><em>bioRxiv</em>"
+toc: false
+image: images/lafosse_cover.jpg
+image-alt: raster photostimulation system for activating and recording thousands of neurons on a two-photon mesoscope
+---
+
+<details>
+  <summary><p style="font-size: smaller">Abstract</p></summary>
+  <p style="font-size: smaller">
+Neural computations are implemented by distributed neural populations that typically span multiple brain areas. Simultaneous recording and photo-activation experiments can reveal the structure and logic of these neural computations, but such methods are typically limited to small subsets of neurons in restricted fields of view. Here we describe a new system called raster photostimulation for activating and recording thousands of neurons, over a short 300 ms time window and over a large 5 mm field-of-view on a two-photon mesoscope. The photo-activation is precisely matched to the neural recording configuration, as it uses the same optical path, although with a different laser that is independently gated. We demonstrate pixel-level precision, frame-by-frame mask updating, and single-frame photostimulation of thousands of neurons. While this method lacks the precise temporal control of alternative methods, it compensates with ease-of-use, spatial precision, cost of implementation and by pushing the limits on the number of near-simultaneously stimulated neurons.</p>
+</details>
+
+<a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719951v2">preprint</a>
+<hr>
+
+Perturbing neurons while recording them is the way to get at causal structure in a
+circuit, but existing photostimulation methods reach only small subsets of neurons
+in a restricted field of view.
+
+Raster photostimulation drives the stimulation laser along the same raster scan the
+mesoscope already uses for imaging, gated independently. Because the photoactivation
+shares the recording optical path, it is registered to the recording by construction.
+We get pixel-level precision, masks that update frame by frame, and single-frame
+photostimulation of thousands of neurons across a 5 mm field of view. It gives up
+the fine temporal control of spatial light modulator approaches, and in exchange is
+simpler, cheaper, and reaches far more neurons at once.

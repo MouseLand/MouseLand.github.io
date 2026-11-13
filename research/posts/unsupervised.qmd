@@ -9,8 +9,8 @@ categories:
 date: June 2025
 author: "Lin Zhong, Scott Baptista, Rachel Gattoni, Jon Arnold, Daniel Flickinger, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup> <br><em>Nature</em>"
 toc: false
-image: images/zhong_cover.png
-image-alt: unsupervised and supervised learning
+image: images/zhong_5_maps_thumb.jpg
+image-alt: maps of visual cortical areas showing the density of stimulus-selective neurons before and after supervised and unsupervised learning
 ---
 
 <details>

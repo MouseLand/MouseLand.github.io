@@ -1,0 +1,89 @@
+---
+title: "News & talks"
+description: read about us
+title-block-banner: true
+description-meta: "Lab news, recorded talks and tutorials, and press coverage of our work."
+toc: true
+---
+
+## News
+
+::: {.news-list}
+- Miguel Angel Nuñez-Ochoa et al., preprint out on [Linking neural representations to behavior using generalization](https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1.abstract).
+- Paul K LaFosse et al., preprint out on [Raster photostimulation of large-scale neural populations](https://www.biorxiv.org/content/10.64898/2026.04.21.719951v1.abstract).
+- [A critical initialization for biological neural networks](https://www.nature.com/articles/s41586-026-10528-1) now published in *Nature*, with all [data](https://doi.org/10.25378/janelia.27854448) and [code](https://github.com/MouseLand/critical_init) shared.
+- Atika Syeda et al., preprint out on [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract). She also presented this work at Cosyne.
+- [Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract) now out as a preprint.
+- Qingqing Zhang et al., preprint out on [Spatial predictive coding in visual cortical neurons](https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1).
+- Fengtong Du's [paper](https://www.nature.com/articles/s41467-025-61171-9) on minimodels of visual cortical neurons in mice and monkeys published in *Nature Communications*. [News coverage](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see)
+- Lin Zhong's [paper](https://www.nature.com/articles/s41586-025-09180-y) on unsupervised learning published in *Nature*. [News coverage](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster)
+:::
+
+## Talks and tutorials
+
+**Research talks**
+
+- High precision coding in visual cortex: [short talk](https://youtu.be/5-DkXplTFuY), [long talk](https://www.youtube.com/watch?v=ob48PKoIbfA)
+- High-dimensional geometry of population responses in visual cortex: [talk](https://www.youtube.com/watch?v=fAFHJiqYwb8)
+- High-dimensional problems in neuroscience: [talk](https://youtu.be/NzdynFTp7fY)
+- Spontaneous behaviors drive multidimensional, brainwide activity: [talk](https://youtu.be/1FCCh4COiCM?feature=shared&t=196)
+- Making sense of large-scale neural and behavioral data with Facemap and Rastermap: [talk](https://www.youtube.com/watch?v=4fIXfSBKWu8)
+
+**Software tutorials**
+
+- Cellpose3: [talk + tutorial](https://www.youtube.com/watch?v=TZZZlGk6AKo)
+- Cellpose 2.0: how to train your own model. [talk](https://youtu.be/3ydtAhfq6H0), [talk + tutorial](https://youtu.be/5qANHWoubZU)
+- Cellpose: [talk](https://youtu.be/7y9d4VIKiS8), [talk + tutorial](https://www.youtube.com/watch?v=DL-j-hPFixk)
+- Kilosort 4: [talk](https://youtu.be/LTSmoACr918?feature=shared)
+- Kilosort 1, 2, 2.5 & 3: [talk](https://youtu.be/cmrAhhquC9E?feature=shared)
+- Suite2p: [talk](https://www.youtube.com/watch?v=L0cX6V2wFUU)
+- Rastermap: [tutorial](https://youtu.be/oQHq7yUWn2k)
+- Facemap: [tutorial](https://youtu.be/aO_kXkOuadg)
+
+## Media coverage
+
+- [How Brains Learn & Compute: Neuroscience Meets AI with Dr. Marius Pachitariu](https://youtu.be/dl_xnOsGp4E?si=65uU8IXqMm0GhXme), Mind & Matter Podcast
+
+- [New computational model could help shed light on how we see](https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see), Howard Hughes Medical Institute
+
+- [Doing This Might Actually Make You Smarter](https://www.vice.com/en/article/doing-this-might-actually-make-you-smarter/), Vice
+
+- ["Zoning Out" Actually Helps You Learn? Data From Up To 90,000 Brain Cells Says So](https://www.iflscience.com/zoning-out-actually-helps-you-learn-data-from-up-to-90000-brain-cells-says-so-79986), IFL Science
+
+- [Zoning out could be beneficial—and may actually help us learn faster](https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster), Howard Hughes Medical Institute
+
+- [Newest version of Cellpose can spot cell boundaries even in cloudy conditions](https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions), Howard Hughes Medical Institute
+
+- [Novel visualization method helps make sense of large neuronal activity datasets](https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html), Medical Xpress
+
+- [New tool helps scientists spot patterns in mountains of data](https://www.janelia.org/news/new-tool-helps-scientists-spot-patterns-in-mountains-of-data), Howard Hughes Medical Institute
+
+- [Six tips for going public with your lab's software](https://www.nature.com/articles/d41586-024-03344-y), Nature
+
+- [State-of-the-art spike-sorting software Kilosort4 released](https://www.janelia.org/news/janelia-scientists-release-state-of-the-art-spike-sorting-software-kilosort4), Howard Hughes Medical Institute
+
+- [Predicting neural activity from facial expressions](https://www.nature.com/articles/s41592-023-02154-w), Nature Methods
+
+- [Tiny faces, big expressions: Reading rodent faces](https://pennneuroknow.com/2023/12/19/tiny-faces-big-expressions-reading-rodent-faces/), Penn NeuroKnow
+
+- [Reading the mouse mind from its face: New tool decodes neural activity using facial movements](https://www.janelia.org/news/reading-the-mouse-mind-from-its-face-new-tool-decodes-neural-activity-using-facial-movements), Howard Hughes Medical Institute
+
+- [Noisy solo neurons show consistency in groups](https://www.janelia.org/news/noisy-solo-neurons-show-consistency-in-groups), Howard Hughes Medical Institute
+
+- [High precision coding: How the visual cortex processes information about the world](https://www.scientifica.uk.com/neurowire/high-precision-coding-how-the-visual-cortex-processes-information-about-the-world), Scientifica
+
+- [New tool maps boundaries of diverse cells in microscope images](https://www.janelia.org/news/new-tool-maps-boundaries-of-diverse-cells-in-microscope-images), Howard Hughes Medical Institute
+
+- [Python power-up: new image tool visualizes complex data](https://www.nature.com/articles/d41586-021-03628-7), Nature
+
+- [A Power Law Keeps the Brain's Perceptions Balanced](https://www.quantamagazine.org/a-power-law-keeps-the-brains-perceptions-balanced-20191022/), Quanta Magazine
+
+- [Power Law Discovery May Explain Why You Can See the Forest and the Trees](https://www.simonsfoundation.org/2019/06/26/power-law-discovery-may-explain-why-you-can-see-the-forest-and-the-trees/), Simons Foundation
+
+- ['Noise' in the Brain Encodes Surprisingly Important Signals](https://www.quantamagazine.org/noise-in-the-brains-vision-areas-encodes-body-movements-20191107/), Quanta Magazine
+
+- [Thinking on the Go: Why Does the Whole Brain Light Up for Just the Smallest Movements?](https://www.simonsfoundation.org/2019/11/26/thinking-on-the-go-why-does-the-whole-brain-light-up-for-just-the-smallest-movements/), Simons Foundation
+
+- [Profile + podcast](https://www.storiesofwin.org/profiles/2021/6/2/dr-carsen-stringer), Stories of Women in Neuroscience, by Daniela Cassataro
+
+- [Understanding 40,000 neurons](https://braininspired.co/podcast/91/), Brain Inspired podcast, by Paul Middlebrooks

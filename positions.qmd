@@ -1,12 +1,89 @@
 ---
-title: "Positions"
+title: "Join us"
 title-block-banner: true
+description-meta: "We are recruiting postdocs in systems neuroscience."
+toc: true
 ---
+
+We are looking for systems neuroscientists who want to
+design and run experiments, and analyze the data they collect. Our
+behavior, recording and analysis pipelines are already up and running, so new trainees
+can spend their time designing and carrying out projects.
+
+## Typical projects
+
+You will use some combination of:
+
+- **Two-photon calcium imaging** of 1,000–100,000 neurons simultaneously in mouse
+  cortex or hippocampus, often across multiple days in the same animals.
+- **Behavioral training**, including virtual-reality paradigms and visual
+  learning tasks.
+- **Two-photon optogenetics**, to perturb specific populations while recording.
+- **Analysis of the resulting datasets**, in Python, using a range of models and approaches.
+
+You would own a scientific question and see it through from experimental design
+to publication. See here for some examples:
+[unsupervised learning](research/posts/unsupervised.qmd),
+[predictive coding](research/posts/spatialpred.qmd),
+[behavioral drive of cortical activity](research/posts/facevseye.qmd).
+
+## Requirements
+
+**Essential**
+
+- Hands-on experience with *in vivo* experiments in animals, such as imaging,
+  electrophysiology or optogenetics.
+- Experience analyzing your own neural or behavioral data in Python, including
+  basic statistics and visualization.
+- Familiarity with standard data-analysis and modeling methods, such as
+  dimensionality reduction, regression and neural-network models.
+- Genuine curiosity about how populations of neurons compute and learn.
+
+**Not required**
+
+- A formal background in machine learning, statistics or computer science.
+- Experience building software: the lab maintains the pipelines.
+- Prior work at this scale.
+
+## Lab resources and strengths
+
+- **Recording infrastructure at a large scale**, including microscopes
+  and protocols developed in-house for imaging tens of thousands of neurons.
+- **Analysis pipelines that already work.** Suite2p, Kilosort, Cellpose, Facemap
+  and Rastermap are developed and maintained by the PIs and by dedicated software
+  engineers in the lab.
+- **Close mentorship from both PIs**, who co-supervise most projects, giving you two
+  advisors rather than one.
+- **A strong open-science record.** We release the data and analysis code from
+  every study, which makes lab work visible and citable well beyond the paper.
+- **A track record of placing people.** Recent postdocs have gone on to
+  [faculty positions](people/index.qmd#where-our-alumni-go).
+- Full funding from the Howard Hughes Medical Institute, with competitive salary
+  and benefits, and support for conference travel.
 
 ## Postdocs
 
-We are seeking [postdocs](hhttps://www.janelia.org/you-janelia/students-postdocs/postdoctoral-scientists) to investigate how large populations of neurons perform complex computations. We collect and analyze recordings of 50,000+ neurons, developing machine learning tools to extract computational principles from these large-scale datasets. Please reach out to Carsen Stringer (<stringerc@hhmi.org>) with your CV if you are interested. We are looking for candidates with experience performing imaging experiments in animals and ideally some experience analyzing large-scale neural datasets. Please share a link to your github profile on your CV when applying, especially if you are coming from a computational background.
+Please email **Carsen Stringer** (<stringerc@hhmi.org>) with:
 
-All research is internally funded by the Howard Hughes Medical Institute with highly competitive benefits. A first-year postdoc is compensated at a rate of $74,200.00 annually. For information about Janelia, please visit [www.janelia.org/about-us](http://www.janelia.org/about-us). For more information about our neuroscience department, please visit [www.janelia.org/our-research/mechanistic-cognitive-neuroscience](https://www.janelia.org/our-research/mechanistic-cognitive-neuroscience). For more information about being at Janelia, please check out these [videos](https://youtube.com/playlist?list=PLTHgpZlI_u0hSo_NO0wpzpMnt6BnOOaWl&feature=shared). Janelia provides incredible support for scientific research (surgical support, animal behavior training, and optical engineering), enabling researchers to focus on their specific scientific questions.
+- your CV.
+- a short description of what you have worked on and what you would like to work
+  on next.
+- contact details for three references.
 
-Diversity, equity and inclusion are important values at Janelia, and applicants should be dedicated to ensuring kindness and inclusion in their interactions with the scientific community and with other employees at Janelia.
+## Graduate students
+
+We are not currently taking graduate students, but let us know if you are applying in Fall 2027.
+
+## Research technicians
+
+Positions for research technicians open periodically. This has been a strong
+route into a PhD for people leaving our lab. For example, recent technicians have gone on to
+PhD programs at Princeton, Columbia, and Mila. Email us if you are interested,
+even if nothing is posted.
+
+## Working here
+
+We care about running a lab that is rigorous and also exciting to be in. We expect
+everyone in the group to be generous with their time, to share data and code
+openly, and to treat colleagues with kindness, both inside the lab and across the wider scientific
+community. Applicants should be committed to the same.

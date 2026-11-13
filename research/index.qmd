@@ -1,7 +1,7 @@
 ---
 pagetitle: Research
 title: Research
-description: We design experiments and tools to understand large-scale neural computations.
+description: large-scale neural computation
 title-block-banner: true
 sidebar: false
 page-layout: full
@@ -10,8 +10,11 @@ listing:
   - posts
   - "!index.qmd"
   sort: "date desc"
-  #type: grid
-  fields: [title, image, author, description, subtitle, categories]
+  type: grid
+  grid-columns: 4
+  image-height: 200px
+  grid-item-border: true
+  fields: [title, image, author, description, categories]
   date-format: "MMM YYYY"
   categories: true
   sort-ui: false

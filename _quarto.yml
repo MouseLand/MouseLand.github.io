@@ -1,39 +1,51 @@
 project:
   type: website
-  
+
 website:
-  title: "" # <img src="/images/logo.png" width="50px">
-  description: "neuroscience lab"
+  title: "Pachitariu + Stringer lab"
+  description: "We study how large populations of neurons in the mammalian cortex learn and represent the world."
+  site-url: https://mouseland.github.io
   favicon: images/logo.png
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   navbar:
-    logo: /images/logo.png         
-    logo-width: 50px
+    title: false
     left:
       - href: index.qmd
         text: Home
-      - href: people/index.qmd
-        text: People
       - href: research/index.qmd
         text: Research
       - href: research/publications.qmd
         text: Publications
+      - href: people/index.qmd
+        text: People
       - href: code_and_data.qmd
         text: Code & data
-      
-      
+      - href: news.qmd
+        text: News & talks
+    right:
+      - href: positions.qmd
+        text: Join us
+
+  body-header: |
+    <div class="lab-mark"><a href="https://github.com/MouseLand" title="MouseLand on GitHub"><img src="/images/logo.png" alt="MouseLand GitHub organization"></a></div>
+
   body-footer: |
-    <center><img src="/images/HHMI_Janelia_Logo-Black.png" width="120px" alt="Janelia"></img><br>
-    <font size="2pt">  Powered by [Quarto](https://www.quarto.org). &copy; Marius Pachitariu & Carsen Stringer lab, 2026.</font></center>
+    <div class="lab-footer">
+    <p><strong>Pachitariu + Stringer lab</strong><br>
+    Research funded by the <a href="https://www.hhmi.org/">Howard Hughes Medical Institute</a>.</p>
+    <p class="footer-fine">Built with <a href="https://www.quarto.org">Quarto</a>. &copy; Marius Pachitariu &amp; Carsen Stringer, 2026.</p>
+    </div>
 
 format:
   html:
-    theme: journal
+    theme: [journal, theme.scss]
     toc: true
     css: styles.css
     grid:
       margin-width: 200px
-      body-width: 900px
+      body-width: 960px
 
 execute:
   freeze: auto
-

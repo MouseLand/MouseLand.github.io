@@ -1,126 +1,144 @@
 ---
 title: "People"
+description: our team + alumni
 title-block-banner: true
+description-meta: "Members of the Pachitariu + Stringer lab."
 toc: false
-html: custom
-
 ---
-
-<style>
-.people {
-    min-height: 100vh;
-    max-width: 400px;
-    margin: 0 auto;
-}
-</style>
-
-<div class="people">
 
 ## Group leaders
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="marius.html"><img src="images/pachitarium.jpg" width="90%" alt="Marius Pachitariu"/><br /><b>Marius Pachitariu</b></a></td>
-      <td align="center" valign="top" width="50%"><a href="carsen.html"><img src="images/stringerc.jpg" width="90%" alt="Carsen Stringer"/><br /><b>Carsen Stringer</b></a></td>
-    </tr>
-  </tbody>
-</table>
+<div class="people-grid">
+<div class="person">
+  <a href="marius.html">
+    <img src="images/pachitarium.jpg" alt="Marius Pachitariu">
+    <span class="person-name">Marius Pachitariu</span>
+    <span class="person-role">Group leader</span>
+  </a>
+</div>
+
+<div class="person">
+  <a href="carsen.html">
+    <img src="images/stringerc.jpg" alt="Carsen Stringer">
+    <span class="person-name">Carsen Stringer</span>
+    <span class="person-role">Group leader</span>
+  </a>
+</div>
+
+</div>
 
 ## Postdocs
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/lin-zhong"><img src="images/zhongl.jpg" width="90%" alt="Lin Zhong"/><br /><b>Lin Zhong</b></a></td>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/miguel-angel-nunez"><img src="images/nunezm.jpg" width="90%" alt="Miguel Angel Nunez"/><br /><b>Miguel Angel Nunez</b></a></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/qingqing-zhang"><img src="images/zhangq.jpg" width="90%" alt="Qingqing Zhang"/><br /><b>Qingqing Zhang</b></a></td>
-      <td align="center" valign="top" width="50%"><a href="https://scholar.google.com/citations?user=JflWW-YAAAAJ&hl=en"><img src="images/lafossep.png" width="90%" alt="Paul LaFosse"/><br /><b>Paul LaFosse</b></a></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/benjamin-arroyo"><img src="images/arroyob.jpg" width="90%" alt="Benjamin Arroyo"/><br /><b>Benjamin Arroyo</b></a></td>
-      <td align="center" valign="top" width="50%"></td>
-    </tr>
-  </tbody>
-</table>
+<div class="people-grid">
+<div class="person">
+  <a href="https://www.janelia.org/people/miguel-angel-nunez">
+    <img src="images/nunezm.jpg" alt="Miguel Angel Nuñez-Ochoa">
+    <span class="person-name">Miguel Angel Nuñez-Ochoa</span>
+    <span class="person-role">Linking neural representations to behavior</span>
+  </a>
+</div>
+
+<div class="person">
+  <a href="https://www.janelia.org/people/qingqing-zhang">
+    <img src="images/zhangq.jpg" alt="Qingqing Zhang">
+    <span class="person-name">Qingqing Zhang</span>
+    <span class="person-role">Predictive coding in visual cortex</span>
+  </a>
+</div>
+
+<div class="person">
+  <a href="https://scholar.google.com/citations?user=JflWW-YAAAAJ&hl=en">
+    <img src="images/lafossep.png" alt="Paul LaFosse">
+    <span class="person-name">Paul LaFosse</span>
+    <span class="person-role">Large-scale photostimulation</span>
+  </a>
+</div>
+
+<div class="person">
+  <a href="https://www.janelia.org/people/benjamin-arroyo">
+    <img src="images/arroyob.jpg" alt="Benjamin Arroyo">
+    <span class="person-name">Benjamin Arroyo</span>
+    <span class="person-role">Postdoc</span>
+  </a>
+</div>
+
+</div>
 
 ## PhD students
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/fengtong-du"><img src="images/fengtongd.jpg" width="90%" alt="Fengtong Du"/><br /><b>Fengtong Du</b></a></td>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/atika-ibrahim-syeda"><img src="images/syedaa.jpg" width="90%" alt="Atika Syeda"/><br /><b>Atika Syeda</b></a></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/ruoxi-sun"><img src="images/sunr.jpg" width="90%" alt="Ruoxi Sun"/><br /><b>Ruoxi Sun</b></a></td>
-      <td align="center" valign="top" width="50%"></td>
-      
-    </tr>
-  </tbody>
-</table>
+<div class="people-grid">
+<div class="person">
+  <a href="https://www.janelia.org/people/atika-ibrahim-syeda">
+    <img src="images/syedaa.jpg" alt="Atika Syeda">
+    <span class="person-name">Atika Syeda</span>
+    <span class="person-role">Orofacial behavior and cortical activity</span>
+  </a>
+</div>
 
-## Affiliated theory fellows
+<div class="person">
+  <a href="https://www.janelia.org/people/ruoxi-sun">
+    <img src="images/sunr.jpg" alt="Ruoxi Sun">
+    <span class="person-name">Ruoxi Sun</span>
+    <span class="person-role">PhD student</span>
+  </a>
+</div>
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="https://www.janelia.org/people/tosif-ahamed"><img src="images/ahamedt.jpg" width="90%" alt="Tosif Ahamed"/><br /><b>Tosif Ahamed</b></a></td>
-      <td align="center" valign="top" width="50%"></td>
-    </tr>
-  </tbody>
-</table>
+</div>
 
-## Software engineers 
+## Software engineers
 
-### full-time
+<div class="people-grid">
+<div class="person">
+  <img src="images/penningtonj.jpg" alt="Jacob Pennington">
+  <span class="person-name">Jacob Pennington</span>
+  <span class="person-role">Kilosort</span>
+</div>
 
-<!--
-* Jacob Pennington
-* [Chris Ki](https://chriski.me/)
-* Michael Rariden
--->
+<div class="person">
+  <a href="https://chriski.me/">
+    <img src="images/kic.jpg" alt="Chris Ki">
+    <span class="person-name">Chris Ki</span>
+    <span class="person-role">Suite2p &middot; part-time</span>
+  </a>
+</div>
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href=""><img src="images/penningtonj.jpg" width="90%" alt="Jacob Pennington"/><br /><b>Jacob Pennington</b></a></td>
-      <td align="center" valign="top" width="50%"><a href=""><img src="images/raridenm.jpg" width="90%" alt="Michael Rariden"/><br /><b>Michael Rariden</b></a></td>
-    </tr>
-  </tbody>
-</table>
+</div>
 
-### part-time
+## Where our alumni go
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="50%"><a href="https://chriski.me/"><img src="images/kic.jpg" width="90%" alt="Chris Ki"/><br /><b>Chris Ki</b></a></td>
-      <td align="center" valign="top" width="50%"></td>
-    </tr>
-  </tbody>
-</table>
+**To faculty positions**
 
+::: {.alumni-list}
+- [Lin Zhong](https://itbr.fudan.edu.cn/en/info/3477/22351.htm), postdoc <span class="destination">&rarr; Assistant Professor, Institute for Translational Brain Research, Fudan University</span>
+- [Tosif Ahamed](https://tosifahamed.github.io/), theory fellow <span class="destination">&rarr; Assistant Professor, Department of Bioengineering, Indian Institute of Science, Bangalore</span>
+
+:::
+
+**To PhD programs**
+
+::: {.alumni-list}
+- Will Long, research technician <span class="destination">&rarr; PhD, Princeton</span>
+- Renee Tung, research technician and summer student <span class="destination">&rarr; PhD, Columbia</span>
+- Sonia Joseph, research technician <span class="destination">&rarr; PhD, Mila</span>
+
+:::
+
+**Other alumni**
+
+::: {.alumni-list}
+- Fengtong Du, PhD student <span class="destination">&rarr; AI Engineer, AI@HHMI</span>
+- Michael Rariden, software engineer <span class="destination">&rarr; Scientific Computing Associate</span>
+- [Ifedayo-Emmanuel Adeyefa-Olasupo](https://ion.uoregon.edu/about/person-page/550), postdoc <span class="destination">&rarr; Postdoctoral Scholar, Institute of Neuroscience, University of Oregon</span>
+- Michalis Michaelos, research technician <span class="destination">&rarr; vivarium experimenter</span>
+
+:::
+
+Interested in joining them? See [open positions](../positions.qmd).
 
 ## Previous lab visitors
 
-* Minh Thao Nguyen, PhD student, Novak lab
-* [Ondrej Novak](https://www.researchgate.net/profile/Ondrej-Novak-3)
-* Beverly Seltzer, PhD student, Lewis lab
-* Len Jacob, postdoc, Lewis lab
-* [Laura Lewis](https://www.lewisneurolab.org/)
-
-
-## Alumni
-
-* Will Long, research technician &rarr; Princeton PhD
-* Renee Tung, research technician and JUS summer student &rarr; Columbia PhD
-* Sonia Joseph, research technician &rarr; Mila PhD
-* Michalis Michaelos, research technician &rarr; Janelia vivarium experimenter
-* Ifedayo Emmanuel Adeyefa-Olasupo, postdoc
-
-<br>
-
-</div>
+- Minh Thao Nguyen, PhD student, Novak lab
+- [Ondrej Novak](https://www.researchgate.net/profile/Ondrej-Novak-3)
+- Beverly Seltzer, PhD student, Lewis lab
+- Len Jacob, postdoc, Lewis lab
+- [Laura Lewis](https://www.lewisneurolab.org/)

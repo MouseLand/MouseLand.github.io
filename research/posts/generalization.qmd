@@ -1,0 +1,35 @@
+---
+title: "Linking neural representations to behavior using generalization"
+description: |
+  Neural discrimination of novel test images, but not of trained images, predicts how well mice generalize.
+categories:
+  - Vision
+  - Thousands of neurons
+  - Behavior
+date: Apr 2026
+date-format: MMM YYYY
+author: "Miguel Angel Nuñez-Ochoa, Fengtong Du, Lin Zhong, Scott Baptista, Michalis Michaelos, Alex Sohn, Liad Baruchin, Sylvia Schröder, Carsen Stringer<sup>†</sup>, Marius Pachitariu<sup>†</sup> <br><em>bioRxiv</em>"
+toc: false
+image: images/nunez_fig4f_thumb.jpg
+image-alt: maps of mouse visual cortical areas showing the correlation between neural and behavioral discrimination for trained and novel images
+---
+
+<details>
+  <summary><p style="font-size: smaller">Abstract</p></summary>
+  <p style="font-size: smaller">
+Sensory-guided decisions are the result of sensorimotor transformations across many brain areas. Recent studies have localized the motor- and decision-related components of these transformations using brain-wide neural recordings. It has been more difficult to localize sensory computations in the same way. Here we developed a new approach for linking sensory computations to behavior by training mice to discriminate between two stimuli and testing their responses with new stimuli. In separate animals, we calculated the similarity of neural representations between train and test stimuli, using recordings of up to 73,000 simultaneously-recorded neurons from 9 primary and higher-order visual areas (HVAs) across layers 2 and 3. We found that neural discrimination on test but not train images correlated with behavioral discrimination, and this relation required prior visual experience as it was not present in dark-reared mice. The link between neural and behavioral performance was highest in the medial HVAs, suggesting this region is a critical component of sensory transformations and generalization.</p>
+</details>
+
+<a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1">preprint</a>
+<hr>
+
+To find where in the brain a sensory computation happens, we trained mice to
+discriminate two visual stimuli, then tested them on stimuli they had never seen.
+Behavioral generalization varied from mouse to mouse. In separate animals, we
+asked which neural populations tracked that variation.
+
+Recording up to 73,000 neurons at once across 9 primary and higher-order visual
+areas, we found that how well a population separated the *novel* test images
+predicted how well mice generalized. Separation of the *trained* images did not.
+The effect was absent in dark-reared mice, so it depends on prior visual
+experience, and it was strongest in the medial higher visual areas.

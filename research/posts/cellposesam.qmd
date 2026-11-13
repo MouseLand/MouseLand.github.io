@@ -1,0 +1,37 @@
+---
+title: "Cellpose-SAM: superhuman generalization for cellular segmentation"
+description: |
+  Adapting a foundation model backbone into the Cellpose framework gives segmentation that beats inter-human agreement.
+categories:
+  - Segmentation
+  - Machine learning
+  - Tools
+date: May 2025
+date-format: MMM YYYY
+author: "Marius Pachitariu, Michael Rariden, Carsen Stringer <br><em>bioRxiv</em>"
+toc: false
+image: images/cpsam_cover.jpg
+image-alt: Cellpose-SAM architecture with a ViT-L image encoder, and finetuning results across diverse cellular datasets
+---
+
+<details>
+  <summary><p style="font-size: smaller">Abstract</p></summary>
+  <p style="font-size: smaller">
+Modern algorithms for biological segmentation can match inter-human agreement in annotation quality. This however is not a performance bound: a hypothetical human-consensus segmentation could reduce error rates in half. To obtain a model that generalizes better we adapted the pretrained transformer backbone of a foundation model (SAM) to the Cellpose framework. The resulting Cellpose-SAM model substantially outperforms inter-human agreement and approaches the human-consensus bound. We increase generalization performance further by making the model robust to channel shuffling, cell size, shot noise, downsampling, isotropic and anisotropic blur. The new model can be readily adopted into the Cellpose ecosystem which includes finetuning, human-in-the-loop training, image restoration and 3D segmentation approaches. These properties establish Cellpose-SAM as a foundation model for biological segmentation.</p>
+</details>
+
+<a href="https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1">preprint</a> |
+<a href="https://github.com/mouseland/cellpose">code</a>
+<hr>
+
+Segmentation algorithms had already caught up with how well two humans agree with
+each other. But that is not the ceiling. A consensus of several human annotators
+makes about half as many errors as any single one, and that gap was still open.
+
+Cellpose-SAM closes most of it by adapting the pretrained transformer backbone of
+SAM into the Cellpose framework. The model exceeds inter-human agreement and
+approaches the human-consensus bound. Training it to tolerate channel shuffling,
+varying cell size, shot noise, downsampling, and both isotropic and anisotropic
+blur pushes generalization further still. It drops into the existing Cellpose
+ecosystem, so finetuning, human-in-the-loop training, image restoration and 3D
+segmentation all continue to work.

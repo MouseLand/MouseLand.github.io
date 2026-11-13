@@ -1,0 +1,293 @@
+/*-- scss:defaults --*/
+
+// Palette: the salmon from Bootswatch Journal, which is the lab's existing
+// identity colour. #eb6864 only reaches 3.1:1 on white, so it is used for
+// large blocks (navbar, banner, buttons) where that is acceptable, and a
+// deeper salmon carries body-size link text at 4.8:1 (WCAG AA).
+$salmon:        #eb6864;
+$salmon-deep:   #d6453f;
+$salmon-text:   #c9433d;
+$salmon-darker: #a83a34;
+
+$ink:          #16202b;
+$ink-muted:    #5a6672;
+$primary:      $salmon;
+$primary-dark: $salmon-deep;
+$rule:         #e9dedd;
+$surface:      #fdf7f6;
+
+$body-color:   $ink;
+$body-bg:      #ffffff;
+$link-color:   $salmon-text;
+$link-hover-color: $salmon-darker;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family:   $font-family-sans-serif;
+$headings-font-weight:   650;
+$headings-color:         $ink;
+
+$font-size-base:   1.03rem;
+$line-height-base: 1.65;
+
+$navbar-bg:              $salmon;
+$navbar-fg:              #ffffff;
+$navbar-hl:              #ffffff;
+$footer-bg:              $surface;
+
+$border-radius:    6px;
+$table-border-color: $rule;
+
+/*-- scss:rules --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+// ---------- Global type ----------
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.012em;
+}
+
+h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid $rule;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  &:hover { text-decoration: underline; }
+}
+
+// ---------- Navbar ----------
+
+.navbar {
+  border-bottom: none;
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    opacity: 0.86;
+    &:hover, &.active { opacity: 1; }
+  }
+  // "Join us" reads as the call to action
+  .navbar-nav.ms-auto .nav-link,
+  .navbar-right .nav-link {
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: $border-radius;
+    padding: 0.25rem 0.8rem;
+    opacity: 1;
+    &:hover {
+      background: #ffffff;
+      color: $ink !important;
+      text-decoration: none;
+    }
+  }
+}
+
+// ---------- Lab mark ----------
+
+// The mouse sits in the otherwise-empty left gutter rather than the navbar,
+// where it only duplicated the Home link. It links to the MouseLand GitHub
+// organization. Fixed, so it holds position while the page scrolls. Hidden on
+// the full-width research page, and below the width where a gutter exists at
+// all (the navbar "Home" link covers navigation there).
+.lab-mark { display: none; }
+
+@media (min-width: 1200px) {
+  .lab-mark {
+    display: block;
+    position: fixed;
+    top: 13rem;
+    left: 0;
+    // Span the gutter between the window edge and the content column, so the
+    // mark scales with the space available instead of sitting small in a
+    // corner. 1060px approximates the content column plus its outset.
+    width: max(0px, calc((100vw - 1060px) / 2));
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 500;
+
+    a { display: block; }
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      margin: 0 auto;
+      opacity: 0.85;
+      transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+
+    a:hover img {
+      opacity: 1;
+      transform: translateY(-2px);
+    }
+  }
+
+  #quarto-content.page-layout-full .lab-mark { display: none; }
+}
+
+// ---------- Title banners ----------
+
+.quarto-title-block .quarto-title-banner {
+  // Deeper than the navbar so the two salmon bands read as separate blocks
+  // rather than one continuous field.
+  background: linear-gradient(135deg, $salmon-deep 0%, $salmon-text 100%);
+  color: #ffffff;
+  h1, .title { color: #ffffff; }
+}
+
+.quarto-title-meta-heading { display: none; }
+
+div.quarto-container .quarto-title-meta-contents p {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: $ink-muted;
+}
+
+// ---------- Footer ----------
+
+.lab-footer {
+  border-top: 1px solid $rule;
+  margin-top: 3.5rem;
+  padding-top: 1.6rem;
+  text-align: center;
+  color: $ink-muted;
+  font-size: 0.9rem;
+  p { margin-bottom: 0.4rem; }
+  .footer-fine { font-size: 0.82rem; opacity: 0.8; }
+}
+
+// ---------- Research listing ----------
+
+// Grid listing: fluid columns. Quarto hard-codes the column count and only
+// steps down at 768px / 576px, which leaves big dead zones at intermediate
+// widths. auto-fill + minmax lets the number of cards per row follow the space
+// actually available, so it reflows continuously as the window resizes.
+// !important is needed to beat Quarto's own breakpoint rules.
+.list.grid[class*="quarto-listing-cols-"] {
+  grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)) !important;
+}
+
+// The research page (the only page-layout: full page) should use the whole
+// window width. Quarto caps its body column at `minmax(500px, 1010px - 3em)`
+// and gives the slack to 5fr gutters, so a wide window just grows the margins.
+// Re-declare the named grid lines with a fluid body column, keeping a margin
+// column for the category filter.
+#quarto-content.page-layout-full {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// #quarto-content carries the .page-columns class itself, so the override has
+// to match the same element as well as any nested grid.
+#quarto-content.page-layout-full.page-columns,
+#quarto-content.page-layout-full .page-columns {
+  grid-template-columns:
+    [screen-start] 1.5em
+    [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(0, 1fr)
+    [body-content-end] 1.5em
+    [body-end body-end-outset margin-start] minmax(0, 210px)
+    [margin-end page-end-inset page-end screen-end-inset] 1.5em
+    [screen-end] !important;
+}
+
+// Quarto hides #quarto-margin-sidebar below 767.98px; match that breakpoint so
+// the reserved category column disappears exactly when the sidebar does.
+@media (max-width: 767.98px) {
+  #quarto-content.page-layout-full.page-columns,
+  #quarto-content.page-layout-full .page-columns {
+    grid-template-columns:
+      [screen-start] 1.5em
+      [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(0, 1fr)
+      [body-content-end body-end body-end-outset margin-start] 0px
+      [margin-end page-end-inset page-end screen-end-inset] 1.5em
+      [screen-end] !important;
+  }
+}
+
+// Grid listing: vertical cards, image on top.
+
+.quarto-grid-link {
+  text-decoration: none !important;
+  &:hover { text-decoration: none !important; }
+}
+
+.quarto-grid-item.card {
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(22, 32, 43, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .card-img-top {
+    margin: 0;
+    padding: 0;
+  }
+
+  .thumbnail-image {
+    width: 100%;
+    object-fit: cover;
+    background: #0d1117;
+  }
+
+  .card-body { padding: 0.9rem 1rem 1rem 1rem; }
+
+  .card-title {
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: 600;
+    color: $ink;
+    margin-bottom: 0.5rem;
+  }
+
+  .listing-description {
+    font-size: 0.88em;
+    line-height: 1.5;
+    color: $ink-muted;
+    margin-bottom: 0.5em;
+    p { margin-bottom: 0; }
+  }
+
+  .card-attribution {
+    font-size: 0.78em;
+    line-height: 1.45;
+    color: $ink-muted;
+    text-transform: none;
+    padding-top: 0.4rem;
+    border-top: 1px solid $rule;
+  }
+
+  .listing-categories { margin-bottom: 0.5rem; }
+}
+
+// On phones the cards go full width, so a shorter image keeps more
+// titles visible per screen.
+@media (max-width: 575.98px) {
+  .quarto-grid-item.card .thumbnail-image {
+    height: 160px !important;
+  }
+}
+
+.quarto-listing-category .category {
+  font-weight: 500;
+  font-size: 0.84rem;
+  color: $ink-muted;
+  &.active { color: $salmon-text; font-weight: 650; }
+}
+
+.listing-category {
+  background: $surface;
+  border: 1px solid $rule;
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem !important;
+  font-size: 0.76rem !important;
+  color: $ink-muted !important;
+}
