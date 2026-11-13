@@ -9,6 +9,11 @@ resources:
 <div class="hero">
   <h1>Pachitariu + Stringer lab</h1>
   <p class="hero-lede">We record tens of thousands of neurons at once in behaving mice, to determine how visual cortex represents the world, how neural responses change during learning, and how those changes arise from underlying synaptic plasticity. We also build and maintain analysis pipelines: <a href="research/posts/suite2p.html">Suite2p</a>, <a href="research/posts/kilosort.html">Kilosort</a>, <a href="research/posts/cellpose.html">Cellpose</a>, <a href="research/posts/facemap.html">Facemap</a> and <a href="research/posts/rastermap.html">Rastermap</a>.</p>
+<div class="cta hero-cta">
+<h2>Join us</h2>
+<p>We are recruiting postdocs in systems neuroscience.</p>
+<a class="btn-lab" href="positions.html">See open positions</a>
+</div>
   <video width="100%" autoplay loop muted playsinline controls alt="50,000 neurons recorded with two-photon calcium imaging from mouse visual cortex">
     <source src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/Movie1.mp4" type="video/mp4">
   </video>
@@ -63,12 +68,3 @@ or the [raw data](code_and_data.qmd).
 :::
 
 [All news, talks and media coverage →](news.qmd)
-
-## Join us
-
-::: {.cta}
-We are recruiting postdocs in systems neuroscience.
-
-[See open positions](positions.qmd){.btn-lab}
-
-:::

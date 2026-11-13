@@ -417,3 +417,20 @@
 }
 
 .pi-links a { display: block; }
+
+/* Join us box inside the Home hero, above the video. The global h2 style adds a
+   large top margin and a rule, which would look wrong inside a compact box. */
+.hero-cta {
+  margin: 0 0 1.6rem 0;
+}
+
+.hero-cta h2 {
+  margin: 0 0 0.35rem 0;
+  padding: 0;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.hero-cta p {
+  margin: 0 0 0.6rem 0;
+}

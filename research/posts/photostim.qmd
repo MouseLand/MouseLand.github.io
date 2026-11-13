@@ -33,3 +33,5 @@ We get pixel-level precision, masks that update frame by frame, and single-frame
 photostimulation of thousands of neurons across a 5 mm field of view. It gives up
 the fine temporal control of spatial light modulator approaches, and in exchange is
 simpler, cheaper, and reaches far more neurons at once.
+
+{{< video https://www.youtube.com/watch?v=TIlc5XtmxsQ title="Large-scale raster photostimulation of mouse visual cortex" >}}
