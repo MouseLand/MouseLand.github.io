@@ -2,20 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="open science">
 
-<title>Code &amp; datasets</title>
+<title>Code &amp; datasets – Pachitariu + Stringer lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,14 +40,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f1ca17d6afd6db4b086c236b7be6b74a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e20d0919a3ee4d09a9528c07eeba6b24.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,22 +79,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Code &amp; datasets – Pachitariu + Stringer lab">
+<meta property="og:description" content="open science">
+<meta property="og:image" content="https://mouseland.github.io/images/logo.png">
+<meta property="og:site_name" content="Pachitariu + Stringer lab">
+<meta property="og:image:alt" content="MouseLand GitHub organization">
+<meta property="og:image:height" content="641">
+<meta property="og:image:width" content="684">
+<meta name="twitter:title" content="Code &amp; datasets – Pachitariu + Stringer lab">
+<meta name="twitter:description" content="open science">
+<meta name="twitter:image" content="https://mouseland.github.io/images/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="MouseLand GitHub organization">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
-    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -97,10 +107,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./people/index.html"> 
-<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research/index.html"> 
@@ -111,13 +117,28 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./people/index.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./code_and_data.html" aria-current="page"> 
 <span class="menu-text">Code &amp; data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News &amp; talks</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./positions.html"> 
+<span class="menu-text">Join us</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -126,7 +147,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Code &amp; datasets</h1>
-                      </div>
+                  <div>
+        <div class="description">
+          open science
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -142,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -152,67 +178,271 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
 
 
 
 
-
+<div class="lab-mark">
+<a href="https://github.com/MouseLand" title="MouseLand on GitHub"><img src="./images/logo.png" alt="MouseLand GitHub organization"></a>
+</div>
 <section id="code" class="level2">
 <h2 class="anchored" data-anchor-id="code">Code</h2>
-<p>We develop and maintain several analysis frameworks for neuroscience and biology more generally:</p>
-<ul>
-<li><p><a href="https://github.com/mouseland/cellpose">Cellpose</a> is a generalist, deep learning-based segmentation algorithm written in Python which can precisely segment cells from a wide range of image types – try it out on your own data easily on <a href="https://huggingface.co/spaces/mouseland/cellpose">hugging-face</a>. Cellpose can be applied to 2D and 3D imaging data without requiring 3D-labelled data. It has an easy-to-use graphical user interface for manual labeling and for curation of the automated results. It can also be used to train new models on user data, and for denoising, deblurring, or upsampling images. Software developers have integrated Cellpose into their own image processing software, such as CellProfiler, ImagePy, ImJoy, aPeer, Napari.</p>
-<p></p>
-<center>
-<video src="https://www.cellpose.org/static/images/cp1_1.mp4" width="75%" loop="true" autoplay="autoplay" controls="" muted="">
+<div class="tool-tiles">
+<div class="tool-tile">
+<div class="tool-media">
+<video src="https://www.cellpose.org/static/images/cp1_1.mp4" loop="" autoplay="" muted="" playsinline="">
 </video>
-</center>
-<p><br> <br></p></li>
-<li><p><a href="https://github.com/mouseland/kilosort">Kilosort</a> is the most popular spike sorting tool for Neuropixels probes, and it also works on other probes. The software is GPU-accelerated to enable fast and accurate spike sorting. Kilosort first detects spikes, then uses these spikes to perform drift correction – an important step in most recording setups. Next it clusters the spikes using novel graph-based clustering techniques. Kilosort4 is implemented in python with an easy-to-use GUI.</p>
-<center>
-<p><img src="images/ks_gui.png" width="75%"></p>
-</center>
-<p><br></p></li>
-<li><p><a href="https://github.com/mouseland/suite2p">Suite2p</a> is a fast, accurate and complete pipeline written in Python that registers raw movies, detects active cells, extracts their calcium traces and infers their spike times. Suite2p runs on standard workstations, operates faster than real time, and recovers ~2 times more cells than the previous state-of-the-art methods. Its low computational load allows routine detection of ~25,000 cells simultaneously from recordings taken with standard two-photon resonant-scanning microscopes. In addition to its ability to detect cell somas, the detection algorithm can detect axonal segments, boutons, dendrites, and spines. Suite2p has an extensive GUI which allows the user to explore their data. Software developers have integrated Suite2p into their packages, such as those for multi-day cell alignment and photostimulation experiments.</p>
-<p></p>
-<center>
-<p><img src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/multiselect.gif" width="85%"></p>
-</center>
-<p><br></p></li>
-<li><p><a href="https://github.com/mouseland/facemap">Facemap</a> is a tool for extracting behavioral features from mouse face videos and using them to predict neural activity. Facemap can be used to extract a 500-dimensional summary of the motor actions visible on the mouse’s face by applying singular value decomposition (SVD) to the facial motion. It can also be used to track keypoints on the mouse face, using a state-of-the-art deep neural network. Facemap also includes a 1D convolutional neural network to predict neural activity from keypoints or SVDs, which is two times more accurate than previous approaches. Facemap’s GUI enables movie playback with behavioral feature tracking and neural activity.</p>
-<center>
-<p><img src="https://github.com/MouseLand/facemap/raw/master/figs/face_fast.gif" width="75%"></p>
-</center>
-<p><br></p></li>
-<li><p><a href="https://github.com/mouseland/rastermap">Rastermap</a> is a tool for visualizing large-scale neural activity by applying a one-dimensional manifold embedding. To preserve both local and global structure, Rastermap combines manifold discovery and clustering. To capture temporal relationships among clusters, we compute not just the instantaneous correlations between cluster activities but also the cross-correlations of the clusters. Next we sort these clusters to optimize local and global distance preservation. Then the sorting is upsampled so that neurons can be assigned to their most correlated place in the one-dimensional embedding. This enables Rastermap to find sequences in visual cortical neural activity evoked by virtual reality corridors, which t-SNE and UMAP cannot do, and also Rastermap outperforms these algorithms on structure preservation benchmarks. Rastermap can be run in a jupyter-notebook, on the command line, in the provided GUI, or inside Suite2p to explore the spatial relationships among neurons identified to have similar activity patterns.</p>
-<center>
-<p><img src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/spont.gif" width="85%"></p>
-</center></li>
-</ul>
+<div class="tool-detail">
+<p>
+Works on 2D and 3D data without needing 3D labels. The GUI handles manual labeling and curation, can train new models on your own images, and can denoise, deblur or upsample them. Developers have integrated it into CellProfiler, ImagePy, ImJoy, aPeer and Napari. Try it on <a href="https://huggingface.co/spaces/mouseland/cellpose">hugging-face</a>.
+</p>
+</div>
+</div>
+<div class="tool-caption">
+<h3 class="anchored">
+<a href="https://github.com/mouseland/cellpose">Cellpose</a>
+</h3>
+<p>
+Generalist deep-learning segmentation that works across a wide range of image types.
+</p>
+</div>
+</div>
+<div class="tool-tile">
+<div class="tool-media">
+<img src="images/ks_gui.png" alt="Kilosort graphical interface">
+<div class="tool-detail">
+<p>
+GPU-accelerated for speed and accuracy. It detects spikes, uses them for drift correction (essential in most recording setups), then clusters them with novel graph-based methods. Kilosort4 is written in Python with an easy-to-use GUI.
+</p>
+</div>
+</div>
+<div class="tool-caption">
+<h3 class="anchored">
+<a href="https://github.com/mouseland/kilosort">Kilosort</a>
+</h3>
+<p>
+The most widely used spike sorter for Neuropixels probes, and it works on others too.
+</p>
+</div>
+</div>
+<div class="tool-tile">
+<div class="tool-media">
+<img src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/multiselect.gif" alt="Suite2p cell selection interface">
+<div class="tool-detail">
+<p>
+Runs on standard workstations, faster than real time, recovering about twice as many cells as previous methods. Routinely detects ~25,000 cells at once from standard resonant-scanning microscopes, including axons, boutons, dendrites and spines. Extensive GUI for exploring the data.
+</p>
+</div>
+</div>
+<div class="tool-caption">
+<h3 class="anchored">
+<a href="https://github.com/mouseland/suite2p">Suite2p</a>
+</h3>
+<p>
+Complete two-photon pipeline: registration, cell detection, traces and spike times.
+</p>
+</div>
+</div>
+<div class="tool-tile">
+<div class="tool-media">
+<img src="https://github.com/MouseLand/facemap/raw/master/figs/face_fast.gif" alt="Facemap tracking keypoints on a mouse face">
+<div class="tool-detail">
+<p>
+Applies SVD to facial motion for a 500-dimensional summary of the mouse’s movements, and tracks keypoints with a deep network. A 1D convolutional network then predicts neural activity from either, twice as accurately as previous approaches.
+</p>
+</div>
+</div>
+<div class="tool-caption">
+<h3 class="anchored">
+<a href="https://github.com/mouseland/facemap">Facemap</a>
+</h3>
+<p>
+Extracts orofacial behavior from face videos and predicts neural activity from it.
+</p>
+</div>
+</div>
+<div class="tool-tile">
+<div class="tool-media">
+<img src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/spont.gif" alt="Rastermap embedding of spontaneous neural activity">
+<div class="tool-detail">
+<p>
+Combines manifold discovery with clustering, using both instantaneous and cross-correlations between clusters, then upsamples the sorting so each neuron sits at its most correlated position. Finds VR-corridor sequences that t-SNE and UMAP miss. Runs in a notebook, its GUI, or inside Suite2p.
+</p>
+</div>
+</div>
+<div class="tool-caption">
+<h3 class="anchored">
+<a href="https://github.com/mouseland/rastermap">Rastermap</a>
+</h3>
+<p>
+Visualizes large-scale neural activity with a one-dimensional manifold embedding.
+</p>
+</div>
+</div>
+</div>
 </section>
 <section id="datasets" class="level2">
 <h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
-<p>We share our large-scale recordings of mouse cortex on figshare:</p>
-<ul>
-<li><p><a href="https://janelia.figshare.com/articles/dataset/Towards_a_simplified_model_of_primary_visual_cortex/28797638">Visual response dataset (Du et al 2025)</a>: recordings of 29,000 neurons in mouse primary visual cortex in response to up to 65,000 natural images; <a href="https://github.com/mouseland/minimodel">analysis code</a></p></li>
-<li><p><a href="https://doi.org/10.25378/janelia.28811129.v1">Visual learning dataset (Zhong et al 2025)</a>: recordings of 50,000+ neurons simultaneously in mouse visual cortex as mice undergo unsupervised and task learning in virtual reality; <a href="https://github.com/mouseland/zhong-et-al-2025">analysis code</a></p></li>
-<li><p><a href="https://janelia.figshare.com/articles/dataset/Facemap_a_framework_for_modeling_neural_activity_based_on_orofacial_tracking/23712957">Facemap dataset (Syeda et al 2024)</a>: spontaneous neural activity from 50,000+ neurons in mouse visual cortex and sensorimotor cortex, simultaneous face camera recordings, and keypoint tracking training set</p></li>
-<li><p><a href="https://figshare.com/articles/Recordings_of_20_000_neurons_from_V1_in_response_to_oriented_stimuli/8279387">Neural responses to oriented stimuli (Stringer et al 2021)</a>: Responses of 20,000+ neurons in mouse primary visual cortex and higher order visual cortex; <a href="https://github.com/mouseland/stringer-et-al-2019">analysis code</a></p></li>
-<li><p><a href="http://dx.doi.org/10.25378/janelia.6163622.v6">Spontaneous neural activity in V1 (Stringer, Pachitariu et al 2019)</a>: Recordings of 10,000 neurons in visual cortex during spontaneous behaviors; <a href="https://github.com/MouseLand/stringer-pachitariu-et-al-2018a">analysis code</a></p></li>
-<li><p><a href="https://figshare.com/articles/Eight-probe_Neuropixels_recordings_during_spontaneous_behaviors/7739750">Eight-probe Neuropixels recordings during spontaneous behaviors</a> by Nicholas Steinmetz, from Stringer, Pachitariu et al 2019</p></li>
-<li><p><a href="http://dx.doi.org/10.25378/janelia.6845348.v4">Neural responses to natural images (Stringer, Pachitariu et al 2019)</a>: Recordings of 10,000 neurons in primary visual cortex in response to 2,800 natural images; <a href="https://github.com/MouseLand/stringer-pachitariu-et-al-2018b">analysis code</a></p></li>
-<li><p><a href="https://figshare.com/articles/Recordings_of_10k_neurons_in_V1_during_drifting_gratings/6214019">V1 responses to drifting gratings (Pachitariu et al 2018)</a>: Responses of 10,000 neurons in mouse V1 during drifting gratings</p></li>
-</ul>
-<p>We also shared the training data for the Cellpose algorithm: <a href="https://www.cellpose.org/dataset/">70,000 segmented cells + other objects</a>.</p>
-<p>And we shared the simulations from the Kilosort4 paper: <a href="https://janelia.figshare.com/articles/dataset/Simulations_from_kilosort4_paper/25298815">ephys simulations</a>.</p>
+<div class="data-tiles">
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Du et al</span><span class="data-year">2025</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://janelia.figshare.com/articles/dataset/Towards_a_simplified_model_of_primary_visual_cortex/28797638">Visual response dataset</a>
+</h3>
+<p>
+29,000 neurons in mouse primary visual cortex responding to up to 65,000 natural images.
+</p>
+<p class="data-code">
+<a href="https://github.com/mouseland/minimodel">analysis code</a>
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Zhong et al</span><span class="data-year">2025</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://doi.org/10.25378/janelia.28811129.v1">Visual learning dataset</a>
+</h3>
+<p>
+50,000+ neurons recorded simultaneously in mouse visual cortex as mice undergo unsupervised and task learning in virtual reality.
+</p>
+<p class="data-code">
+<a href="https://github.com/mouseland/zhong-et-al-2025">analysis code</a>
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Syeda et al</span><span class="data-year">2024</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://janelia.figshare.com/articles/dataset/Facemap_a_framework_for_modeling_neural_activity_based_on_orofacial_tracking/23712957">Facemap dataset</a>
+</h3>
+<p>
+Spontaneous activity from 50,000+ neurons in mouse visual and sensorimotor cortex, with simultaneous face camera recordings and a keypoint tracking training set.
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Stringer et al</span><span class="data-year">2021</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://figshare.com/articles/Recordings_of_20_000_neurons_from_V1_in_response_to_oriented_stimuli/8279387">Neural responses to oriented stimuli</a>
+</h3>
+<p>
+20,000+ neurons in mouse primary and higher-order visual cortex.
+</p>
+<p class="data-code">
+<a href="https://github.com/mouseland/stringer-et-al-2019">analysis code</a>
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Stringer, Pachitariu et al</span><span class="data-year">2019</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="http://dx.doi.org/10.25378/janelia.6163622.v6">Spontaneous neural activity in V1</a>
+</h3>
+<p>
+10,000 neurons in visual cortex during spontaneous behaviors.
+</p>
+<p class="data-code">
+<a href="https://github.com/MouseLand/stringer-pachitariu-et-al-2018a">analysis code</a>
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Stringer, Pachitariu et al</span><span class="data-year">2019</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="http://dx.doi.org/10.25378/janelia.6845348.v4">Neural responses to natural images</a>
+</h3>
+<p>
+10,000 neurons in primary visual cortex responding to 2,800 natural images.
+</p>
+<p class="data-code">
+<a href="https://github.com/MouseLand/stringer-pachitariu-et-al-2018b">analysis code</a>
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Steinmetz et al</span><span class="data-year">2019</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://figshare.com/articles/Eight-probe_Neuropixels_recordings_during_spontaneous_behaviors/7739750">Eight-probe Neuropixels recordings</a>
+</h3>
+<p>
+Recordings during spontaneous behaviors, collected by Nicholas Steinmetz, from Stringer, Pachitariu et al 2019.
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Pachitariu et al</span><span class="data-year">2018</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://figshare.com/articles/Recordings_of_10k_neurons_in_V1_during_drifting_gratings/6214019">V1 responses to drifting gratings</a>
+</h3>
+<p>
+10,000 neurons in mouse V1 during drifting gratings.
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Stringer et al</span><span class="data-year">2021</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://www.cellpose.org/dataset">Cellpose training data</a>
+</h3>
+<p>
+70,000 segmented cells and other objects, the training set behind the Cellpose algorithm.
+</p>
+</div>
+</div>
+<div class="data-tile">
+<div class="data-authors">
+<span class="data-who">Pachitariu et al</span><span class="data-year">2024</span>
+</div>
+<div class="data-body">
+<h3 class="anchored">
+<a href="https://janelia.figshare.com/articles/dataset/Simulations_from_kilosort4_paper/25298815">Kilosort4 ephys simulations</a>
+</h3>
+<p>
+Simulated electrophysiology recordings used to benchmark spike sorting in the Kilosort4 paper.
+</p>
+</div>
+</div>
+</div>
 
 
 </section>
 
-<center>
-<img src="./images/HHMI_Janelia_Logo-Black.png" width="120px" alt="Janelia"><br> <font size="2pt"> Powered by <a href="https://www.quarto.org">Quarto</a>. © Marius Pachitariu &amp; Carsen Stringer lab, 2026.</font>
-</center></main> <!-- /main -->
+<div class="lab-footer">
+<p>
+<strong>Pachitariu + Stringer lab</strong><br> Research funded by the <a href="https://www.hhmi.org/">Howard Hughes Medical Institute</a>.
+</p>
+<p class="footer-fine">
+Built with <a href="https://www.quarto.org">Quarto</a>. © Marius Pachitariu &amp; Carsen Stringer, 2026.
+</p>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -286,12 +516,13 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/MouseLand\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/mouseland\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -300,8 +531,69 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -315,6 +607,7 @@ ul.task-list li input[type="checkbox"] {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -477,44 +770,54 @@ ul.task-list li input[type="checkbox"] {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -612,6 +915,9 @@ ul.task-list li input[type="checkbox"] {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 

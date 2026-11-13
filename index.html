@@ -2,20 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="We record tens of thousands of neurons at once in behaving mice, to determine how visual cortex represents the world, how neural responses change during learning, and how those changes arise from underlying synaptic plasticity.">
 
 <title>Pachitariu + Stringer lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,14 +40,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f1ca17d6afd6db4b086c236b7be6b74a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e20d0919a3ee4d09a9528c07eeba6b24.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,22 +79,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Pachitariu + Stringer lab">
+<meta property="og:description" content="We study how large populations of neurons in the mammalian cortex learn and represent the world.">
+<meta property="og:image" content="https://mouseland.github.io/research/posts/images/zhang_cover.png">
+<meta property="og:site_name" content="Pachitariu + Stringer lab">
+<meta property="og:image:alt" content="Spatial predictive coding in visual cortex">
+<meta property="og:image:height" content="676">
+<meta property="og:image:width" content="829">
+<meta name="twitter:title" content="Pachitariu + Stringer lab">
+<meta name="twitter:description" content="We study how large populations of neurons in the mammalian cortex learn and represent the world.">
+<meta name="twitter:image" content="https://mouseland.github.io/research/posts/images/zhang_cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Spatial predictive coding in visual cortex">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
-    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -97,10 +107,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./people/index.html"> 
-<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research/index.html"> 
@@ -111,13 +117,28 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./people/index.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./code_and_data.html"> 
 <span class="menu-text">Code &amp; data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> 
+<span class="menu-text">News &amp; talks</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./positions.html"> 
+<span class="menu-text">Join us</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -125,129 +146,101 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">Research</a></li>
-  <li><a href="#news" id="toc-news" class="nav-link" data-scroll-target="#news">News</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#talks" id="toc-talks" class="nav-link" data-scroll-target="#talks">Talks</a></li>
-  <li><a href="#media-coverage" id="toc-media-coverage" class="nav-link" data-scroll-target="#media-coverage">Media Coverage</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">
+Pachitariu + Stringer lab
+</h1></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Pachitariu + Stringer lab</h1>
+
+
+
+<div class="lab-mark">
+<a href="https://github.com/MouseLand" title="MouseLand on GitHub"><img src="./images/logo.png" alt="MouseLand GitHub organization"></a>
+</div><div class="hero">
+
+<p class="hero-lede">
+We record tens of thousands of neurons at once in behaving mice, to determine how visual cortex represents the world, how neural responses change during learning, and how those changes arise from underlying synaptic plasticity. We also build and maintain analysis pipelines: <a href="research/posts/suite2p.html">Suite2p</a>, <a href="research/posts/kilosort.html">Kilosort</a>, <a href="research/posts/cellpose.html">Cellpose</a>, <a href="research/posts/facemap.html">Facemap</a> and <a href="research/posts/rastermap.html">Rastermap</a>.
+</p>
+<video width="100%" autoplay="" loop="" muted="" playsinline="" controls="" alt="50,000 neurons recorded with two-photon calcium imaging from mouse visual cortex"> <source src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/Movie1.mp4" type="video/mp4"> </video>
+<p class="caption">
+50,000+ neurons recorded simultaneously at 3 Hz with two-photon calcium imaging, in mouse visual cortex.
+</p>
+</div>
+<section id="example-projects-in-the-lab" class="level2">
+<h2 class="anchored" data-anchor-id="example-projects-in-the-lab">Example projects in the lab</h2>
+<div class="card-grid">
+<a class="theme-card" href="research/posts/unsupervised.html"> <img src="research/posts/images/zhong_5_maps.jpg" style="background:#fff" alt="Maps of visual cortical areas showing the density of stimulus-selective neurons before and after supervised and unsupervised learning">
+<div class="theme-body">
+<h3 class="anchored">
+How does cortex learn without supervision?
+</h3>
+<p>
+Mice exposed to stimuli with no task and no reward still reorganize their visual representations.
+</p>
+</div>
+</a> <a class="theme-card" href="research/posts/generalization.html"> <img src="research/posts/images/nunez_fig4f.jpg" style="background:#fff" alt="Maps of visual cortical areas showing correlation between neural and behavioral discrimination for trained and novel images">
+<div class="theme-body">
+<h3 class="anchored">
+Which visual areas predict how well mice generalize?
+</h3>
+<p>
+Neural discrimination of novel test images, but not of trained images, predicts how well mice generalize.
+</p>
+</div>
+</a> <a class="theme-card" href="research/posts/facemap.html"> <img src="research/posts/images/facemap_fig4.jpg" style="background:#fff" alt="Recorded neural activity and Facemap network prediction of that activity">
+<div class="theme-body">
+<h3 class="anchored">
+How much of cortical activity reflects behavior?
+</h3>
+<p>
+Ongoing orofacial movements account for a large fraction of variance across the brain, including in primary sensory areas.
+</p>
+</div>
+</a> <a class="theme-card" href="research/posts/spatialpred.html"> <img src="research/posts/images/zhang_cover.png" style="background:#fff" alt="Spatial predictive coding in visual cortex">
+<div class="theme-body">
+<h3 class="anchored">
+Does cortex predict in space or in time?
+</h3>
+<p>
+Mismatch responses in visual cortex turn out to signal spatial novelty, not violated temporal expectations.
+</p>
+</div>
+</a>
+</div>
+<p>Browse <a href="./research/index.html">all research</a>, the <a href="./research/publications.html">full publication list</a>, or the <a href="./code_and_data.html">raw data</a>.</p>
+</section>
+<section id="recent-news" class="level2">
+<h2 class="anchored" data-anchor-id="recent-news">Recent news</h2>
+<div class="news-list">
+<ul>
+<li>Miguel Angel Nuñez-Ochoa et al., preprint out on <a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1.abstract">Linking neural representations to behavior using generalization</a>.</li>
+<li>Paul K LaFosse et al., preprint out on <a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719951v1.abstract">Raster photostimulation of large-scale neural populations</a>.</li>
+<li><a href="https://www.nature.com/articles/s41586-026-10528-1">A critical initialization for biological neural networks</a> published in <em>Nature</em>, with all <a href="https://doi.org/10.25378/janelia.27854448">data</a> and <a href="https://github.com/MouseLand/critical_init">code</a> released.</li>
+<li>Atika Syeda et al., preprint out on <a href="https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract">Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex</a>, also presented at Cosyne.</li>
+<li>Lin Zhong et al.&nbsp;on <a href="https://www.nature.com/articles/s41586-025-09180-y">unsupervised pretraining in biological neural networks</a>, published in <em>Nature</em>.</li>
+</ul>
+</div>
+<p><a href="./news.html">All news, talks and media coverage →</a></p>
+</section>
+<section id="join-us" class="level2">
+<h2 class="anchored" data-anchor-id="join-us">Join us</h2>
+<div class="cta">
+<p>We are recruiting postdocs in systems neuroscience.</p>
+<p><a href="./positions.html" class="btn-lab">See open positions</a></p>
 </div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Our lab is at <a href="https://www.janelia.org/">HHMI Janelia Research Campus</a> (near DC), a fully-funded non-profit research institution.</p>
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
-<p>Our lab combines machine learning / AI techniques and large-scale imaging to investigate plasticity rules and sensory representations in cortical circuits. Example recording of 50,000+ neurons simultaneously at 3Hz, using two-photon calcium imaging:</p>
-<video width="100%" autoplay="" loop="" muted="" playsinline="" controls="" alt="50,000 neurons recorded with two-photon calcium imaging from mouse visual cortex">
-<source src="https://github.com/MouseLand/MouseLand.github.io/releases/download/v0.1/Movie1.mp4" type="video/mp4">
-</video>
-<p>Learn more about our research <a href="./research/index.html">here</a> and see all publications <a href="./research/publications.html">here</a>. We share all the data generated by our studies, linked <a href="./code_and_data.html">here</a>. We also have developed several data processing packages for the bio/neuro community: <a href="./research/posts/cellpose.html">cellpose</a>, <a href="./research/posts/kilosort.html">kilosort</a>, <a href="./research/posts/suite2p.html">suite2p</a>, <a href="./research/posts/rastermap.html">facemap</a>, and <a href="./research/posts/rastermap.html">rastermap</a>.</p>
-</section>
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<ul>
-<li>Congrats to Miguel Angel Nuñez-Ochoa et al, preprint now out on <a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1.abstract">Linking neural representations to behavior using generalization</a>!</li>
-<li>Congrats to Paul K LaFosse et al, preprint now out on <a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719951v1.abstract">Raster photostimulation of large-scale neural populations</a>!</li>
-<li><a href="https://www.nature.com/articles/s41586-026-10528-1">Critical initialization of biological neural networks</a> now published! + all <a href="https://doi.org/10.25378/janelia.27854448">data</a> and <a href="https://github.com/MouseLand/critical_init">code</a> shared!</li>
-<li>Congrats to Atika Syeda et al, preprint now out on <a href="https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract">Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex</a>! Also she presented this work at Cosyne!</li>
-<li><a href="https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract">Suite2p</a> now out as a preprint!</li>
-<li>Check out our lab’s SfN posters:
-<ul>
-<li><strong>Nov 17 PM Q2</strong>: PSTR224.08. Train/test behavioral cross-validation reveals neural correlates in mice</li>
-<li><strong>Nov 19 AM R8</strong>: PSTR394.02. Impact of eye movements and orofacial movements on mouse visual cortex</li>
-<li><strong>Nov 19 PM Q9</strong>: PSTR450.05. Spatial or temporal prediction in mouse visual cortex</li>
-</ul></li>
-<li>Congrats to Qingqing Zhang et al, preprint now out on <a href="https://www.biorxiv.org/content/10.1101/2025.09.17.676794v1">Spatial predictive coding in visual cortical neurons</a>!</li>
-<li>Fengtong Du’s <a href="https://www.nature.com/articles/s41467-025-61171-9">paper</a> on minimodels of visual cortical neurons in mice and monkeys now published! <a href="https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see">News coverage</a></li>
-<li>Lin Zhong’s <a href="https://www.nature.com/articles/s41586-025-09180-y">paper</a> on unsupervised learning now published! <a href="https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster">News coverage</a></li>
-</ul>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li>About <a href="https://www.janelia.org/about-us">HHMI Janelia Research Campus</a></li>
-<li>HHMI’s <a href="https://www.hhmi.org/about/values">values</a></li>
-<li><a href="https://youtube.com/playlist?list=PLTHgpZlI_u0hSo_NO0wpzpMnt6BnOOaWl&amp;feature=shared">Being a postdoc at Janelia</a></li>
-</ul>
-</section>
-<section id="talks" class="level2">
-<h2 class="anchored" data-anchor-id="talks">Talks</h2>
-<ul>
-<li>Cellpose3 <a href="https://www.youtube.com/watch?v=TZZZlGk6AKo">talk+tutorial</a></li>
-<li>Rastermap <a href="https://youtu.be/oQHq7yUWn2k">tutorial</a></li>
-<li>Facemap <a href="https://youtu.be/aO_kXkOuadg">tutorial</a></li>
-<li>Kilosort 4 <a href="https://youtu.be/LTSmoACr918?feature=shared">talk</a></li>
-<li>Making sense of large-scale neural and behavioral data with Facemap and Rastermap <a href="https://www.youtube.com/watch?v=4fIXfSBKWu8">talk</a></li>
-<li>Cellpose 2.0: how to train your own model <a href="https://youtu.be/3ydtAhfq6H0">talk</a>, <a href="https://youtu.be/5qANHWoubZU">talk+tutorial</a></li>
-<li>Cellpose <a href="https://youtu.be/7y9d4VIKiS8">talk</a>, <a href="https://www.youtube.com/watch?v=DL-j-hPFixk">talk+tutorial</a></li>
-<li>Suite2p <a href="https://www.youtube.com/watch?v=L0cX6V2wFUU">talk</a></li>
-<li>Kilosort 1, 2, 2.5 &amp; 3 <a href="https://youtu.be/cmrAhhquC9E?feature=shared">talk</a></li>
-<li>High precision coding in visual cortex <a href="https://youtu.be/5-DkXplTFuY">short talk</a>, <a href="https://www.youtube.com/watch?v=ob48PKoIbfA">long talk</a></li>
-<li>High-dimensional geometry of population responses in visual cortex <a href="https://www.youtube.com/watch?v=fAFHJiqYwb8">talk</a></li>
-<li>High-dimensional problems in neuroscience <a href="https://youtu.be/NzdynFTp7fY">talk</a></li>
-<li>Spontaneous behaviors drive multidimensional, brainwide activity <a href="https://youtu.be/1FCCh4COiCM?feature=shared&amp;t=196">talk</a></li>
-</ul>
-</section>
-<section id="media-coverage" class="level2">
-<h2 class="anchored" data-anchor-id="media-coverage">Media Coverage</h2>
-<ul>
-<li><p><a href="https://youtu.be/dl_xnOsGp4E?si=65uU8IXqMm0GhXme">How Brains Learn &amp; Compute: Neuroscience Meets AI with Dr.&nbsp;Marius Pachitariu</a>, Mind &amp; Matter Podcast</p></li>
-<li><p><a href="https://www.janelia.org/news/new-computational-model-could-help-shed-light-on-how-we-see">New computational model could help shed light on how we see</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.vice.com/en/article/doing-this-might-actually-make-you-smarter/">Doing This Might Actually Make You Smarter</a>, Vice</p></li>
-<li><p><a href="https://www.iflscience.com/zoning-out-actually-helps-you-learn-data-from-up-to-90000-brain-cells-says-so-79986">“Zoning Out” Actually Helps You Learn? Data From Up To 90,000 Brain Cells Says So</a>, IFL Science</p></li>
-<li><p><a href="https://www.janelia.org/news/zoning-out-could-be-beneficial%E2%80%94and-may-actually-help-us-learn-faster">Zoning out could be beneficial—and may actually help us learn faster</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.janelia.org/news/newest-version-of-cellpose-can-spot-cell-boundaries-even-in-cloudy-conditions">Newest version of Cellpose can spot cell boundaries even in cloudy conditions</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://medicalxpress.com/news/2024-10-visualization-method-large-neuronal-datasets.html">Novel visualization method helps make sense of large neuronal activity datasets</a>, Medical Xpress</p></li>
-<li><p><a href="https://www.janelia.org/news/new-tool-helps-scientists-spot-patterns-in-mountains-of-data">New tool helps scientists spot patterns in mountains of data</a>, Howard Huges Medical Institute</p></li>
-<li><p><a href="https://www.nature.com/articles/d41586-024-03344-y">Six tips for going public with your lab’s software</a>, Nature</p></li>
-<li><p><a href="https://www.janelia.org/news/janelia-scientists-release-state-of-the-art-spike-sorting-software-kilosort4">Janelia scientists release state-of-the-art spike-sorting software Kilosort4</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.nature.com/articles/s41592-023-02154-w">Predicting neural activity from facial expressions</a>, Nature Methods</p></li>
-<li><p><a href="https://pennneuroknow.com/2023/12/19/tiny-faces-big-expressions-reading-rodent-faces/">Tiny faces, big expressions: Reading rodent faces</a>, Penn NeuroKnow</p></li>
-<li><p><a href="https://www.janelia.org/news/reading-the-mouse-mind-from-its-face-new-tool-decodes-neural-activity-using-facial-movements">Reading the mouse mind from its face: New tool decodes neural activity using facial movements</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.janelia.org/news/noisy-solo-neurons-show-consistency-in-groups">Noisy solo neurons show consistency in groups</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.scientifica.uk.com/neurowire/high-precision-coding-how-the-visual-cortex-processes-information-about-the-world">High precision coding: How the visual cortex processes information about the world</a>, Scientifica</p></li>
-<li><p><a href="https://www.janelia.org/news/new-tool-maps-boundaries-of-diverse-cells-in-microscope-images">New tool maps boundaries of diverse cells in microscope images</a>, Howard Hughes Medical Institute</p></li>
-<li><p><a href="https://www.nature.com/articles/d41586-021-03628-7">Python power-up: new image tool visualizes complex data</a>, Nature</p></li>
-<li><p><a href="https://www.quantamagazine.org/a-power-law-keeps-the-brains-perceptions-balanced-20191022/">A Power Law Keeps the Brain’s Perceptions Balanced</a>, Quanta magazine</p></li>
-<li><p><a href="https://www.simonsfoundation.org/2019/06/26/power-law-discovery-may-explain-why-you-can-see-the-forest-and-the-trees/">Power Law Discovery May Explain Why You Can See the Forest and the Trees</a>, Simons Foundation</p></li>
-<li><p><a href="https://www.quantamagazine.org/noise-in-the-brains-vision-areas-encodes-body-movements-20191107/">‘Noise’ in the Brain Encodes Surprisingly Important Signals</a>, Quanta magazine</p></li>
-<li><p><a href="https://www.simonsfoundation.org/2019/11/26/thinking-on-the-go-why-does-the-whole-brain-light-up-for-just-the-smallest-movements/">Thinking on the Go: Why Does the Whole Brain Light Up for Just the Smallest Movements?</a>, Simons Foundation</p></li>
-<li><p><a href="https://www.storiesofwin.org/profiles/2021/6/2/dr-carsen-stringer">profile + podcast</a>, Stories of Women in Neuroscience (WIN) by Daniela Cassataro</p></li>
-<li><p><a href="https://braininspired.co/podcast/91/">Understanding 40,000 neurons</a>, Brain Inspired podcast by Paul Middlebrooks</p></li>
-</ul>
-
-
 </section>
 
-<center>
-<img src="./images/HHMI_Janelia_Logo-Black.png" width="120px" alt="Janelia"><br> <font size="2pt"> Powered by <a href="https://www.quarto.org">Quarto</a>. © Marius Pachitariu &amp; Carsen Stringer lab, 2026.</font>
-</center></main> <!-- /main -->
+<div class="lab-footer">
+<p>
+<strong>Pachitariu + Stringer lab</strong><br> Research funded by the <a href="https://www.hhmi.org/">Howard Hughes Medical Institute</a>.
+</p>
+<p class="footer-fine">
+Built with <a href="https://www.quarto.org">Quarto</a>. © Marius Pachitariu &amp; Carsen Stringer, 2026.
+</p>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -321,12 +314,13 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/MouseLand\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/mouseland\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -335,8 +329,69 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -350,6 +405,7 @@ ul.task-list li input[type="checkbox"] {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -512,44 +568,54 @@ ul.task-list li input[type="checkbox"] {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -647,6 +713,9 @@ ul.task-list li input[type="checkbox"] {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 
