@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: 
+description: ""
 toc: true
 title-block-banner: true
 sidebar: true
