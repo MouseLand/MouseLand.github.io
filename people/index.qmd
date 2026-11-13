@@ -58,7 +58,7 @@ toc: false
   <a href="https://www.janelia.org/people/benjamin-arroyo">
     <img src="images/arroyob.jpg" alt="Benjamin Arroyo">
     <span class="person-name">Benjamin Arroyo</span>
-    <span class="person-role">Postdoc</span>
+    <span class="person-role">Neural activity in freely moving mice</span>
   </a>
 </div>
 
@@ -79,7 +79,7 @@ toc: false
   <a href="https://www.janelia.org/people/ruoxi-sun">
     <img src="images/sunr.jpg" alt="Ruoxi Sun">
     <span class="person-name">Ruoxi Sun</span>
-    <span class="person-role">PhD student</span>
+    <span class="person-role">Context-dependent coding in visual cortex</span>
   </a>
 </div>
 
@@ -118,7 +118,7 @@ toc: false
 
 ::: {.alumni-list}
 - Will Long, research technician <span class="destination">&rarr; PhD, Princeton</span>
-- Renee Tung, research technician and summer student <span class="destination">&rarr; PhD, Columbia</span>
+- Renee Tung, research technician and summer student <span class="destination">&rarr; MD-PhD, Columbia</span>
 - Sonia Joseph, research technician <span class="destination">&rarr; PhD, Mila</span>
 
 :::
@@ -127,13 +127,13 @@ toc: false
 
 ::: {.alumni-list}
 - Fengtong Du, PhD student <span class="destination">&rarr; AI Engineer, AI@HHMI</span>
-- Michael Rariden, software engineer <span class="destination">&rarr; Scientific Computing Associate</span>
-- [Ifedayo-Emmanuel Adeyefa-Olasupo](https://ion.uoregon.edu/about/person-page/550), postdoc <span class="destination">&rarr; Postdoctoral Scholar, Institute of Neuroscience, University of Oregon</span>
+- Michael Rariden, software engineer <span class="destination">&rarr; Scientific Computing Associate, AI@HHMI </span>
+- Ifedayo-Emmanuel Adeyefa-Olasupo, postdoc <span class="destination">&rarr; Fellow, University of Oregon</span>
 - Michalis Michaelos, research technician <span class="destination">&rarr; vivarium experimenter</span>
 
 :::
 
-Interested in joining them? See [open positions](../positions.qmd).
+Interested in joining us? See [open positions](../positions.qmd).
 
 ## Previous lab visitors
 
