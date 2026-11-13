@@ -23,13 +23,61 @@ Sensory-guided decisions are the result of sensorimotor transformations across m
 <a href="https://www.biorxiv.org/content/10.64898/2026.04.21.719991v1">preprint</a>
 <hr>
 
-To find where in the brain a sensory computation happens, we trained mice to
-discriminate two visual stimuli, then tested them on stimuli they had never seen.
-Behavioral generalization varied from mouse to mouse. In separate animals, we
-asked which neural populations tracked that variation.
+[Thread](https://bsky.app/profile/nunezkant.bsky.social/post/3mmrsoovrrc2v) by Miguel Angel Nuñez-Ochoa:
 
-Recording up to 73,000 neurons at once across 9 primary and higher-order visual
-areas, we found that how well a population separated the *novel* test images
-predicted how well mice generalized. Separation of the *trained* images did not.
-The effect was absent in dark-reared mice, so it depends on prior visual
-experience, and it was strongest in the medial higher visual areas.
+1. 🚨🚨Preprint alert!
+
+   "Perfect" isn't always smart 🧠. Anyone can tell apart two stimuli (including our mice). But how do we extract rules that apply to new stimuli? 🧵
+
+   [biorxiv.org/content/10.64898/2026.04.21.719991v1](https://biorxiv.org/content/10.64898/2026.04.21.719991v1)
+
+   [@marius10p.bsky.social](https://bsky.app/profile/marius10p.bsky.social) [@computingnature.bsky.social](https://bsky.app/profile/computingnature.bsky.social)
+   #neuroAI #neuroscience #AI
+
+2. Traditionally, in systems neuroscience, we aim to find maps from sensory inputs to actionable behavior, determine where the computations happen, how neurons perform those computations, and what action results from those computations.
+
+<p><img src='images/nunez_2.jpg' width="80%"></p>
+
+
+3. The problem? Previous work has shown that neural population coding is far more precise than animal behavior, and non-sensory "noise" from behavior can easily contaminate the data.
+
+
+4. Here, we also propose that by inspecting neural activity mainly on behaviorally “optimal” animals, we might be missing where the computations happen.
+
+<p><img src='images/nunez_4.jpg' width="80%"></p>
+
+
+5. If we only look at the brain during "train" images, we might just be seeing neurons in a regime of overfitted behavior rather than sensory processing. To solve this, we took a page out of the AI playbook: we tested mice on out-of-sample generalization.
+
+<p><img src='images/nunez_5.jpg' width="80%"></p>
+
+
+6. We looked at two groups of mice:
+
+   - A naive group (task-free) where we mapped invariance to natural images across 10 visual areas.
+   - A behavioral group trained on just one pair of images and then tested on their ability to generalize to a new pair.
+
+<p><img src='images/nunez_6.jpg' width="80%"></p>
+
+
+7. This "one-shot" style task is a massive challenge. Since the mice only see one image per category during training, they can’t just "memorize" a rule; they have to rely on their prior, internal representations to solve the problem.
+
+
+8. First, we measured how category invariance was distributed across visual areas. We found two things: invariance was higher in the medial areas and in the superficial populations, comparable to intermediate and deep layers of CNNs and transformers.
+
+<p><img src='images/nunez_8.jpg' width="80%"></p>
+
+
+9. Second, we asked if we could use the representation space of the naive (task-free) group to predict the behavioral choices in the task group. Indeed, we could. But there was a catch: this prediction only worked based on the "test" images.
+
+
+10. On "train" images, both the brain and behavior are nearly perfect decoders, leaving no variability to analyze. Intelligence and true sensory computations are revealed by "out-of-sample" generalization, where the system is truly challenged.
+
+<p><img src='images/nunez_10.jpg' width="80%"></p>
+
+
+11. So, where does this happen? Categorical information is widespread in layer 2 (~100 µm deep), but also present in deeper layers of the medial higher-order visual areas (HVAs).
+
+<p><img src='images/nunez_11.jpg' width="80%"></p>
+
+<br>
