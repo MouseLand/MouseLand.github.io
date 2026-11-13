@@ -434,3 +434,17 @@
 .hero-cta p {
   margin: 0 0 0.6rem 0;
 }
+
+/* SfN poster list inside the hero box. */
+.sfn ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.2rem;
+}
+
+.sfn li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.sfn li:last-child { margin-bottom: 0; }
