@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: we preprint then publish all work
+description: 
 toc: true
 title-block-banner: true
 sidebar: true
@@ -15,6 +15,10 @@ Paul K LaFosse, Daniel Flickinger, Georg Jaindl, Antonia Drinnenberg, Sverre Gr�
 Atika Syeda, Miguel Angel Núñez-Ochoa, Lin Zhong, Marius Pachitariu<sup>†</sup>, Carsen Stringer<sup>†</sup>. [Orofacial behaviors, not eye movements, govern neural activity in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.02.04.703800v1.abstract). *bioRxiv*, 2026.
 
 Carsen Stringer, Chris Ki, Nicholas Del Grosso, Paul LaFosse, Qingqing Zhang, Marius Pachitariu. [Extracting large-scale neural activity with Suite2p](https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1.abstract). *bioRxiv*, 2026.
+
+Liad J Baruchin, Maria Cozan, Andrew Mikhniak, Carsen Stringer, Sylvia Schröder. [Correcting axial-motion artifacts in two-photon calcium imaging with suite2p-in-depth](https://www.biorxiv.org/content/10.64898/2026.09.25.754364.abstract). *bioRxiv*, 2026.
+
+Joshua R Squires, Yuanfei Sun, Andrew Hoffmann, Youbin Zhang, Hao Pan, Fangjia Tong, Yiwen He, David Scholten, Hannah Almubarak, Michael Gurley, Allegra Minor, Anmol Singh, James Zhang, Hannah Ding, Chengsheng Mao, Leonidas C Platanias, Jindan Yu, Maha Hussain, Yuan Luo, William J Gradishar, Massimo Cristofanilli, Lee AD Cooper, Lili Zhao, Deyu Fang, Carsen Stringer, Huiping Liu. [AI-enabled Spatial Profiling of Circulating Tumor-Immune Ecosystems Predicts Patient Outcomes Across Cancers](https://www.biorxiv.org/content/10.64898/2026.07.02.736133.abstract). *bioRxiv*, 2026.
 
 Shreyas Muralidharan, Calvin Leng, Lucas Orts, Ethan Trepka, Shude Zhu, Matthew Panichello, Donatas Jonikaitis, Jacob Pennington, Marius Pachitariu, Tirin Moore. [A System for Live Sorting of Neuronal Spiking Activity from Large-scale Recordings](https://www.biorxiv.org/content/10.64898/2025.12.29.696938v3.abstract). *bioRxiv*, 2026.
 
