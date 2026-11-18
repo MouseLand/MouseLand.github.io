@@ -70,7 +70,7 @@ Please email **Carsen Stringer** (<stringerc@hhmi.org>) with:
   on next.
 - contact details for three references.
 
-All research is internally funded by the Howard Hughes Medical Institute with highly competitive benefits. For information about Janelia, please visit [www.janelia.org/about-us](http://www.janelia.org/about-us). For more information about being at Janelia, please check out these [videos](https://youtube.com/playlist?list=PLTHgpZlI_u0hSo_NO0wpzpMnt6BnOOaWl&feature=shared). Janelia provides incredible support for scientific research (surgical support, animal behavior training, and optical engineering), enabling researchers to focus on their specific scientific questions.
+For information about Janelia, please visit [www.janelia.org/about-us](http://www.janelia.org/about-us). For more information about being at Janelia, please check out these [videos](https://youtube.com/playlist?list=PLTHgpZlI_u0hSo_NO0wpzpMnt6BnOOaWl&feature=shared). Janelia provides incredible support for scientific research (surgical support, animal behavior training, and optical engineering), enabling researchers to focus on their specific scientific questions.
 
 ## Graduate students
 
@@ -78,9 +78,9 @@ We are not currently taking graduate students, but let us know if you are applyi
 
 ## Research technicians
 
-Positions for research technicians open periodically. This has been a strong
-route into a PhD for people leaving our lab. For example, recent technicians have gone on to
-PhD programs at Princeton, Columbia, and Mila. Email us if you are interested,
+Positions for research technicians open periodically, for people who are finishing their undergraduate/master's degree or recently graduated (we do not mentor high school students in the lab). 
+Recent technicians have gone on to
+PhD programs at JHU, Princeton, Columbia, and Mila. Email us if you are interested,
 even if nothing is posted.
 
 ## Working here
